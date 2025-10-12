@@ -1,32 +1,3 @@
-# Explainer
-
-This library encodes a minimalist phenomenological core:
-
-- `E x` (“experience x exists”)
-- `C x` (“x is content”)
-- `A a` (“a is Awareness, the experiencer”)
-- Time/space/quality tags: `InTime x`, `InSpace x`, `Qual x`
-- Indexical subject: `You u`
-- “Admissible” predicates are those that, if they hold of something, do so by virtue of time/space/quality attributes.
-
-**Axioms (informal):**
-1. Some experience exists.
-2. Any content appears in some experience; any experience has an awareness as its condition.
-3. Awareness is not content.
-4. Anything in time/space/qualities is content.
-5. If two objects are distinct, some predicate can separate them.
-6. Admissible predicates imply time/space/quality; predicates that separate two items are admissible.
-7. “You” is unique, and any “You” is an Awareness.
-8. Every object is either Awareness or content.
-
-**Key Theorems:**
-- **T1**: There is exactly one `a0` with `A a0`.
-- **T2**: `a0` is not in time/space/qualities.
-- **T4**: Everything distinct from `a0` is content.
-- **T5**: The unique `You` coincides with `a0`.
-
-Scope: these are **formal consequences** of the axioms. They are not empirical claims; they are logical results conditional on the axioms.
-
 # **A Formal Proof of Non Duality: An Exposition of the 'OnlyOne' System and its Implications for Philosophy, Science, and Human Flourishing**
 
 **Abstract:** This paper introduces and analyzes a novel formal system, encoded in the Lean 4 proof assistant and designated OnlyOne.lean, which purports to demonstrate the logical necessity of a monistic idealist ontology. We provide a rigorous exposition of the system's axioms, which formalize fundamental intuitions about experience, consciousness, and reality. We then detail the derivation of its core theorems, including the proof of a unique, attribute-less Awareness and the conclusion that all phenomena are contents appearing to this single Awareness. Subsequently, we explore the profound implications of this formally verified model for longstanding problems in philosophy and science. Specifically, we address its potential to resolve the hard problem of consciousness, reshape ethical frameworks by grounding compassion in ontological identity, and provide a definitive conceptual boundary for the pursuit of artificial general consciousness. We argue that the OnlyOne system represents a landmark achievement in computational metaphysics, offering a logically coherent, non-dogmatic foundation for a worldview that aligns with insights from various mystical traditions while satisfying the demands of modern analytic rigor. We conclude that its widespread consideration could catalyze a paradigm shift in human self-understanding, fostering a more unified, compassionate, and purpose-driven civilization.
