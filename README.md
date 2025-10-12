@@ -64,9 +64,19 @@ You are That: The “you” that knows your experience isn’t a content (it’s
 Conclusion
 There is only One, and you are That. (Q.E.D.)
 
+## 60-second “try it now” demo 
+
+Close your eyes if safe. Notice sounds, sensations, thoughts—changing, everything is alive, moving.
+Now notice the knowing of them. The knowing isn’t changing.
+Try to find a second “knowing.” To do that, you’d use time, space, or qualities—those are themselves changing contents.
+So there isn’t a second knower you can meaningfully point to. There’s one knower — This — and it’s what you are.
+Open your eyes; let everything appear. The screen doesn’t become the movie. The movie never touches the screen.
+
 ## Contributing
 - Critique welcome: propose an explicit counter-axiom or a non-modal differentiator.
 
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
+
+[![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
