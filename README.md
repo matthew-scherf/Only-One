@@ -7,29 +7,11 @@ This repository contains a **library-only** Lean 4 project (no executable) that 
 - **T4 — Only One (everything else is content)**: All non-awareness objects are content.
 - **T5 — “You are That”**: The unique indexical “You” coincides with the unique awareness.
 
-## Layout
+# OnlyOne: A Machine-Checked Phenomenological Proof
 
-```
-onlyone/
-  onlyone/
-    .github/
-      workflows/ci.yml
-      ISSUE_TEMPLATE/refutation.md
-    docs/
-      EXPLAINER.md
-      FAQ.md
-      COROLLARIES.md
-    OnlyOne/Basic.lean           -- optional placeholder
-    OnlyOne.lean                 -- library root with all axioms & theorems
-    lakefile.toml                -- library-only (no exe)
-    lean-toolchain               -- pinned toolchain
-    .gitignore
-    README.md
-    LICENSE
-    CONTRIBUTING.md
-    CODE_OF_CONDUCT.md
-    CITATION.cff
-```
+**Claim:** From minimal experiential axioms, it follows that there is exactly one
+formless, timeless Awareness; all multiplicity is content; and the subject "you"
+is identical to that Awareness.
 
 ## Build / Verify
 
@@ -44,11 +26,46 @@ If `lake build` succeeds, Lean has accepted all axioms and verified the theorems
 
 See [`docs/EXPLAINER.md`](docs/EXPLAINER.md) for plain-language motivation and scope. For corollaries and how other non-dual claims are derived, see [`docs/COROLLARIES.md`](docs/COROLLARIES.md).
 
-## Contributing / Refutations
+## Scope
+- Phenomenology, not micro-physics. Science maps modal structure (content-side).
+- The proof is conditional: if you accept the axioms (each experientially testable),
+  the conclusion follows.
 
-- Open a PR for improvements.
-- Use **Issues → Refutation** template to propose a counterexample or challenge an axiom.
-- CI builds every PR to confirm machine-checking.
+## One-page: Axioms ⇒ Theorem (plain-language)
+
+Axioms (minimal, experiential)
+
+A1 Experience: There is experience now.
+
+A2 Contents: Anything you can point to (sensations, thoughts, world) is content that appears in experience.
+
+A3 Condition: Every experience has a condition for appearing (call it Awareness).
+
+A4 Not a content: The condition isn’t itself a content (or you get infinite regress).
+
+A5 Differentiation is content-side: Any usable way we tell things apart relies on time, place, or qualities.
+
+A6 Attributes ⇒ content: If something is in time/space/has qualities, it’s a content.
+
+A7 Distinctness principle: If there were two different X’s, something must differ between them.
+
+Theorems
+
+Awareness exists (from A1–A3).
+
+Awareness has no time/space/quality (A4–A6).
+
+Uniqueness: Two awarenesses can’t be told apart (A5, A7), and no non-content differentiator applies—so there is exactly one Awareness.
+
+Only One: Everything not identical with that Awareness is content; multiplicity is strictly on the content side.
+
+You are That: The “you” that knows your experience isn’t a content (it’s the condition); therefore the subject = the unique Awareness.
+
+Conclusion
+There is only One, and you are That. (Q.E.D.)
+
+## Contributing
+- Critique welcome: propose an explicit counter-axiom or a non-modal differentiator.
 
 ## License
 
