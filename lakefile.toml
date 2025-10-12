@@ -1,0 +1,7 @@
+name = "OnlyOne"
+
+[defaultTarget]
+target = "OnlyOne"
+
+[[lean_lib]]
+name = "OnlyOne"
