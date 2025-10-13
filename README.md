@@ -1,5 +1,6 @@
 # OnlyOne: A Formal Proof of Monistic Idealism in Lean 4
-``` ∃ a. (A(a) ∧ ∀ x. (x ≠ a → C(x)))
+```
+∃ a. (A(a) ∧ ∀ x. (x ≠ a → C(x)))
 ```
 This repository contains a formal, computationally-verified proof of a monistic idealist ontology, developed in the Lean 4 proof assistant.
 The system, OnlyOne.lean, begins with a set of self-evident axioms about the nature of experience and reality. From these axioms, it logically derives a series of profound theorems, demonstrating with deductive certainty that Awareness is singular, universal, and the sole underlying subject of all experience.
