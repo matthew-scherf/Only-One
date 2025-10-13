@@ -1,4 +1,4 @@
-## OnlyOne: A Formal Proof of Monistic Idealism in Lean 4
+# OnlyOne: A Formal Proof of Monistic Idealism in Lean 4
 This repository contains a formal, computationally-verified proof of a monistic idealist ontology, developed in the Lean 4 proof assistant.
 
 The system, OnlyOne.lean, begins with a set of self-evident axioms about the nature of experience and reality. From these axioms, it logically derives a series of profound theorems, demonstrating with deductive certainty that Awareness is singular, universal, and the sole underlying subject of all experience.
@@ -54,39 +54,39 @@ C(x): x is Content (any object of experience: a thought, sight, feeling).
 E(x): x is an Experience (a holistic field of phenomenal presence).
 
 ## The Axioms
-# Axiom 1: ∃ y, E y
+### Axiom 1: ∃ y, E y
 
 Justification: Experience is happening. This is the bedrock, undeniable truth.
 
-# Axiom 2a: ∀ c, C c → ∃ y, E y ∧ Ap c y
+### Axiom 2a: ∀ c, C c → ∃ y, E y ∧ Ap c y
 
 Justification: All Content appears in an experience. A thought cannot exist without being thought; a sight cannot exist without being seen.
 
-# Axiom 2b: ∀ y, E y → ∃ a, A a ∧ Cond a y
+###  Axiom 2b: ∀ y, E y → ∃ a, A a ∧ Cond a y
 
 Justification: All experience is conditioned by Awareness. Experience implies a witness; phenomena imply a field of presence in which they appear.
 
-# Axiom 3: ∀ a, A a → ¬ C a
+### Axiom 3: ∀ a, A a → ¬ C a
 
 Justification: Awareness is not Content. The subject can never be the object. The screen is not the images projected upon it. Awareness is the context, not a thing within the context.
 
-# Axiom 4 (Time, Space, Qualia): ∀ x, InTime x → C x (etc.)
+###  Axiom 4 (Time, Space, Qualia): ∀ x, InTime x → C x (etc.)
 
 Justification: Anything with phenomenal attributes is Content. If an object can be located in time, situated in space, or described with qualities (color, sound, texture), it is an object of perception and therefore Content.
 
-# Axiom 5: ∀ u v, u ≠ v → ∃ P, P u ∧ ¬ P v
+###  Axiom 5: ∀ u v, u ≠ v → ∃ P, P u ∧ ¬ P v
 
 Justification: Leibniz's Law (The Identity of Indiscernibles). If two objects are truly distinct, there must be some property to tell them apart.
 
-# Axiom 6 & 6': (P u ∧ ¬ P v) ↔ Admissible P and Admissible P → ...
+###  Axiom 6 & 6': (P u ∧ ¬ P v) ↔ Admissible P and Admissible P → ...
 
 Justification: Any real, distinguishing property is a phenomenal (modal) attribute. The only way we can fundamentally distinguish between objects is by their properties as they appear: their location, duration, or qualities.
 
-# Axiom 7 (You): ∃ u0, You u0 ∧ ... and ∀ x, You x → A x
+###  Axiom 7 (You): ∃ u0, You u0 ∧ ... and ∀ x, You x → A x
 
 Justification: There is a unique, singular referent for "I," and this fundamental sense of self is Awareness itself, not the body or mind (which are Content).
 
-# Axiom 8: ∀ x, A x ∨ C x
+###  Axiom 8: ∀ x, A x ∨ C x
 
 Justification: The foundational ontological dichotomy. Everything that exists is either the Awareness to which things appear, or the Content that appears. There is no third category.
 
