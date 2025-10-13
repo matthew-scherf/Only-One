@@ -282,10 +282,10 @@ All contents share the same substantial ground
 
 ## 5. Philosophical Implications of Machine Verification
    
-# 5.1 The End of the "Hard Problem"
+### 5.1 The End of the "Hard Problem"
 The machine verification of OnlyOne demonstrates that the hard problem of consciousness arises from a logical error. If consciousness is fundamental (as proven in T1-T5), then the question "how does consciousness arise from matter" is malformed—it's equivalent to asking "how does the screen arise from the images displayed on it?"
 
-# 5.2 Scientific Methodology Re-examined
+### 5.2 Scientific Methodology Re-examined
 Science faces a fundamental paradox: its methodology assumes objectivity while its practice occurs entirely within subjectivity. The "tree falling in the forest" question, when formally analyzed, shows that:
 
 - The "sound" as experience requires a hearer
@@ -294,7 +294,7 @@ Science faces a fundamental paradox: its methodology assumes objectivity while i
 
 Science systematically avoids this conclusion through what might be called the "fallacy of unexamined objectivity" — treating the measuring instrument (including the scientist's mind) as fundamentally different from the phenomena being measured.
 
-# 5.3 The Resolution of Philosophical Objections
+### 5.3 The Resolution of Philosophical Objections
 Objection: The Dichotomy (A8) is Question-Begging
 The machine verification shows that any proposed third category either:
 
@@ -306,16 +306,16 @@ The machine verification shows that any proposed third category either:
 The Lean verification demonstrates that this apparent circularity creates a consistent, closed system where Awareness cannot be objectified—exactly capturing what non-dual traditions mean by "non-dual."
 
 ## 6. Implications for Humanity and Scientific Practice
-# 6.1 Consciousness-First Science
+### 6.1 Consciousness-First Science
 The verified system suggests a paradigm shift from studying "objective reality" to studying the manifestations of consciousness. Physics becomes the study of regularities in experiential content rather than independent substance.
 
-# 6.2 Verified Ethics
+### 6.2 Verified Ethics
 Since P_persons_share_same_source is formally verified, ethical systems can be built on the demonstrated unity of consciousness rather than speculative principles.
 
-# 6.3 Education and Mental Health
+#### 6.3 Education and Mental Health
 The verified distinction between Awareness and Content (P_I_thought_is_not_subject) provides a rigorous foundation for mindfulness-based therapies and self-inquiry practices.
 
-# 6.4 Artificial Intelligence
+### 6.4 Artificial Intelligence
 The question shifts from "can we create consciousness?" to "does consciousness already manifest through complex systems?"—a fundamentally different research direction.
 
 ## 7. Conclusion: The Marriage of Formal Methods and Spiritual Insight
@@ -323,7 +323,7 @@ OnlyOne represents a milestone in human understanding: the rigorous, machine-ver
 
 The Lean verification provides unprecedented certainty to these conclusions, while the bridge axioms ensure the system remains grounded in lived experience. This work suggests that future progress in understanding consciousness may come not from more sophisticated measurements of brain activity, but from more careful examination of the logical structure of experience itself.
 
-# References
+## References
 Chalmers, D. J. (1996). The Conscious Mind: In Search of a Fundamental Theory
 
 Śaṅkara (8th century). Brahma Sūtra Bhāṣya
@@ -334,9 +334,9 @@ Nisargadatta Maharaj (1973). I Am That
 
 Russell, B. (1918). The Philosophy of Logical Atomism
 
-# Formal Verification Statement
+## Formal Verification Statement
 All theorems and proofs in this paper have been formally verified in Lean 4. The complete source code, build instructions, and verification proofs are available at:
 https://github.com/matthew-scherf/Only-One
 
-# Build Status: Verified
+## Build Status: Verified
 Verification Date: October 2024
