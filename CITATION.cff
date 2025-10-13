@@ -3,7 +3,7 @@ title: "OnlyOne: machine-checked phenomenological core (Lean 4)"
 message: "If you use this project, please cite it as below."
 type: software
 authors:
-  - name: "Matthew Graham Scherf"
+  - name: "Matthew Scherf"
 date-released: 2025-10-12
 license: MIT
 repository-code: "https://github.com/okwhynot-wtf/OnlyOne"
