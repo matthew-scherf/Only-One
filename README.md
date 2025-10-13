@@ -1,82 +1,111 @@
-# OnlyOne — Machine-Checked Core (Lean 4, library-only)
+## OnlyOne: A Formal Proof of Monistic Idealism in Lean 4
+This repository contains a formal, computationally-verified proof of a monistic idealist ontology, developed in the Lean 4 proof assistant.
 
-This repository contains a **library-only** Lean 4 project (no executable) that formalizes a small axiomatic core and proves the following theorems:
+The system, OnlyOne.lean, begins with a set of self-evident axioms about the nature of experience and reality. From these axioms, it logically derives a series of profound theorems, demonstrating with deductive certainty that Awareness is singular, universal, and the sole underlying subject of all experience.
 
-- **T1 — Unique Awareness**: There exists exactly one awareness instance.
-- **T2 — No Attributes on Awareness**: Awareness is not in time, not in space, and has no qualities.
-- **T4 — Only One (everything else is content)**: All non-awareness objects are content.
-- **T5 — “You are That”**: The unique indexical “You” coincides with the unique awareness.
+##Core Theses
+The system provides formal proofs for the following core theorems:
 
-# OnlyOne: A Machine-Checked Phenomenological Proof
+T1: Unique Awareness: There exists one and only one Awareness. The concept of multiple, separate subjects is a logical contradiction.
 
-**Claim:** From minimal experiential axioms, it follows that there is exactly one
-formless, timeless Awareness; all multiplicity is content; and the subject "you"
-is identical to that Awareness.
+T4: Only One: There is one Awareness, and everything else that exists—every thought, perception, sensation, and object—is necessarily the Content of that Awareness.
 
-## Build / Verify
+T5: You Are That: The "You" that is the subject of your experience is provably identical to the one, universal Awareness.
 
-```bash
-lake update
+## Academic Paper & Source Code
+A detailed exposition of the system, its axioms, theorems, and its far-reaching implications for philosophy, science, and ethics can be found in the full academic paper.
+
+Read the Full Paper Here
+
+View the Lean 4 Proof File
+
+## Verification
+The validity of the proofs in this system is not a matter of opinion; it is guaranteed by the Lean 4 proof assistant. You can verify the entire logical chain yourself.
+
+## Prerequisites:
+
+Install Lean 4 and Lake
+
+## Instructions:
+
+Clone the repository:
+
+git clone [https://github.com/matthew-scherf/Only-One.git](https://github.com/matthew-scherf/Only-One.git)
+cd Only-One
+
+Build the project and verify the proofs:
+
 lake build
-```
 
-If `lake build` succeeds, Lean has accepted all axioms and verified the theorems in `OnlyOne.lean`.
+If the process completes without errors, the theorems are proven.
 
-## Philosophy
+## The Axiomatic System
+The strength of the proof rests on the plausibility of its foundational axioms. Each axiom is intended to be a self-evident truth about the nature of experience, accessible through direct introspection. The debate, if there is one, is not about the proofs, but about these starting assumptions.
 
-See [`docs/EXPLAINER.md`](docs/EXPLAINER.md) for plain-language motivation and scope. For corollaries and how other non-dual claims are derived, see [`docs/COROLLARIES.md`](docs/COROLLARIES.md).
+## Foundational Predicates
+Obj: The universe of all existing entities.
 
-## Scope
-- Phenomenology, not micro-physics. Science maps modal structure (content-side).
-- The proof is conditional: if you accept the axioms (each experientially testable),
-  the conclusion follows.
+A(x): x is Awareness (the subject, the witness).
 
-## One-page: Axioms ⇒ Theorem (plain-language)
+C(x): x is Content (any object of experience: a thought, sight, feeling).
 
-Axioms (minimal, experiential)
+E(x): x is an Experience (a holistic field of phenomenal presence).
 
-A1 Experience: There is experience now.
+## The Axioms
+Axiom 1: ∃ y, E y
 
-A2 Contents: Anything you can point to (sensations, thoughts, world) is content that appears in experience.
+Justification: Experience is happening. This is the bedrock, undeniable truth.
 
-A3 Condition: Every experience has a condition for appearing (call it Awareness).
+Axiom 2a: ∀ c, C c → ∃ y, E y ∧ Ap c y
 
-A4 Not a content: The condition isn’t itself a content (or you get infinite regress).
+Justification: All Content appears in an experience. A thought cannot exist without being thought; a sight cannot exist without being seen.
 
-A5 Differentiation is content-side: Any usable way we tell things apart relies on time, place, or qualities.
+Axiom 2b: ∀ y, E y → ∃ a, A a ∧ Cond a y
 
-A6 Attributes ⇒ content: If something is in time/space/has qualities, it’s a content.
+Justification: All experience is conditioned by Awareness. Experience implies a witness; phenomena imply a field of presence in which they appear.
 
-A7 Distinctness principle: If there were two different X’s, something must differ between them.
+Axiom 3: ∀ a, A a → ¬ C a
 
-Theorems
+Justification: Awareness is not Content. The subject can never be the object. The screen is not the images projected upon it. Awareness is the context, not a thing within the context.
 
-Awareness exists (from A1–A3).
+Axiom 4 (Time, Space, Qualia): ∀ x, InTime x → C x (etc.)
 
-Awareness has no time/space/quality (A4–A6).
+Justification: Anything with phenomenal attributes is Content. If an object can be located in time, situated in space, or described with qualities (color, sound, texture), it is an object of perception and therefore Content.
 
-Uniqueness: Two awarenesses can’t be told apart (A5, A7), and no non-content differentiator applies—so there is exactly one Awareness.
+Axiom 5: ∀ u v, u ≠ v → ∃ P, P u ∧ ¬ P v
 
-Only One: Everything not identical with that Awareness is content; multiplicity is strictly on the content side.
+Justification: Leibniz's Law (The Identity of Indiscernibles). If two objects are truly distinct, there must be some property to tell them apart.
 
-You are That: The “you” that knows your experience isn’t a content (it’s the condition); therefore the subject = the unique Awareness.
+Axiom 6 & 6': (P u ∧ ¬ P v) ↔ Admissible P and Admissible P → ...
 
-Conclusion
-There is only One, and you are That. (Q.E.D.)
+Justification: Any real, distinguishing property is a phenomenal (modal) attribute. The only way we can fundamentally distinguish between objects is by their properties as they appear: their location, duration, or qualities.
 
-## 60-second “try it now” demo 
+Axiom 7 (You): ∃ u0, You u0 ∧ ... and ∀ x, You x → A x
 
-Close your eyes if safe. Notice sounds, sensations, thoughts—changing, everything is alive, moving.
-Now notice the knowing of them. The knowing isn’t changing.
-Try to find a second “knowing.” To do that, you’d use time, space, or qualities—those are themselves changing contents.
-So there isn’t a second knower you can meaningfully point to. There’s one knower — This — and it’s what you are.
-Open your eyes; let everything appear. The screen doesn’t become the movie. The movie never touches the screen.
+Justification: There is a unique, singular referent for "I," and this fundamental sense of self is Awareness itself, not the body or mind (which are Content).
 
-## Contributing
-- Critique welcome: propose an explicit counter-axiom or a non-modal differentiator.
+Axiom 8: ∀ x, A x ∨ C x
+
+Justification: The foundational ontological dichotomy. Everything that exists is either the Awareness to which things appear, or the Content that appears. There is no third category.
+
+## The Argument in Brief
+The central proof for the uniqueness of Awareness (T1) proceeds by reductio ad absurdum.
+
+Assume for contradiction that two distinct Awarenesses, a1 and ``a2`, exist.
+
+By Leibniz's Law (A5), there must be some property P that distinguishes them.
+
+Our axioms state that any such distinguishing property must be rooted in phenomenal attributes like time, space, or qualia (A6).
+
+Therefore, at least one of the Awarenesses must possess a phenomenal attribute.
+
+But our axioms also state that anything with a phenomenal attribute is, by definition, Content (A4).
+
+This leads to a contradiction, as a1 or a2 would be both Awareness and Content, which is forbidden by our most crucial axiom (A3: A a → ¬ C a).
+
+The contradiction proves that the initial assumption—that two Awarenesses could exist—is false. Therefore, Awareness is singular.
 
 ## License
-
-MIT — see [`LICENSE`](LICENSE).
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 [![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
