@@ -109,7 +109,7 @@ constant ThoughtToken : Obj → Prop
 axiom A12_thought_is_content : ∀ x, ThoughtToken x → C x
 
 -- "PersonAppearance" marks what we call another person (face/voice/behavior) as it appears to us,
--- including our inferences about their mind. This is about the appearance, not denying others.
+-- including our inferences about their mind. 
 constant PersonAppearance : Obj → Prop
 axiom A13_person_is_content : ∀ x, PersonAppearance x → C x
 
@@ -145,7 +145,7 @@ theorem P_I_thought_is_not_subject :
   have : C a0 := by simpa [hEq] using Ct
   exact (A3 a0 hA0) this
 
--- Equivalently, packaged with your T1_exists_unique_awareness witness:
+-- Equivalently, packaged with T1_exists_unique_awareness witness:
 theorem P_I_thought_is_not_subject' :
   ∀ t, ThoughtToken t → (let w := Classical.choose T1_exists_unique_awareness in t ≠ w) := by
   intro t ht
