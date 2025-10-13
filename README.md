@@ -15,9 +15,9 @@ T5: You Are That: The "You" that is the subject of your experience is provably i
 ## Academic Paper & Source Code
 A detailed exposition of the system, its axioms, theorems, and its far-reaching implications for philosophy, science, and ethics can be found in the full academic paper.
 
-Read the Full Paper Here
+Read the Full Paper Here - docs/EXPLAINER.md
 
-View the Lean 4 Proof File
+View the Lean 4 Proof File - OnlyOne.lean
 
 ## Verification
 The validity of the proofs in this system is not a matter of opinion; it is guaranteed by the Lean 4 proof assistant. You can verify the entire logical chain yourself.
@@ -31,6 +31,7 @@ Install Lean 4 and Lake
 Clone the repository:
 
 git clone [https://github.com/matthew-scherf/Only-One.git](https://github.com/matthew-scherf/Only-One.git)
+
 cd Only-One
 
 Build the project and verify the proofs:
