@@ -209,14 +209,11 @@ axiom A6' : ∀ {u v : Obj} {P : Obj → Prop}, (P u ∧ ¬ P v) → Admissible 
 
 ```
 This creates a consistent framework where:
+- Only modal predicates can distinguish objects (A6)
+- Successful distinctions are necessarily modal (A6')
+- Awareness, being non-modal, cannot be distinguished from itself
 
-Only modal predicates can distinguish objects (A6)
-
-Successful distinctions are necessarily modal (A6')
-
-Awareness, being non-modal, cannot be distinguished from itself
-
-##2.3 Machine-Verified Key Theorems
+## 2.3 Machine-Verified Key Theorems
 ### Theorem T1 (Unique Awareness):
 ```
 lean
