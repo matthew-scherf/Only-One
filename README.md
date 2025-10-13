@@ -943,9 +943,8 @@ This project is too large and important for one person. We invite collaboration 
 - Contribute to documentation
 
 **Contact:**
-- Email: [Your email]
-- Website: [Your site]
-- Twitter/X: [Your handle]
+- Email: [matt dot scherf at protonmail dot com]
+-
 
 **Collaboration Models:**
 - **Co-authorship:** Significant contributions to formalization or philosophy
@@ -1036,10 +1035,10 @@ With sufficient logical training, they could reconstruct our entire metaphysics 
 
 ### 12.5 A Personal Note
 
-This work emerges from the intersection of three commitments:
+This work emerges from the intersection of two commitments:
 
 1. **Direct experience:** A personal encounter with non-dual awareness
-2. **Philosophical rigor:** Training in formal logic and analytic philosophy  
+2. **Philosophical curiosity:** A passion for examination of experience  
 3. **Cross-cultural respect:** Recognition that wisdom traditions worldwide deserve serious engagement
 
 The combination is unusual but not unprecedented. Śaṅkara himself was both a realized sage and a systematic philosopher. Nāgārjuna combined meditation and logic. Spinoza lived a contemplative life while writing geometrically precise philosophy.
