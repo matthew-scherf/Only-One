@@ -196,15 +196,18 @@ Formalizing the principle that distinction requires discernible difference
 
 A8 (Comprehensive Dichotomy): ∀ x, A x ∨ C x
 Everything is either subject or object of experience
+```
 
-2.2 The Admissibility Framework
+## 2.2 The Admissibility Framework
 The system introduces a sophisticated mechanism for handling predicates:
-
+```
 lean
 axiom Admissible : (Obj → Prop) → Prop
 
 axiom A6 : ∀ (P : Obj → Prop), Admissible P → ∀ x, P x → (InTime x ∨ InSpace x ∨ Qual x)
 axiom A6' : ∀ {u v : Obj} {P : Obj → Prop}, (P u ∧ ¬ P v) → Admissible P
+
+```
 This creates a consistent framework where:
 
 Only modal predicates can distinguish objects (A6)
@@ -213,28 +216,29 @@ Successful distinctions are necessarily modal (A6')
 
 Awareness, being non-modal, cannot be distinguished from itself
 
-2.3 Machine-Verified Key Theorems
-Theorem T1 (Unique Awareness):
-
+##2.3 Machine-Verified Key Theorems
+### Theorem T1 (Unique Awareness):
+```
 lean
 theorem T1_exists_unique_awareness : ∃ a0, A a0 ∧ (∀ a1, A a1 → a1 = a0)
 Machine verification confirms: Awareness must be singular
-
-Theorem T4 (Only One):
-
+```
+### Theorem T4 (Only One):
+```
 lean
 theorem T4_only_one : ∃ a, A a ∧ (∀ x, x ≠ a → C x)
 Formally verified: Everything except the singular Awareness is Content
+```
 
-Theorem T5 (You Are That):
-
+### Theorem T5 (You Are That):
+```
 lean
 theorem T5_you_are_that : ∃ u0, You u0 ∧ A u0 ∧ (∀ u, You u → u = u0)
 The personal "you" refers to the universal subject
-
-3. Bridge Axioms: Connecting Formalism to Lived Experience
+```
+## 3. Bridge Axioms: Connecting Formalism to Lived Experience
 The system extends beyond abstract metaphysics to address concrete experience:
-
+```
 lean
 constant Perceived : Obj → Prop
 axiom A10_perception_is_content : ∀ x, Perceived x → C x
@@ -247,24 +251,30 @@ axiom A12_thought_is_content : ∀ x, ThoughtToken x → C x
 
 constant PersonAppearance : Obj → Prop
 axiom A13_person_is_content : ∀ x, PersonAppearance x → C x
+```
 These bridge axioms ensure that all categories of experience—perception, bodily sensation, thought, and interpersonal relations—are properly categorized as Content rather than Awareness.
 
-4. Machine-Verified Corollaries with Immediate Practical Implications
+## 4. Machine-Verified Corollaries with Immediate Practical Implications
 The I-Thought Illusion:
+```
 
 lean
 theorem P_I_thought_is_not_subject :
   ∀ t, ThoughtToken t → (∀ a0, (A a0 ∧ (∀ a1, A a1 → a1 = a0)) → t ≠ a0)
 Formally verified: The thought "I" is not the true subject
+```
 
 Shared Consciousness:
+```
 
 lean
 theorem P_persons_share_same_source :
   ∃ a0, A a0 ∧ (∀ p, PersonAppearance p → p ≠ a0)
 Verified: All person-appearances manifest the same underlying Awareness
+```
 
 Ontological Equivalence:
+```
 
 lean
 theorem P_ontic_equivalence_qua_substance :
