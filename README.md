@@ -3,7 +3,7 @@ This repository contains a formal, computationally-verified proof of a monistic 
 
 The system, OnlyOne.lean, begins with a set of self-evident axioms about the nature of experience and reality. From these axioms, it logically derives a series of profound theorems, demonstrating with deductive certainty that Awareness is singular, universal, and the sole underlying subject of all experience.
 
-##Core Theses
+## Core Theses
 The system provides formal proofs for the following core theorems:
 
 T1: Unique Awareness: There exists one and only one Awareness. The concept of multiple, separate subjects is a logical contradiction.
