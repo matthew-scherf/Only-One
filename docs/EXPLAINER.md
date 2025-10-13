@@ -27,7 +27,7 @@ The OnlyOne system is built upon a minimal set of definitions and axioms concern
 
 **2.2 The Axioms:**
 
-The system rests upon a foundation of twelve axioms. We present each with its formal statement and philosophical justification.
+The system rests upon a foundation of eight axioms. We present each with its formal statement and philosophical justification.
 
 * A1: ∃ y, E y  
   * **Justification:** The axiom of existence for experience. It asserts the undeniable fact that experience is happening. This is the Cartesian starting point, cogito ergo sum, refined to its most basic phenomenal truth: there is experiencing.  
