@@ -1,6 +1,6 @@
 # A Formal Axiomatization of Advaita Vedanta: Non-Dual Metaphysics in Higher-Order Logic
 
-**Author:** [Matthew Scherf]  
+**Author:** Matthew Scherf  
 **Contact:** [matt dot scherf at protonmail dot com]  
 **Status:** Preliminary Draft - Machine Verification In Progress  
 **Date:** October 2025
