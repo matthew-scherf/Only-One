@@ -271,6 +271,7 @@ All contents share the same substantial ground
 ```
 
 5. Philosophical Implications of Machine Verification
+   
 5.1 The End of the "Hard Problem"
 The machine verification of OnlyOne demonstrates that the hard problem of consciousness arises from a logical error. If consciousness is fundamental (as proven in T1-T5), then the question "how does consciousness arise from matter" is malformed—it's equivalent to asking "how does the screen arise from the images displayed on it?"
 
