@@ -266,7 +266,9 @@ Ontological Equivalence:
 lean
 theorem P_ontic_equivalence_qua_substance :
   ∃ a0, A a0 ∧ (∀ c, C c → c ≠ a0)
-All contents share the same substantial ground```
+All contents share the same substantial ground
+
+```
 
 5. Philosophical Implications of Machine Verification
 5.1 The End of the "Hard Problem"
