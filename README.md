@@ -32,7 +32,7 @@ Install Lean 4 and Lake
 
 Clone the repository:
 ```
-git clone [https://github.com/matthew-scherf/Only-One.git](https://github.com/matthew-scherf/Only-One.git)
+git clone https://github.com/matthew-scherf/Only-One.git
 cd Only-One
 ```
 Build the project and verify the proofs:
