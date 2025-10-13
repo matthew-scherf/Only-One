@@ -54,39 +54,39 @@ C(x): x is Content (any object of experience: a thought, sight, feeling).
 E(x): x is an Experience (a holistic field of phenomenal presence).
 
 ## The Axioms
-Axiom 1: ∃ y, E y
+# Axiom 1: ∃ y, E y
 
 Justification: Experience is happening. This is the bedrock, undeniable truth.
 
-Axiom 2a: ∀ c, C c → ∃ y, E y ∧ Ap c y
+# Axiom 2a: ∀ c, C c → ∃ y, E y ∧ Ap c y
 
 Justification: All Content appears in an experience. A thought cannot exist without being thought; a sight cannot exist without being seen.
 
-Axiom 2b: ∀ y, E y → ∃ a, A a ∧ Cond a y
+# Axiom 2b: ∀ y, E y → ∃ a, A a ∧ Cond a y
 
 Justification: All experience is conditioned by Awareness. Experience implies a witness; phenomena imply a field of presence in which they appear.
 
-Axiom 3: ∀ a, A a → ¬ C a
+# Axiom 3: ∀ a, A a → ¬ C a
 
 Justification: Awareness is not Content. The subject can never be the object. The screen is not the images projected upon it. Awareness is the context, not a thing within the context.
 
-Axiom 4 (Time, Space, Qualia): ∀ x, InTime x → C x (etc.)
+# Axiom 4 (Time, Space, Qualia): ∀ x, InTime x → C x (etc.)
 
 Justification: Anything with phenomenal attributes is Content. If an object can be located in time, situated in space, or described with qualities (color, sound, texture), it is an object of perception and therefore Content.
 
-Axiom 5: ∀ u v, u ≠ v → ∃ P, P u ∧ ¬ P v
+# Axiom 5: ∀ u v, u ≠ v → ∃ P, P u ∧ ¬ P v
 
 Justification: Leibniz's Law (The Identity of Indiscernibles). If two objects are truly distinct, there must be some property to tell them apart.
 
-Axiom 6 & 6': (P u ∧ ¬ P v) ↔ Admissible P and Admissible P → ...
+# Axiom 6 & 6': (P u ∧ ¬ P v) ↔ Admissible P and Admissible P → ...
 
 Justification: Any real, distinguishing property is a phenomenal (modal) attribute. The only way we can fundamentally distinguish between objects is by their properties as they appear: their location, duration, or qualities.
 
-Axiom 7 (You): ∃ u0, You u0 ∧ ... and ∀ x, You x → A x
+# Axiom 7 (You): ∃ u0, You u0 ∧ ... and ∀ x, You x → A x
 
 Justification: There is a unique, singular referent for "I," and this fundamental sense of self is Awareness itself, not the body or mind (which are Content).
 
-Axiom 8: ∀ x, A x ∨ C x
+# Axiom 8: ∀ x, A x ∨ C x
 
 Justification: The foundational ontological dichotomy. Everything that exists is either the Awareness to which things appear, or the Content that appears. There is no third category.
 
@@ -108,6 +108,7 @@ This leads to a contradiction, as a1 or a2 would be both Awareness and Content, 
 The contradiction proves that the initial assumption—that two Awarenesses could exist—is false. Therefore, Awareness is singular.
 
 ## Expressed in Formal Logic (Source Code To Reality)
+```
 Sorts
 -	Obj
 -	Pred
@@ -139,6 +140,7 @@ Key Derived Theorems
 - T1. ∃ a0. (A(a0) ∧ ∀ a1. (A(a1) → a1 = a0))
 - T4. ∃ a. (A(a) ∧ ∀ x. (x ≠ a → C(x)))
 - T5. ∃ u0. (You(u0) ∧ A(u0) ∧ ∀ u. (You(u) → u = u0))
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
