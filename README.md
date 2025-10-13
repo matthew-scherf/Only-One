@@ -106,6 +106,39 @@ This leads to a contradiction, as a1 or a2 would be both Awareness and Content, 
 
 The contradiction proves that the initial assumption—that two Awarenesses could exist—is false. Therefore, Awareness is singular.
 
+## Expressed in Formal Logic (Source Code To Reality)
+Sorts
+•	Obj
+•	Pred
+
+Primitives
+•	E, C, A : Obj → Prop
+•	Ap : Obj × Obj → Prop
+•	Cond : Obj × Obj → Prop
+•	Holds : Pred × Obj → Prop
+•	Admissible : Pred → Prop
+•	InTime, InSpace, Qual : Obj → Prop
+
+Axioms
+A1. ∃ y. E(y)
+A2a. ∀ c. C(c) → ∃ y. (E(y) ∧ Ap(c, y))
+A2b. ∀ y. E(y) → ∃ a. (A(a) ∧ Cond(a, y))
+A3. ∀ a. A(a) → ¬ C(a)
+A4. ∀ x. InTime(x) ∨ InSpace(x) ∨ Qual(x) → C(x)
+A5. ∀ u ∀ v. u ≠ v → ∃ p. (Holds(p, u) ∧ ¬ Holds(p, v))
+A6. ∀ p. Admissible(p) → ∀ x. (Holds(p, x) → (InTime(x) ∨ InSpace(x) ∨ Qual(x)))
+A6'. ∀ u ∀ v ∀ p. (Holds(p, u) ∧ ¬ Holds(p, v)) → Admissible(p)
+A7. ∃ u0. (You(u0) ∧ ∀ x. (You(x) → x = u0))
+A7a. ∀ x. You(x) → A(x)
+A8. ∀ x. A(x) ∨ C(x)
+
+Key Derived Theorems
+L1. ∀ a. A(a) → (¬InTime(a) ∧ ¬InSpace(a) ∧ ¬Qual(a))
+L3. ∀ a1 ∀ a2. (A(a1) ∧ A(a2)) → ¬∃ p. (Admissible(p) ∧ Holds(p, a1) ∧ ¬Holds(p, a2))
+T1. ∃ a0. (A(a0) ∧ ∀ a1. (A(a1) → a1 = a0))
+T4. ∃ a. (A(a) ∧ ∀ x. (x ≠ a → C(x)))
+T5. ∃ u0. (You(u0) ∧ A(u0) ∧ ∀ u. (You(u) → u = u0))
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
