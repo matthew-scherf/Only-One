@@ -304,7 +304,7 @@ The machine verification shows that any proposed third category either:
 - Cannot be experienced/conceived → Epistemically irrelevant
 - The dichotomy represents epistemic closure rather than metaphysical presumption.
 
-## Objection: Circularity in Admissibility (A6/A6')
+Objection: Circularity in Admissibility (A6/A6')
 The Lean verification demonstrates that this apparent circularity creates a consistent, closed system where Awareness cannot be objectified—exactly capturing what non-dual traditions mean by "non-dual."
 
 ## 6. Implications for Humanity and Scientific Practice
