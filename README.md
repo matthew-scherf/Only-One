@@ -22,7 +22,7 @@ All theorems have been **machine-verified** using Isabelle/HOL 2025.
 
 ---
 
-## 📜 What Is This?
+##  Summary
 
 This repository contains the first complete formal axiomatization of **Advaita Vedanta**, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara (8th century CE).
 
@@ -37,7 +37,7 @@ The central insight of the Upaniṣads—***tat tvam asi*** ("That Thou Art")—
 
 ---
 
-## 🎯 The Formal System
+##  The Formal System
 
 ### Eight Axioms
 
@@ -131,7 +131,7 @@ Using predicates:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -174,7 +174,7 @@ All axioms, lemmas, and theorems should be **green** after processing.
 
 ---
 
-## 📊 Verification Evidence
+## Verification Evidence
 
 ### Build Log
 
@@ -205,7 +205,7 @@ See [verification/proof_dependencies.pdf](verification/proof_dependencies.pdf) f
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Papers and Summaries
 
@@ -250,7 +250,7 @@ See [stone_tablet/](stone_tablet/) for design specifications.
 
 ---
 
-## 🎓 Why This Matters
+## What does it all mean?
 
 ### For Philosophy
 
@@ -282,7 +282,7 @@ See [stone_tablet/](stone_tablet/) for design specifications.
 
 ---
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Isabelle/HOL System
 
@@ -316,7 +316,7 @@ All proofs verify in under 1 second per theorem on standard hardware.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This project welcomes contributions from:
 
@@ -352,17 +352,17 @@ Open an issue to:
 
 ---
 
-## 📖 Citation
+##  Citation
 
 If you use this work in academic research, please cite:
 
 ```bibtex
-@misc{[yourname]2025advaita,
-  author = {[Your Full Name]},
+@misc{MatthewScherf2025advaita,
+  author = {Matthew Scherf},
   title = {A Formal Axiomatization of Advaita Vedanta: 
            Non-Dual Metaphysics in Higher-Order Logic},
   year = {2025},
-  howpublished = {\url{https://github.com/[username]/advaita-formal-verification}},
+  howpublished = {\url{https://github.com/matthew-scherf/Only-One/}},
   note = {Machine-verified in Isabelle/HOL 2024}
 }
 ```
@@ -371,7 +371,7 @@ A full paper is in preparation for submission to a peer-reviewed journal.
 
 ---
 
-## 📜 License
+##  License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
@@ -386,7 +386,7 @@ The Isabelle/HOL code is additionally available under the BSD-3-Clause license f
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 This work has been influenced by:
 
@@ -394,28 +394,26 @@ This work has been influenced by:
 - **The Upaniṣadic ṛṣis** for the original insight
 - **Kurt Gödel** for demonstrating ontology can be formalized
 - **The Isabelle/HOL community** for creating powerful verification tools
-- **[Additional personal acknowledgments]**
-
-Special thanks to [mentors, advisors, reviewers] for feedback on this work.
+- **Nisargadatta Maharaj** for being the OG Parabrahaman
+- **Ramana Maharshi** for his lived example
 
 ---
 
-## 🔗 Links
+##  Links
 
-- **Website:** [https://[your-username].github.io/advaita-formal-verification/](https://[your-username].github.io/advaita-formal-verification/)
+- **Website:** https://github.com/matthew-scherf/Only-One/
 - **Preprint:** [PhilSci Archive / arXiv - coming soon]
-- **Contact:** [your.email@domain.com]
-- **Twitter/X:** [@your_handle]
+- **Contact:** matt.scherf@protonmail.com
 
 ---
 
-## 📺 Video Walkthrough
+##  Video Walkthrough
 
 [Coming soon: 5-minute screencast showing verification in action]
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 **Q: Does this prove Advaita Vedanta is true?**
 
@@ -447,38 +445,37 @@ A: It's a design concept for now (see [stone_tablet/](stone_tablet/)). If you wa
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Short Term (3-6 months)
 
 - ✅ Complete machine verification
-- 🔄 Submit to peer-reviewed journal
-- 🔄 Create video walkthrough
-- 🔄 Present at conferences
-- ⏳ Formalize in Lean 4 (for comparison)
+-  Submit to peer-reviewed journal
+-  Create video walkthrough
+-  Present at conferences
+-  Formalize in Lean 4 (for comparison)
 
 ### Medium Term (6-12 months)
 
-- ⏳ Extend to other Vedānta schools (Viśiṣṭādvaita, Dvaita)
-- ⏳ Formalize Buddhist Madhyamaka for comparison
-- ⏳ Develop pedagogical materials
-- ⏳ Connect to quantum mechanics (observer-dependence)
+-  Extend to other Vedānta schools (Viśiṣṭādvaita, Dvaita)
+-  Formalize Buddhist Madhyamaka for comparison
+-  Develop pedagogical materials
+-  Connect to quantum mechanics (observer-dependence)
 
 ### Long Term (1-5 years)
 
-- ⏳ Complete formalization of major Indian philosophical systems
-- ⏳ Automated comparison tools
-- ⏳ Integration with consciousness science
-- ⏳ Literally create the stone tablet (why not?)
+-  Complete formalization of major Indian philosophical systems
+-  Automated comparison tools
+-  Integration with consciousness science
+-  Literally create the stone tablet (why not?)
 
 ---
 
-## 💬 Contact & Discussion
+##  Contact & Discussion
 
-- **Email:** [your.email@domain.com]
+- **Email:** matt.scherf@protonmail.com
 - **Issues:** Use GitHub issues for technical questions
 - **Discussions:** Use GitHub discussions for philosophical questions
-- **Twitter/X:** [@your_handle] for updates
 
 ---
 
@@ -501,7 +498,8 @@ though the ignorant speak of it in many ways."*
 
 ---
 
-Made with 🕉️ in [Your Location]  
+Made with 🕉️ in Australia
+
 Machine-verified October 2025
 
 </div>
