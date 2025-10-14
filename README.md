@@ -209,16 +209,16 @@ See [verification/proof_dependencies.pdf](verification/proof_dependencies.pdf) f
 
 ### Papers and Summaries
 
-- 📄 **[Preliminary Paper](docs/preliminary_paper.pdf)** (~15,000 words)  
+-  **[Preliminary Paper](docs/preliminary_paper.pdf)** (~15,000 words)  
   Complete philosophical and technical exposition
   
-- 📄 **[Executive Summary](docs/executive_summary.pdf)** (2 pages)  
+-  **[Executive Summary](docs/executive_summary.pdf)** (2 pages)  
   Quick overview for busy readers
   
-- 📄 **[Complete Formal System](docs/complete_formal_system.pdf)** (4 pages)  
+-  **[Complete Formal System](docs/complete_formal_system.pdf)** (4 pages)  
   All axioms, definitions, and theorems in symbolic notation
   
-- 📄 **[Sample Proof: T1](docs/sample_proof.pdf)** (2 pages)  
+-  **[Sample Proof: T1](docs/sample_proof.pdf)** (2 pages)  
   Detailed walkthrough of the uniqueness proof
 
 ### The Stone Tablet
