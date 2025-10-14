@@ -130,7 +130,7 @@ Using predicates:
 
 ---
 
-##  Quick Start {#-quick-start}
+##  Quick Start
 
 ### Prerequisites
 
