@@ -1035,7 +1035,7 @@ With sufficient logical training, they could reconstruct our entire metaphysics 
 
 ### 12.5 A Personal Note
 
-This work emerges from the intersection of two commitments:
+This work emerges from the intersection of three commitments:
 
 1. **Direct experience:** A personal encounter with non-dual awareness
 2. **Philosophical curiosity:** A passion for examination of experience  
