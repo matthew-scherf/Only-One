@@ -13,7 +13,6 @@
 All theorems have been **machine-verified** using Isabelle/HOL 2025.
 
 - **Verification Date:** October 2025
-- **Total Proof Obligations:** [NUMBER]
 - **Failed Proofs:** 0
 - **Build Time:** ~1 second
 - **Build Status:**  SUCCESS
@@ -131,7 +130,7 @@ Using predicates:
 
 ---
 
-##  Quick Start
+##  Quick Start {#-quick-start}
 
 ### Prerequisites
 
