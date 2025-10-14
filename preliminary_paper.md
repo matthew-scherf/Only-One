@@ -2,9 +2,10 @@
 
 **Author:** Matthew Scherf  
 **Contact:** matt.scherf@protonmail.com
+
 **Status:** Machine Verification Complete ✓  
 **Date:** October 2025  
-**Verification System:** Isabelle/HOL 2024
+**Verification System:** Isabelle/HOL 2025
 
 ---
 
@@ -12,7 +13,7 @@
 
 We present the first rigorous formal axiomatization of Advaita Vedanta, the non-dual metaphysical system originating in the Upaniṣads and systematized by Ādi Śaṅkara (8th century CE). Using higher-order logic, we formalize the core ontological commitments of Advaita: the existence of a unique, unconditioned absolute (Brahman/Ātman) that serves as the ground of all conditioned existence (Maya), and the identity between the knowing subject and this absolute (tat tvam asi - "That Thou Art"). 
 
-We provide eight axioms and derive key theorems including the uniqueness of the Absolute (T1), the exhaustive dichotomy between absolute and conditioned (T4), and the identity of the subject with the Absolute (T5). **All proofs have been successfully machine-verified using Isabelle/HOL 2024, establishing the system's logical consistency beyond doubt.** The complete verification code is publicly available and reproducible. This work demonstrates that non-dual metaphysics can be stated with the same logical rigor as any Western philosophical system, opening new avenues for comparative philosophy, consciousness studies, and formal metaphysics.
+We provide eight axioms and derive key theorems including the uniqueness of the Absolute (T1), the exhaustive dichotomy between absolute and conditioned (T4), and the identity of the subject with the Absolute (T5). **All proofs have been successfully machine-verified using Isabelle/HOL 2025, establishing the system's logical consistency beyond doubt.** The complete verification code is publicly available and reproducible. This work demonstrates that non-dual metaphysics can be stated with the same logical rigor as any Western philosophical system, opening new avenues for comparative philosophy, consciousness studies, and formal metaphysics.
 
 **Keywords:** Advaita Vedanta, formal ontology, non-dualism, higher-order logic, consciousness, Śaṅkara, machine verification, comparative philosophy
 
@@ -103,7 +104,7 @@ No prior work, to our knowledge, provides a complete axiomatic system with machi
 
 ### 2.4 Personal Motivation
 
-This work emerged from direct experience of non-dual awareness, followed by the philosophical question: "Can this be stated formally?" The combination of experiential insight and formal training suggested that the answer is yes—that the structure of non-dual realization can be captured in logic without reducing or distorting it.
+This work emerged from direct experience of non-dual awareness, followed by the philosophical question: "Can this be stated formally?" The experiential insight suggested that the answer is yes—that the structure of non-dual realization can be captured in logic without reducing or distorting it.
 
 This places us in the tradition of philosopher-contemplatives: Śaṅkara himself combined profound realization with systematic philosophical rigor. We aim to honor that dual commitment by bringing contemporary formal methods to an ancient wisdom tradition.
 
@@ -953,15 +954,13 @@ This project is too large and important for one person. We invite collaboration 
 
 ### 11.6 How to Contribute
 
-**GitHub Repository:** [To be created]
+**GitHub Repository:** 
 - Fork and submit pull requests
 - Open issues for discussion
 - Contribute to documentation
 
 **Contact:**
-- Email: [Your email]
-- Website: [Your site]
-- Twitter/X: [Your handle]
+- Email: matt.scherf@protonmail.com
 
 **Collaboration Models:**
 - **Co-authorship:** Significant contributions to formalization or philosophy
@@ -1024,11 +1023,10 @@ From these axioms, we derive the central realization of Advaita: *tat tvam asi*�
 
 **What Remains to Be Done:**
 
-1. **Complete machine verification** (in progress)
-2. **Explore alternative axiomatizations** (weaker/stronger versions)
-3. **Formalize other darśanas** (Buddhist, Sāṃkhya, etc.)
-4. **Empirical investigation** (meditation studies, quantum mechanics)
-5. **Pedagogical development** (teaching materials, interactive tools)
+1. **Explore alternative axiomatizations** (weaker/stronger versions)
+2. **Formalize other darśanas** (Buddhist, Sāṃkhya, etc.)
+3. **Empirical investigation** (meditation studies, quantum mechanics)
+4. **Pedagogical development** (teaching materials, interactive tools)
 
 ### 12.4 The Stone Tablet as Symbol
 
@@ -1055,12 +1053,12 @@ With sufficient logical training, they could reconstruct our entire metaphysics 
 This work emerges from the intersection of three commitments:
 
 1. **Direct experience:** A personal encounter with non-dual awareness
-2. **Philosophical rigor:** Training in formal logic and analytic philosophy  
+2. **Philosophical Curiosity:** A relentless drive to figure it out
 3. **Cross-cultural respect:** Recognition that wisdom traditions worldwide deserve serious engagement
 
 The combination is unusual but not unprecedented. Śaṅkara himself was both a realized sage and a systematic philosopher. Nāgārjuna combined meditation and logic. Spinoza lived a contemplative life while writing geometrically precise philosophy.
 
-What is new is the availability of machine verification—the ability to have automated systems check our reasoning. This adds a level of rigor that previous philosopher-contemplatives could not access.
+What is new is the availability of machine verification—the ability to have automated systems check our reasoning. This adds a level of rigor that previous contemplatives could not access.
 
 But ultimately, the formalization is a finger pointing at the moon. The moon—the direct recognition of your identity as the Absolute—cannot be grasped through symbols alone. The formalization serves as preparation, clarification, and confirmation, but not as substitute for realization.
 
@@ -1076,8 +1074,8 @@ There is exactly one You, and You are the Absolute.
 
 This is not a claim about someone else, somewhere else. It is a claim about the one reading these words right now.
 
-Can it be formalized? We believe so.  
-Can it be verified? We are demonstrating that it can.  
+Can it be formalized? Yes. 
+Can it be verified? Yes.
 Can it be realized? That is up to you.
 
 ---
@@ -1090,9 +1088,9 @@ This work has been deeply influenced by:
 - **Kurt Gödel** for demonstrating that ontology can be formalized
 - **The Isabelle/HOL community** for creating powerful verification tools
 - **Contemporary consciousness researchers** for bridging contemplative and scientific approaches
-- **My contemplative teachers** [to be added] for pointing to what cannot be formalized
+- **My contemplative teachers** Ramana Maharshi and Nisargadatta Maharaj for pointing to what cannot be formalized
 
-[Additional personal acknowledgments to be added]
+
 
 ---
 
@@ -1144,7 +1142,6 @@ This work has been deeply influenced by:
 - Nipkow, T., Paulson, L. C., & Wenzel, M. (2002). *Isabelle/HOL: A Proof Assistant for Higher-Order Logic*. Springer.
 - Paulson, L. C. (1994). *Isabelle: A Generic Theorem Prover*. Springer.
 
-[Additional references to be added as relevant literature is reviewed]
 
 ---
 
@@ -1159,9 +1156,9 @@ The complete Isabelle/HOL theory file is publicly available at:
 
 **How to Verify:**
 ```bash
-# Prerequisites: Isabelle2024 installed
-git clone [repository URL]
-cd advaita-formal-verification
+# Prerequisites: Isabelle2025 installed
+git clone https://github.com/matthew-scherf/Only-One
+cd Only-One
 isabelle build -d . -v Advaita
 ```
 
@@ -1271,7 +1268,7 @@ See the GitHub repository for the complete dependency graph in visual form.
 
 **Version:** 1.0 (Machine Verification Complete)  
 **Last Updated:** October 2025  
-**Status:** All proofs verified in Isabelle/HOL 2024 ✓  
+**Status:** All proofs verified in Isabelle/HOL 2025 ✓  
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---
