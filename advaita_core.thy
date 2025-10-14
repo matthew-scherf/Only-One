@@ -1,13 +1,20 @@
-theory Advaita_Vedanta
+theory advaita_core
   imports Main
 begin
 
 (*
-  Formal Axiomatization of Advaita Vedanta
-  A logical system capturing the non-dual metaphysics of Advaita Vedanta
+  Complete Formal Axiomatization of Advaita Vedanta
+  Copyright (C) 2025 Matthew Scherf
   
-  Author: Matthew Scherf
-  Date: October 2025
+  This work is licensed under:
+  - Creative Commons Attribution 4.0 International (CC BY 4.0) for documentation
+  - BSD-3-Clause for code
+  
+  First verified: October 15, 2025
+  DOI: https://doi.org/10.5281/zenodo.17333604
+  
+  Citation: Scherf, M. (2025). Complete Formal Axiomatization of Advaita Vedanta:
+  Machine-Verified Non-Dual Metaphysics. Isabelle/HOL formalization.
 *)
 
 section \<open>Domain and Predicates\<close>
