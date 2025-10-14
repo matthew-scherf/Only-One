@@ -21,11 +21,11 @@ This repository contains the complete formal axiomatization of **Advaita Vedanta
 
 ## Status
 
-✅ **All theorems verified**  
-📅 **Date:** October 15, 2025  
-❌ **Failed proofs:** 0  
-⏱️ **Build time:** ~35 seconds  
-🔧 **Proof assistant:** Isabelle/HOL 2025
+- **All theorems verified**  
+- **Date:** October 15, 2025  
+- **Failed proofs:** 0  
+- **Build time:** ~3 seconds  
+ - **Proof assistant:** Isabelle/HOL 2025
 
 ---
 
@@ -48,7 +48,7 @@ theorem Tat_Tvam_Asi_Ultimate:
      - Is not distinct from anything perceived"
 ```
 
-**Status: ✅ VERIFIED by Isabelle/HOL**
+**Status:  VERIFIED by Isabelle/HOL**
 
 *This is not philosophy or poetry. This is a formal logical proof, checked by a computer, reproducible by anyone.*
 
