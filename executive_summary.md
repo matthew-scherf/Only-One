@@ -154,19 +154,11 @@ Demonstrates that machine verification can be applied to metaphysics, not just m
 
 **Completed:**
 - ✅ Complete axiomatization (8 axioms, 6 theorems)
-- ✅ Proof sketches for all results
-- ✅ Isabelle/HOL formalization drafted
+- ✅ Isabelle/HOL verification
 - ✅ Preliminary paper (~15,000 words)
 
 **In Progress:**
-- 🔄 Machine verification in Isabelle/HOL (expected completion: 1-2 weeks)
 - 🔄 Expert review from scholars of Indian philosophy and formal logic
-
-**Next Steps:**
-- Submit to journal (target: 6-8 weeks)
-- Present at conferences
-- Develop extensions (Buddhist logic comparison, alternative formalizations)
-- Create pedagogical materials
 
 ---
 
@@ -200,11 +192,10 @@ If ancient wisdom can survive the most rigorous scrutiny available—machine ver
 
 ## Contact
 
-[Your Name]  
-[Your Affiliation]  
-[Your Email]
+Matthew Scherf 
+matt.scherf@protonmail.com
 
-**Project Repository:** [GitHub URL - to be created]  
+**Project Repository:** https://github.com/matthew-scherf/Only-One 
 **Verification Code:** Available in Isabelle/HOL format
 
 ---

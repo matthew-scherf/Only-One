@@ -1159,13 +1159,13 @@ The complete Isabelle/HOL theory file is publicly available at:
 # Prerequisites: Isabelle2025 installed
 git clone https://github.com/matthew-scherf/Only-One
 cd Only-One
-isabelle build -d . -v Advaita
+isabelle build -d . -v Advaita_Vedanta
 ```
 
 **Expected Output:**
 ```
-Building Advaita ...
-Finished Advaita (0:00:XX elapsed time)
+Building Advaita_Vedanta ...
+Finished Advaita_Vedanta (0:00:XX elapsed time)
 0(0) failed, 1 passed
 ```
 
