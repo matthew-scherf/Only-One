@@ -3,7 +3,7 @@
 [![Isabelle](https://img.shields.io/badge/Isabelle-2025-blue.svg)](https://isabelle.in.tum.de/)
 [![Verification](https://img.shields.io/badge/Verification-Complete-success.svg)](verification/build_log.txt)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604) (#)
+[![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
 
 > **A machine-verified formal system capturing the non-dual metaphysics of Advaita Vedanta in higher-order logic.**
 
