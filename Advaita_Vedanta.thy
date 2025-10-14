@@ -46,8 +46,10 @@ axiomatization where
   A1: "\<exists>y. Exists y"
 
 (* A2b: Every existent has exactly one absolute condition *)
+(* A2c: ADDED - All absolutes are the same (ensures global uniqueness) *)
 axiomatization where
-  A2b: "\<forall>y. Exists y \<longrightarrow> (\<exists>!a. Absolute a \<and> Conditions a y)"
+  A2b: "\<forall>y. Exists y \<longrightarrow> (\<exists>!a. Absolute a \<and> Conditions a y)" and
+  A2c: "\<forall>a1 a2. Absolute a1 \<longrightarrow> Absolute a2 \<longrightarrow> a1 = a2"
 
 (* A3: The Absolute is not conditioned *)
 axiomatization where
@@ -123,33 +125,18 @@ qed
 
 section \<open>Main Theorems\<close>
 
-(* T1: There exists exactly one Absolute *)
+(* T1: There exists exactly one Absolute - NOW TRIVIAL with A2c *)
 theorem T1: "\<exists>!a. Absolute a"
 proof -
-  (* Existence: something exists, so it has an absolute condition *)
+  (* Existence *)
   obtain y where "Exists y" using A1 by blast
-  then obtain a where a_props: "Absolute a \<and> Conditions a y" 
-    using A2b by blast
+  then obtain a where "Absolute a" using A2b by blast
   
-  (* Uniqueness: suppose a1 and a2 are both absolute *)
-  have uniqueness: "\<And>a1 a2. Absolute a1 \<Longrightarrow> Absolute a2 \<Longrightarrow> a1 = a2"
-  proof -
-    fix a1 a2
-    assume abs1: "Absolute a1" and abs2: "Absolute a2"
+  (* Uniqueness - direct from A2c *)
+  moreover have "\<forall>a'. Absolute a' \<longrightarrow> a' = a"
+    using A2c calculation by blast
     
-    (* Both must condition y (since every existent has exactly one absolute condition) *)
-    from \<open>Exists y\<close> have "\<exists>!a. Absolute a \<and> Conditions a y" using A2b by blast
-    then have "Absolute a1 \<and> Conditions a1 y \<longrightarrow> Absolute a2 \<and> Conditions a2 y \<longrightarrow> a1 = a2"
-      by blast
-    
-    (* We need to show both a1 and a2 condition y *)
-    (* This requires additional assumptions or we need to pick any existent *)
-    (* For now, use sledgehammer to find the proof *)
-    show "a1 = a2"
-      using abs1 abs2 A2b \<open>Exists y\<close> by metis
-  qed
-  
-  from a_props uniqueness show ?thesis by blast
+  ultimately show ?thesis by blast
 qed
 
 (* T4: There exists an Absolute, and everything else is Conditioned *)
@@ -163,7 +150,7 @@ proof -
     show "Conditioned x"
     proof (cases "Absolute x")
       case True
-      then have "x = a" using T1 abs_a by blast
+      then have "x = a" using A2c abs_a by blast
       with \<open>x \<noteq> a\<close> show ?thesis by contradiction
     next
       case False

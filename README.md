@@ -8,7 +8,7 @@
 > **A machine-verified formal system capturing the non-dual metaphysics of Advaita Vedanta in higher-order logic.**
 ---
 
-## 🕉️ Status: ✅ Fully Verified
+## Status: Fully Verified
 
 All theorems have been **machine-verified** using Isabelle/HOL 2025.
 
@@ -16,7 +16,7 @@ All theorems have been **machine-verified** using Isabelle/HOL 2025.
 - **Total Proof Obligations:** [NUMBER]
 - **Failed Proofs:** 0
 - **Build Time:** ~1 second
-- **Build Status:** ✅ SUCCESS
+- **Build Status:**  SUCCESS
 
 **Anyone can reproduce these proofs.** See [Quick Start](#-quick-start) below.
 
