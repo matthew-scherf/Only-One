@@ -1,0 +1,17 @@
+Started at Tue Oct 14 23:17:02 GMT+11 2025 (polyml-5.9.1_x86_64_32-windows on okwhynotwtf)
+ISABELLE_TOOL_JAVA_OPTIONS="-Djava.awt.headless=true -Xms512m -Xmx4g -Xss16m"
+ISABELLE_BUILD_OPTIONS=""
+
+ML_PLATFORM="x86_64_32-windows"
+ML_HOME="/cygdrive/c/Users/matts/Desktop/Isabelle2025/contrib/polyml-5.9.1/x86_64_32-windows"
+ML_SYSTEM="polyml-5.9.1"
+ML_OPTIONS="--minheap 500"
+
+Session Pure/Pure
+Session Misc/Tools
+Session HOL/HOL (main)
+Session Unsorted/Advaita
+Presentation in "/cygdrive/c/Users/matts/.isabelle/Isabelle2025/browser_info"
+
+Finished at Tue Oct 14 23:17:05 GMT+11 2025
+0:00:02 elapsed time
