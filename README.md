@@ -6,7 +6,6 @@
 [![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)(#)
 
 > **A machine-verified formal system capturing the non-dual metaphysics of Advaita Vedanta in higher-order logic.**
-
 ---
 
 ## 🕉️ Status: ✅ Fully Verified
