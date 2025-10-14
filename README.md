@@ -1,9 +1,9 @@
 # Formal Axiomatization of Advaita Vedanta
 
-[![Isabelle](https://img.shields.io/badge/Isabelle-2024-blue.svg)](https://isabelle.in.tum.de/)
+[![Isabelle](https://img.shields.io/badge/Isabelle-2025-blue.svg)](https://isabelle.in.tum.de/)
 [![Verification](https://img.shields.io/badge/Verification-Complete-success.svg)](verification/build_log.txt)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-pending-blue.svg)](#)
+[![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)(#)
 
 > **A machine-verified formal system capturing the non-dual metaphysics of Advaita Vedanta in higher-order logic.**
 
@@ -11,12 +11,12 @@
 
 ## 🕉️ Status: ✅ Fully Verified
 
-All theorems have been **machine-verified** using Isabelle/HOL 2024.
+All theorems have been **machine-verified** using Isabelle/HOL 2025.
 
 - **Verification Date:** October 2025
 - **Total Proof Obligations:** [NUMBER]
 - **Failed Proofs:** 0
-- **Build Time:** ~[X] seconds
+- **Build Time:** ~1 second
 - **Build Status:** ✅ SUCCESS
 
 **Anyone can reproduce these proofs.** See [Quick Start](#-quick-start) below.
