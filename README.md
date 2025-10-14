@@ -54,7 +54,7 @@ theorem Tat_Tvam_Asi_Ultimate:
 
 ---
 
-## Why This Matters
+## Importance
 
 ### For Analytical Minds
 You don't have to accept Sanskrit terminology, Hindu cosmology, or guru authority. Here's the **logical structure** of non-dual realization, verified to be consistent.
