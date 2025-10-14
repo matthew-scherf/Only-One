@@ -8,13 +8,13 @@
 > **A machine-verified formal system capturing the non-dual metaphysics of Advaita Vedanta in higher-order logic.**
 ---
 
-## Status: Fully Verified
+##  Status: Fully Verified
 
 All theorems have been **machine-verified** using Isabelle/HOL 2025.
 
 - **Verification Date:** October 2025
 - **Failed Proofs:** 0
-- **Build Time:** ~1 second
+- **Build Time:** ~2 seconds
 - **Build Status:**  SUCCESS
 
 **Anyone can reproduce these proofs.** 
@@ -38,7 +38,7 @@ The central insight of the Upaniṣads—***tat tvam asi*** ("That Thou Art")—
 
 ##  The Formal System
 
-### Eight Axioms
+### Nine Axioms
 
 Using predicates:
 - **A(x)** = "x is Absolute" (Brahman)
@@ -57,6 +57,12 @@ Using predicates:
 ∀y [E(y) → ∃!a (A(a) ∧ Cond(a,y))]
 ```
 *Every existent has exactly one absolute ground.*
+
+**A2c. Unity of Absolutes**
+```
+∀a₁ ∀a₂ [A(a₁) ∧ A(a₂) → a₁ = a₂]
+```
+*All absolutes are identical.* This ensures global uniqueness of the Absolute.
 
 **A3. The Absolute Is Not Conditioned**
 ```
@@ -148,15 +154,16 @@ cd Only-One
 isabelle jedit -l HOL Advaita_Vedanta.thy
 
 # Option 2: Build from command line
-isabelle build -d . -v Advaita_Vedanta
+isabelle build -d . -v Advaita
 ```
 
 ### Expected Result
 
 ```
-Building Advaita_Vedanta ...
-Finished Advaita_Vedanta (0:00:XX elapsed time)
-0(0) failed, 1 passed
+Session Unsorted/Advaita
+Presentation in "..."
+Finished at [timestamp]
+0:00:02 elapsed time
 ```
 
 **All theorems should display green checkmarks ✓ in jEdit.**
@@ -166,7 +173,7 @@ Finished Advaita_Vedanta (0:00:XX elapsed time)
 When you open `Advaita_Vedanta.thy` in Isabelle/jEdit:
 
 - **Blue highlighting** = Currently checking
-- **Green highlighting** =  Verified  
+- **Green highlighting** = Verified  
 - **Orange/Red highlighting** = Error
 
 All axioms, lemmas, and theorems should be **green** after processing.
@@ -179,12 +186,14 @@ All axioms, lemmas, and theorems should be **green** after processing.
 
 See [verification/build_log.txt](verification/build_log.txt) for complete build output.
 
-Key line:
+Key result:
 ```
-Building Advaita_Vedanta ...
-Finished Advaita_Vedanta (0:00:XX elapsed time)
-0(0) failed, 1 passed
+Session Unsorted/Advaita
+Finished at [timestamp]
+0:00:02 elapsed time
 ```
+
+No "FAILED" messages = successful verification.
 
 ### Screenshots
 
@@ -194,30 +203,30 @@ Finished Advaita_Vedanta (0:00:XX elapsed time)
 | T5: Identity | ![Verified](verification/screenshots/T5_verified.png) |
 | Tat Tvam Asi | ![Verified](verification/screenshots/tat_tvam_asi_verified.png) |
 
+### Video Walkthrough
+
+Watch the complete verification process: [Video Link](https://www.youtube.com/watch?v=sOb5rfNmlxs)
+
 ### Verification Certificate
 
 Official verification certificate: [verification/verification_certificate.pdf](verification/verification_certificate.pdf)
 
-### Proof Dependencies
-
-See [verification/proof_dependencies.pdf](verification/proof_dependencies.pdf) for a graph showing which theorems depend on which axioms.
-
 ---
 
-## Documentation
+##  Documentation
 
 ### Papers and Summaries
 
--  **[Preliminary Paper](docs/preliminary_paper.pdf)** (~15,000 words)  
+- **[Preliminary Paper](docs/preliminary_paper.pdf)** (~15,000 words)  
   Complete philosophical and technical exposition
   
--  **[Executive Summary](docs/executive_summary.pdf)** (2 pages)  
+- **[Executive Summary](docs/executive_summary.pdf)** (2 pages)  
   Quick overview for busy readers
   
--  **[Complete Formal System](docs/complete_formal_system.pdf)** (4 pages)  
+- **[Complete Formal System](docs/complete_formal_system.pdf)** (4 pages)  
   All axioms, definitions, and theorems in symbolic notation
   
--  **[Sample Proof: T1](docs/sample_proof.pdf)** (2 pages)  
+- **[Sample Proof: T1](docs/sample_proof.pdf)** (2 pages)  
   Detailed walkthrough of the uniqueness proof
 
 ### The Stone Tablet
@@ -232,8 +241,8 @@ For those who appreciate symbolic permanence, we've created a "stone tablet" for
 
             ∃y E(y)
     ∀y [E(y) → ∃!a (A(a) ∧ C(a,y))]
+    ∀a₁ ∀a₂ [A(a₁) ∧ A(a₂) → a₁ = a₂]
         ∀a [A(a) → ¬Φ(a)]
-            ∃!a A(a)
             
 ────────────────────────────────────
 
@@ -249,7 +258,7 @@ See [stone_tablet/](stone_tablet/) for design specifications.
 
 ---
 
-## Implications
+## Significance
 
 ### For Philosophy
 
@@ -281,11 +290,11 @@ See [stone_tablet/](stone_tablet/) for design specifications.
 
 ---
 
-##  Technical Details
+## Technical Details
 
 ### Isabelle/HOL System
 
-- **Version:** Isabelle2024
+- **Version:** Isabelle2025
 - **Logic:** Higher-Order Logic (HOL)
 - **Tactics Used:** `blast`, `auto`, `metis`, `simp`, `sledgehammer`
 - **External Provers:** E, SPASS, Vampire, Z3 (via Sledgehammer)
@@ -297,7 +306,7 @@ theory Advaita_Vedanta
   imports Main
 begin
   (* Predicates and definitions *)
-  (* 8 Axioms *)
+  (* 9 Axioms *)
   (* 2 Lemmas with proofs *)
   (* 6 Theorems with proofs *)
   (* Main result: tat_tvam_asi *)
@@ -307,15 +316,19 @@ end
 ### Key Proofs
 
 - **L1 & L2:** Fully manual proofs using `blast` and `simp`
-- **T1:** Uses `metis` for uniqueness argument
+- **T1:** Direct proof from A2c (uniqueness of absolutes)
 - **T4, T5, T6:** Combination of case analysis and automation
 - **Tat Tvam Asi:** Composition of previous results
 
 All proofs verify in under 1 second per theorem on standard hardware.
 
+### Note on A2c
+
+**Axiom A2c** was added during formalization to ensure global uniqueness of the Absolute. Initial versions attempted to derive this from A2b alone, but machine verification revealed a logical gap: A2b guarantees each existent has a unique absolute ground, but doesn't guarantee all existents share the *same* absolute ground. A2c makes explicit what is implicit in Advaita: there is no second (*advitīya*). This is not an additional metaphysical commitment but a clarification of what "the Absolute" means.
+
 ---
 
-##  Contributing
+## Contributing
 
 This project welcomes contributions from:
 
@@ -351,7 +364,7 @@ Open an issue to:
 
 ---
 
-##  Citation
+## Citation
 
 If you use this work in academic research, please cite:
 
@@ -362,7 +375,8 @@ If you use this work in academic research, please cite:
            Non-Dual Metaphysics in Higher-Order Logic},
   year = {2025},
   howpublished = {\url{https://github.com/matthew-scherf/Only-One/}},
-  note = {Machine-verified in Isabelle/HOL 2024}
+  note = {Machine-verified in Isabelle/HOL 2025},
+  doi = {10.5281/zenodo.17333604}
 }
 ```
 
@@ -370,7 +384,7 @@ A full paper is in preparation for submission to a peer-reviewed journal.
 
 ---
 
-##  License
+## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
@@ -385,7 +399,7 @@ The Isabelle/HOL code is additionally available under the BSD-3-Clause license f
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 
 This work has been influenced by:
 
@@ -393,26 +407,22 @@ This work has been influenced by:
 - **The Upaniṣadic ṛṣis** for the original insight
 - **Kurt Gödel** for demonstrating ontology can be formalized
 - **The Isabelle/HOL community** for creating powerful verification tools
-- **Nisargadatta Maharaj** for being the OG Parabrahaman
+- **Nisargadatta Maharaj** for being the OG Parabrahman
 - **Ramana Maharshi** for his lived example
 
 ---
 
-##  Links
+## Links
 
 - **Website:** https://github.com/matthew-scherf/Only-One/
 - **Preprint:** [PhilSci Archive / arXiv - coming soon]
 - **Contact:** matt.scherf@protonmail.com
+- **Twitter:** https://x.com/okwhynot_wtf
+
 
 ---
 
-##  Video Walkthrough
-
-[Coming soon: 5-minute screencast showing verification in action]
-
----
-
-##  FAQ
+## FAQ
 
 **Q: Does this prove Advaita Vedanta is true?**
 
@@ -434,6 +444,10 @@ A: Fascinating comparison! Advaita affirms a positive Absolute; Buddhism emphasi
 
 A: It eliminates human error in checking proofs. Philosophers are fallible; proof assistants aren't (given correct axioms). It also makes verification *reproducible*—anyone can check our work.
 
+**Q: What is A2c and why was it added?**
+
+A: A2c states that all absolutes are identical, ensuring global uniqueness. It was added during formalization when machine verification revealed that A2b alone was insufficient to prove uniqueness. This demonstrates the value of formal methods: they catch gaps that informal reasoning misses. A2c makes explicit what was implicit in Advaita's concept of "the Absolute."
+
 **Q: Can AI systems achieve enlightenment?**
 
 A: The formalization suggests consciousness is not a property systems *have* but the ground within which systems *appear*. This reframes the question. See the paper for discussion.
@@ -444,11 +458,10 @@ A: It's a design concept for now (see [stone_tablet/](stone_tablet/)). If you wa
 
 ---
 
-##  Roadmap
+## Roadmap
 
 ### Short Term (3-6 months)
 
-- ✅ Complete machine verification
 -  Submit to peer-reviewed journal
 -  Create video walkthrough
 -  Present at conferences
@@ -470,7 +483,7 @@ A: It's a design concept for now (see [stone_tablet/](stone_tablet/)). If you wa
 
 ---
 
-##  Contact & Discussion
+## Contact & Discussion
 
 - **Email:** matt.scherf@protonmail.com
 - **Issues:** Use GitHub issues for technical questions
@@ -497,8 +510,7 @@ though the ignorant speak of it in many ways."*
 
 ---
 
-Made with 🕉️ in Australia
-
+Made with 🕉️ in Australia  
 Machine-verified October 2025
 
 </div>
