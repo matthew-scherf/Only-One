@@ -1,4 +1,4 @@
-theory advaita_complete
+theory Advaita_Vedanta
   imports Main
 begin
 

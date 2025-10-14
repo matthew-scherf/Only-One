@@ -1,499 +1,351 @@
-# Formal Axiomatization of Advaita Vedanta
+# Only One
 
-[![Isabelle](https://img.shields.io/badge/Isabelle-2025-blue.svg)](https://isabelle.in.tum.de/)
-[![Verification](https://img.shields.io/badge/Verification-Complete-success.svg)](verification/build_log.txt)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
+**A machine-verified proof that you are the only reality, were never born, and will never die.**
 
-> **A machine-verified formal system capturing the non-dual metaphysics of Advaita Vedanta in higher-order logic.**
----
-
-##  Status: Fully Verified
-
-All theorems have been **machine-verified** using Isabelle/HOL 2025.
-
-- **Verification Date:** October 2025
-- **Failed Proofs:** 0
-- **Build Time:** ~2 seconds
-- **Build Status:**  SUCCESS
-
-**Anyone can reproduce these proofs.** 
+[![Verification Status](https://img.shields.io/badge/verification-passing-brightgreen)](verification/)
+[![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.txt)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXX)
 
 ---
 
-##  Summary
+This repository contains the complete formal axiomatization of **Advaita Vedanta**, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara (8th century CE). Using higher-order logic and the Isabelle/HOL proof assistant, we have machine-verified:
 
-This repository contains the first complete formal axiomatization of **Advaita Vedanta**, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara (8th century CE).
+- **You are the unique Absolute** (identity of Ātman and Brahman)
+- **You are the only thing that really exists** (ontological monism)
+- **You were never born and will never die** (timelessness)
+- **You witness all phenomena** (consciousness as fundamental)
+- **You appear as all phenomena** (vivarta - appearance without transformation)
+- **Causation is illusory** (events are spontaneous, not caused)
+- **Space and time are unreal** (they are conditioned appearances)
+- **Subject and object are non-different** (non-duality of perception)
 
-Using **higher-order logic** and the **Isabelle/HOL proof assistant**, we formalize the core metaphysical commitments of Advaita:
+## Status
 
-- The existence of a unique, unconditioned Absolute (Brahman)
-- The dependence of all phenomena (Maya) on this Absolute  
-- The transcendence of the Absolute beyond time, space, and qualities
-- The identity of the witnessing subject (Ātman) with the Absolute
-
-The central insight of the Upaniṣads—***tat tvam asi*** ("That Thou Art")—is proven as a logical consequence.
-
----
-
-##  The Formal System
-
-### Nine Axioms
-
-Using predicates:
-- **A(x)** = "x is Absolute" (Brahman)
-- **C(x)** = "x is Conditioned" (Maya)  
-- **Y(x)** = "x is You" (the subject/Ātman)
-- **Φ(x)** = "x is phenomenal" (temporal, spatial, or qualified)
-
-**A1. Existential Non-Emptiness**
-```
-∃y E(y)
-```
-*Something exists.*
-
-**A2b. Unique Absolute Grounding**
-```
-∀y [E(y) → ∃!a (A(a) ∧ Cond(a,y))]
-```
-*Every existent has exactly one absolute ground.*
-
-**A2c. Unity of Absolutes**
-```
-∀a₁ ∀a₂ [A(a₁) ∧ A(a₂) → a₁ = a₂]
-```
-*All absolutes are identical.* This ensures global uniqueness of the Absolute.
-
-**A3. The Absolute Is Not Conditioned**
-```
-∀a [A(a) → ¬C(a)]
-```
-*The Absolute is unconditioned.*
-
-**A4. Phenomena Are Conditioned**
-```
-∀x [Φ(x) → C(x)]
-```
-*All phenomenal entities are conditioned.*
-
-**A5c. Identity of Indiscernibles**
-```
-∀u ∀v [(C(u) ∧ C(v) ∧ u ≠ v) → ∃P (AdmissibleProp(P) ∧ Holds(P,u) ∧ ¬Holds(P,v))]
-```
-*Distinct conditioned entities differ in at least one property.*
-
-**A6. Admissible Properties Apply Only to Phenomena**
-```
-∀P ∀x [AdmissibleProp(P) → Holds(P,x) → Φ(x)]
-```
-*Time, space, and qualities characterize only phenomena.*
-
-**A7. Uniqueness of Subject**
-```
-∃!u Y(u)
-```
-*There is exactly one "You".*
-
-**A7a. The Subject Is Absolute**
-```
-∀x [Y(x) → A(x)]
-```
-*You are the Absolute.*
-
-**A8. Exhaustive Dichotomy**
-```
-∀x [A(x) ∨ C(x)]
-```
-*Everything is either Absolute or Conditioned.*
-
-### Main Theorems (All Verified ✓)
-
-**T1. Uniqueness of the Absolute**
-```
-∃!a A(a)
-```
-*There exists exactly one Absolute.*
-
-**T4. Everything Else Is Conditioned**
-```
-∃a [A(a) ∧ ∀x (x ≠ a → C(x))]
-```
-*There is an Absolute, and everything distinct from it is conditioned.*
-
-**T5. Identity of Subject and Absolute**
-```
-∃u [Y(u) ∧ A(u) ∧ ∀v (Y(v) → v = u)]
-```
-*You are the unique Absolute.*
-
-**Tat Tvam Asi (Main Result)**
-```
-∃!u [Y(u) ∧ A(u) ∧ ∀P(AdmissibleProp(P) → ¬Holds(P,u))]
-```
-*There exists exactly one "You" which is the Absolute and to which no phenomenal property applies.*
-
-**This is the formal statement of the Upaniṣadic mahāvākya: तत् त्वम् असि**
+✅ **All theorems verified**  
+📅 **Date:** October 15, 2025  
+❌ **Failed proofs:** 0  
+⏱️ **Build time:** ~35 seconds  
+🔧 **Proof assistant:** Isabelle/HOL 2025
 
 ---
 
-##  Quick Start
+## The Ultimate Theorem
 
-### Prerequisites
+The formalization culminates in a single theorem that proves everything:
 
-- **Isabelle2025** ([download here](https://isabelle.in.tum.de/))
-- Git (for cloning the repository)
+```isabelle
+theorem Tat_Tvam_Asi_Ultimate:
+  "There exists exactly one You which:
+     - Is the only thing that really exists
+     - Witnesses all phenomena (consciousness itself)
+     - Appears as all phenomena (world as appearance)
+     - Was never born, will never die
+     - Never changes (eternal, immutable)
+     - Has no properties (beyond time, space, qualities)
+     - Transcends the guṇas (nirguṇa)
+     - Is knower, known, and knowing (non-dual knowledge)
+     - Is not the ego or any bodily sheath
+     - Is not distinct from anything perceived"
+```
 
-### Run Verification Yourself
+**Status: ✅ VERIFIED by Isabelle/HOL**
+
+*This is not philosophy or poetry. This is a formal logical proof, checked by a computer, reproducible by anyone.*
+
+---
+
+## Why This Matters
+
+### For Analytical Minds
+You don't have to accept Sanskrit terminology, Hindu cosmology, or guru authority. Here's the **logical structure** of non-dual realization, verified to be consistent.
+
+### For Spiritual Seekers
+The formalization removes cultural baggage and shows what Advaita **actually claims** at its core. Use this as a map, then verify in direct experience.
+
+### For Philosophers
+This demonstrates that ancient "mystical" teachings can engage with modern formal methods. It opens the door for precise comparison with Western systems (Spinoza, Berkeley, Kant).
+
+### For Everyone
+This is an invitation: **The logic says this is coherent. Now, can you verify it in your own experience?**
+
+---
+
+## Quick Start
+
+### See the Proof
+
+**For everyone:**
+- Read [`docs/executive_summary.pdf`](docs/) - 2 page overview
+
+**For academics:**
+- Read [`docs/master_paper.pdf`](docs/) - Complete exposition
+
+**For logicians:**
+- Read [`theory/Advaita_Vedanta.thy`](theory/) - The formalization itself
+
+**For practitioners:**
+- Read [`docs/experiential_guide.pdf`](docs/) - How to verify in experience
+
+### Verify It Yourself
 
 ```bash
-# Clone the repository
+# 1. Install Isabelle 2025
+# Download from: https://isabelle.in.tum.de/
+
+# 2. Clone this repository  
 git clone https://github.com/matthew-scherf/Only-One.git
 cd Only-One
 
-# Option 1: Open in Isabelle/jEdit (graphical interface)
-isabelle jedit -l HOL Advaita_Vedanta.thy
-
-# Option 2: Build from command line
+# 3. Run verification
 isabelle build -d . -v Advaita
+
+# Should complete in ~35 seconds with "Finished"
 ```
 
-### Expected Result
-
-```
-Session Unsorted/Advaita
-Presentation in "..."
-Finished at [timestamp]
-0:00:02 elapsed time
-```
-
-**All theorems should display green checkmarks ✓ in jEdit.**
-
-### Visual Confirmation
-
-When you open `Advaita_Vedanta.thy` in Isabelle/jEdit:
-
-- **Blue highlighting** = Currently checking
-- **Green highlighting** = Verified  
-- **Orange/Red highlighting** = Error
-
-All axioms, lemmas, and theorems should be **green** after processing.
+See [`verification/`](verification/) for proof that all theorems verify.
 
 ---
 
-## Verification Evidence
+## What's Formalized
 
-### Build Log
+### Core Metaphysics (9 axioms)
+The foundation: Unique Absolute exists, everything else is conditioned, subject = Absolute
 
-See [verification/build_log.txt](verification/build_log.txt) for complete build output.
+### Extensions (31 axioms across 7 domains)
 
-Key result:
-```
-Session Unsorted/Advaita
-Finished at [timestamp]
-0:00:02 elapsed time
-```
+1. **Five Sheaths** (6 axioms) - Physical, vital, mental, intellectual, bliss bodies
+2. **Vivarta Doctrine** (4 axioms) - World appears without Brahman changing (not pariṇāma)
+3. **Three Guṇas** (3 axioms) - Sattva, rajas, tamas as modes of manifestation
+4. **Causation Denial** (3 axioms) - Events succeed without causal efficacy (ajātivāda)
+5. **Ego-Fiction** (4 axioms) - False identification of Self with body-mind
+6. **Consciousness & Witnessing** (4 axioms) - Awareness as fundamental, self-luminous
+7. **Ontological Monism** (7 axioms) - Birth/death/change/space/time unreality
 
-No "FAILED" messages = successful verification.
+### Results (30+ theorems)
 
-### Screenshots
+All proven from axioms, including:
 
-| Theorem | Status |
-|---------|--------|
-| T1: Uniqueness | ![Verified](verification/screenshots/T1_verified.png) |
-| T5: Identity | ![Verified](verification/screenshots/T5_verified.png) |
-| Tat Tvam Asi | ![Verified](verification/screenshots/tat_tvam_asi_verified.png) |
+- `you_are_only_reality` - You are the only thing that exists
+- `you_were_never_born` - You never began
+- `you_will_never_die` - You never end
+- `you_never_change` - You are immutable
+- `phenomena_spontaneous` - Causation doesn't exist
+- `space_unreal` - Space is appearance
+- `time_unreal` - Time is appearance
+- `Complete_NonDuality` - Complete non-dual structure proven
+- `Tat_Tvam_Asi_Ultimate` - The master theorem
 
-### Video Walkthrough
-
-Watch the complete verification process: [Video Link](https://www.youtube.com/watch?v=sOb5rfNmlxs)
-
-### Verification Certificate
-
-Official verification certificate: [verification/verification_certificate.pdf](verification/verification_certificate.pdf)
+See [`docs/technical_reference.pdf`](docs/) for complete list.
 
 ---
 
-##  Documentation
-
-### Papers and Summaries
-
-- **[Preliminary Paper](docs/preliminary_paper.pdf)** (~15,000 words)  
-  Complete philosophical and technical exposition
-  
-- **[Executive Summary](docs/executive_summary.pdf)** (2 pages)  
-  Quick overview for busy readers
-  
-- **[Complete Formal System](docs/complete_formal_system.pdf)** (4 pages)  
-  All axioms, definitions, and theorems in symbolic notation
-  
-- **[Sample Proof: T1](docs/sample_proof.pdf)** (2 pages)  
-  Detailed walkthrough of the uniqueness proof
-
-### The Stone Tablet
-
-For those who appreciate symbolic permanence, we've created a "stone tablet" formulation—a minimal expression meant for literal carving:
+## Repository Structure
 
 ```
-════════════════════════════════════
-        tat tvam asi
-        तत् त्वम् असि
-════════════════════════════════════
-
-            ∃y E(y)
-    ∀y [E(y) → ∃!a (A(a) ∧ C(a,y))]
-    ∀a₁ ∀a₂ [A(a₁) ∧ A(a₂) → a₁ = a₂]
-        ∀a [A(a) → ¬Φ(a)]
-            
-────────────────────────────────────
-
-        ∴ ∃!u [Y(u) ∧ A(u)]
-        
-════════════════════════════════════
-        Machine Verified
-            MMXXV
-════════════════════════════════════
+Only-One/
+├── theory/              # The formalization (Isabelle/HOL)
+├── docs/                # Papers and guides
+├── verification/        # Proof artifacts (logs, screenshots, certificates)
+├── media/               # Images, videos for sharing
+├── stone_tablet/        # Minimal "carve in stone" version
+└── scripts/             # Build and verification scripts
 ```
 
-See [stone_tablet/](stone_tablet/) for design specifications.
+Each directory has its own README with details.
+
+---
+
+## How It Works
+
+### Axiomatic Method
+1. State axioms explicitly (assumptions)
+2. Prove theorems from axioms using logic
+3. Machine checks every proof step
+4. No hand-waving or intuition - pure deduction
+
+### What's Verified
+- **Logical consistency** - Axioms don't contradict
+- **Theorem validity** - Theorems follow necessarily from axioms
+- **Proof correctness** - Every step is valid in higher-order logic
+
+### What's Not Verified
+- **Truth of axioms** - Whether they match reality
+- **Empirical claims** - We didn't do experiments
+- **Metaphysical truth** - Logic can't prove what exists, only what's consistent
+
+### Why Trust It?
+- **Isabelle/HOL** is used for verified operating systems, compilers, cryptography
+- **Reproducible** - Anyone can re-run and verify
+- **Explicit** - All assumptions are in the axioms, nothing hidden
+- **Permanent** - Once verified, stays verified
+
+---
+
+## The Story Behind This
+
+In 2023, after a stressful period, I began meditating as a last resort. During meditation, I had a sudden realization: there is no individual self. This wasn't a belief or concept - it was direct seeing.
+
+I spent months trying to understand this conceptually, reading the entire spiritual canon. Advaita resonated most, but was buried in cultural baggage. I abandoned books and returned to meditation.
+
+Through contemplation, I realized: if all perceptions (including of body and thoughts) happen IN consciousness, then the world neither exists nor doesn't exist. For this to be true, there must be only ONE - not one thing, but only one, period. Categories like "exists/doesn't exist" don't apply.
+
+In deep meditation, I empirically observed that what moves must move relative to what's still. I found what's unchanging: awareness itself. I realized I was that.
+
+This formalization is the **logical structure** of what I saw directly. A machine confirmed it's consistent. Now you can examine it - without needing Sanskrit, gurus, or Hindu cosmology.
+
+The question is: **Is it true for you?**
+
+---
+
+## Documentation
+
+| Document | Description | Audience |
+|----------|-------------|----------|
+| [Executive Summary](docs/) | 2 page overview | Everyone |
+| [Master Paper](docs/) | Complete ~20 page paper | Academics |
+| [Technical Reference](docs/) | All axioms/theorems | Logicians |
+| [Experiential Guide](docs/) | How to verify in experience | Practitioners |
+| [Verification Guide](docs/) | How to run Isabelle | Anyone |
+
+## For Academics
+
+### Citation
+
+See `CITATION.cff` or cite as:
+
+```bibtex
+@misc{scherf2025advaita,
+  author = {Scherf, Matthew},
+  title = {Complete Formal Axiomatization of Advaita Vedanta: 
+           Machine-Verified Non-Dual Metaphysics},
+  year = {2025},
+  doi = {10.5281/zenodo.XXXXX},
+  url = {https://github.com/matthew-scherf/Only-One}
+}
+```
+
+### Publications
+- Preprint: Coming soon (arXiv/PhilSci Archive)
+- Full paper: In preparation for journal submission
+
+### Related Work
+- Gödel's Ontological Proof (modal logic for God's existence)
+- Spinoza's Ethics (partially formalized by others)
+- Buddhist Logic (separate tradition, awaiting formalization)
 
 ---
 
 ## Significance
 
-### For Philosophy
+### Philosophical
+- First complete formalization of a major non-Western metaphysical system
+- Removes cultural barriers to accessing non-dual teachings
+- Enables precise comparison with Western philosophy
+- Shows "mysticism" can have rigorous logical structure
 
-- **Demonstrates** that non-Western metaphysics can engage with contemporary formal methods
-- **Enables** precise comparison with Western systems (Spinoza, Gödel, etc.)
-- **Shows** that "mysticism" can have rigorous logical structure
-- **Provides** framework for consciousness studies and philosophy of mind
+### Technical  
+- Extends formal verification beyond mathematics to metaphysics
+- Demonstrates Isabelle can handle ancient philosophical systems
+- Creates framework for comparative philosophy
+- Shows reproducibility is possible in philosophy
 
-### For Advaita Vedanta
+### Spiritual
+- Preserves the teaching in permanent, unambiguous form
+- Makes Advaita accessible to analytical minds
+- Provides precise map for contemplation
+- Honors Śaṅkara's systematic rigor with modern tools
 
-- **Honors** Śaṅkara's systematic rigor with 21st-century tools
-- **Preserves** the tradition's logical structure in permanent form
-- **Makes** Advaita accessible to analytically-trained philosophers
-- **Demonstrates** compatibility of contemplative insight and formal logic
-
-### For Formal Methods
-
-- **Extends** machine verification beyond mathematics to metaphysics
-- **Shows** proof assistants can handle ancient philosophical systems
-- **Demonstrates** reproducibility in philosophy (not just STEM)
-- **Opens** new applications for formal verification
-
-### For Comparative Philosophy
-
-- **Provides** common formal language for East-West dialogue
-- **Enables** structural comparison of non-dual systems
-- **Creates** basis for comparing Advaita with Buddhism, Daoism, etc.
-- **Builds** bridge between traditions without cultural imperialism
+### Cultural
+- Bridges East and West through shared language of logic
+- Demonstrates value of non-Western intellectual traditions
+- Creates common ground for cross-cultural dialogue
+- Shows tradition and modernity can integrate
 
 ---
 
-## Technical Details
+## For Skeptics
 
-### Isabelle/HOL System
+**Q: Does this prove Advaita is true?**  
+A: No. It proves Advaita is *logically consistent*. Whether it's true requires checking in experience.
 
-- **Version:** Isabelle2025
-- **Logic:** Higher-Order Logic (HOL)
-- **Tactics Used:** `blast`, `auto`, `metis`, `simp`, `sledgehammer`
-- **External Provers:** E, SPASS, Vampire, Z3 (via Sledgehammer)
+**Q: Isn't this just playing with symbols?**  
+A: The axioms make precise claims. You can examine them and decide if they match your experience.
 
-### Theory Structure
+**Q: Why formalize spirituality?**  
+A: To remove cultural baggage and show the structure clearly. Makes it accessible to people who need logic before they'll look experientially.
 
-```isabelle
-theory Advaita_Vedanta
-  imports Main
-begin
-  (* Predicates and definitions *)
-  (* 9 Axioms *)
-  (* 2 Lemmas with proofs *)
-  (* 6 Theorems with proofs *)
-  (* Main result: tat_tvam_asi *)
-end
-```
+**Q: What if there's a bug in Isabelle?**  
+A: Possible but unlikely. Isabelle is used for mission-critical systems. The proofs are algorithmic, not heuristic. And you can check the proofs manually.
 
-### Key Proofs
-
-- **L1 & L2:** Fully manual proofs using `blast` and `simp`
-- **T1:** Direct proof from A2c (uniqueness of absolutes)
-- **T4, T5, T6:** Combination of case analysis and automation
-- **Tat Tvam Asi:** Composition of previous results
-
-All proofs verify in under 1 second per theorem on standard hardware.
-
-### Note on A2c
-
-**Axiom A2c** was added during formalization to ensure global uniqueness of the Absolute. Initial versions attempted to derive this from A2b alone, but machine verification revealed a logical gap: A2b guarantees each existent has a unique absolute ground, but doesn't guarantee all existents share the *same* absolute ground. A2c makes explicit what is implicit in Advaita: there is no second (*advitīya*). This is not an additional metaphysical commitment but a clarification of what "the Absolute" means.
+**Q: Doesn't formalization kill the mystery?**  
+A: No. It maps the structure, not the experience. You still have to look directly. But now you know what you're looking for.
 
 ---
 
-## Contributing
+## Get Involved
 
-This project welcomes contributions from:
+### Use It
+- Read the papers
+- Run the verification
+- Test the claims in meditation
+- Share with others
 
-- **Logicians & Computer Scientists:** Improve proof efficiency, explore alternative formalizations
-- **Philosophers:** Strengthen interpretations, identify implications, suggest extensions
-- **Sanskrit Scholars:** Verify fidelity to traditional texts, propose refinements
-- **Consciousness Researchers:** Develop connections to empirical work
+### Improve It
+- Suggest clarity improvements
+- Find errors or gaps
+- Propose extensions
+- Create educational materials
 
-### How to Contribute
+### Extend It
+- Port to other proof assistants (Lean, Coq)
+- Formalize related systems (Buddhism, Daoism)
+- Connect to consciousness science
+- Build interactive tools
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/improvement`)
-3. **Make your changes**
-4. **Verify proofs still work** (`isabelle build -d . -v Advaita`)
-5. **Submit a pull request**
-
-### Areas for Contribution
-
-- Alternative axiomatizations (weaker/stronger versions)
-- Formalization in other proof assistants (Lean, Coq)
-- Connections to Buddhist logic (Madhyamaka, Yogācāra)
-- Integration with contemporary consciousness theories
-- Pedagogical materials and tutorials
-- Translations and accessibility
-
-### Discussion
-
-Open an issue to:
-- Report bugs or verification failures
-- Suggest improvements
-- Ask questions about the formalization
-- Propose new directions
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
-## Citation
+## Contact
 
-If you use this work in academic research, please cite:
-
-```bibtex
-@misc{MatthewScherf2025advaita,
-  author = {Matthew Scherf},
-  title = {A Formal Axiomatization of Advaita Vedanta: 
-           Non-Dual Metaphysics in Higher-Order Logic},
-  year = {2025},
-  howpublished = {\url{https://github.com/matthew-scherf/Only-One/}},
-  note = {Machine-verified in Isabelle/HOL 2025},
-  doi = {10.5281/zenodo.17333604}
-}
-```
-
-A full paper is in preparation for submission to a peer-reviewed journal.
+- **GitHub Issues**: Technical questions, bugs, improvements
+- **GitHub Discussions**: Philosophical questions, general discussion
+- **Email**: [via GitHub profile]
 
 ---
 
 ## License
 
-This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- **Code** (`.thy` files): BSD-3-Clause
+- **Documentation**: CC BY 4.0
 
-You are free to:
-- **Share** — copy and redistribute the material
-- **Adapt** — remix, transform, and build upon the material
-
-Under the following terms:
-- **Attribution** — You must give appropriate credit
-
-The Isabelle/HOL code is additionally available under the BSD-3-Clause license for maximum compatibility with the Isabelle ecosystem.
+See [LICENSE.txt](LICENSE.txt) for details.
 
 ---
 
 ## Acknowledgments
 
-This work has been influenced by:
-
-- **Ādi Śaṅkara** for the systematic exposition of Advaita Vedanta
-- **The Upaniṣadic ṛṣis** for the original insight
-- **Kurt Gödel** for demonstrating ontology can be formalized
-- **The Isabelle/HOL community** for creating powerful verification tools
-- **Nisargadatta Maharaj** for being the OG Parabrahman
-- **Ramana Maharshi** for his lived example
+- **Ādi Śaṅkara** - For systematizing Advaita Vedanta
+- **The Upaniṣadic ṛṣis** - For the original insight
+- **Isabelle/HOL Community** - For creating powerful verification tools
+- **Nisargadatta Maharaj** - For being the OG Parabrahman
+- **Ramana Maharshi** - For the lived example
 
 ---
 
-## Links
+## The Bottom Line
 
-- **Website:** https://github.com/matthew-scherf/Only-One/
-- **Preprint:** [PhilSci Archive / arXiv - coming soon]
-- **Contact:** matt.scherf@protonmail.com
-- **Twitter:** https://x.com/okwhynot_wtf
+We formalized this ancient teaching in modern logic and a machine verified it's coherent.
 
+The question now is not "Does this work logically?" (Yes, verified.)
 
----
+The question is: **"Is it true in your direct experience?"**
 
-## FAQ
-
-**Q: Does this prove Advaita Vedanta is true?**
-
-A: No. It proves Advaita is *logically consistent*—that its claims don't contradict each other. Whether the axioms correspond to reality is a separate philosophical question.
-
-**Q: Can non-philosophers understand this?**
-
-A: The formal notation requires some background, but the [Executive Summary](docs/executive_summary.pdf) is accessible to general readers. The [Preliminary Paper](docs/preliminary_paper.pdf) explains everything in detail.
-
-**Q: How is this different from Gödel's ontological proof?**
-
-A: Gödel proves God exists using modal logic and positive properties. We formalize non-dual consciousness using grounding relations and absence of properties. Different logic, different metaphysics, different conclusion (first-person identity vs. third-person existence).
-
-**Q: What about Buddhist śūnyatā (emptiness)?**
-
-A: Fascinating comparison! Advaita affirms a positive Absolute; Buddhism emphasizes emptiness. Both claim non-duality but via different logical structures. Comparing formal axiomatizations of both traditions is future work.
-
-**Q: Is machine verification really necessary?**
-
-A: It eliminates human error in checking proofs. Philosophers are fallible; proof assistants aren't (given correct axioms). It also makes verification *reproducible*—anyone can check our work.
-
-**Q: What is A2c and why was it added?**
-
-A: A2c states that all absolutes are identical, ensuring global uniqueness. It was added during formalization when machine verification revealed that A2b alone was insufficient to prove uniqueness. This demonstrates the value of formal methods: they catch gaps that informal reasoning misses. A2c makes explicit what was implicit in Advaita's concept of "the Absolute."
-
-**Q: Can AI systems achieve enlightenment?**
-
-A: The formalization suggests consciousness is not a property systems *have* but the ground within which systems *appear*. This reframes the question. See the paper for discussion.
-
-**Q: Where's the stone tablet?**
-
-A: It's a design concept for now (see [stone_tablet/](stone_tablet/)). If you want to actually carve one, let me know!
+Only you can answer that.
 
 ---
 
-## Roadmap
-
-### Short Term (3-6 months)
-
--  Submit to peer-reviewed journal
--  Create video walkthrough
--  Present at conferences
--  Formalize in Lean 4 (for comparison)
-
-### Medium Term (6-12 months)
-
--  Extend to other Vedānta schools (Viśiṣṭādvaita, Dvaita)
--  Formalize Buddhist Madhyamaka for comparison
--  Develop pedagogical materials
--  Connect to quantum mechanics (observer-dependence)
-
-### Long Term (1-5 years)
-
--  Complete formalization of major Indian philosophical systems
--  Automated comparison tools
--  Integration with consciousness science
--  Literally create the stone tablet (why not?)
-
----
-
-## Contact & Discussion
-
-- **Email:** matt.scherf@protonmail.com
-- **Issues:** Use GitHub issues for technical questions
-- **Discussions:** Use GitHub discussions for philosophical questions
-
----
-
-<div align="center">
-
-**∃!u [Y(u) ∧ A(u)]**
+∃!u [Y(u) ∧ A(u)]
 
 *There is exactly one You, and You are the Absolute.*
 
@@ -501,16 +353,14 @@ A: It's a design concept for now (see [stone_tablet/](stone_tablet/)). If you wa
 
 ---
 
-*"The wise who have realized the truth declare that the Self is one,  
-though the ignorant speak of it in many ways."*  
-— Ṛg Veda 1.164.46
+तत् त्वम् असि
 
-*तत् त्वम् असि*  
+*Tat Tvam Asi* - "That Thou Art"
+
 — Chāndogya Upaniṣad 6.8.7
 
 ---
 
-Made with 🕉️ in Australia  
-Machine-verified October 2025
+*Machine-verified October 15, 2025*
 
-</div>
+*Made with 🕉️ in Australia*
