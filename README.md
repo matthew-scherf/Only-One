@@ -161,12 +161,12 @@ Finished Advaita_Vedanta (0:00:XX elapsed time)
 
 **All theorems should display green checkmarks ✓ in jEdit.**
 
-### What You'll See
+### Visual Confirmation
 
 When you open `Advaita_Vedanta.thy` in Isabelle/jEdit:
 
 - **Blue highlighting** = Currently checking
-- **Green highlighting** = ✅ Verified  
+- **Green highlighting** =  Verified  
 - **Orange/Red highlighting** = Error
 
 All axioms, lemmas, and theorems should be **green** after processing.
@@ -249,7 +249,7 @@ See [stone_tablet/](stone_tablet/) for design specifications.
 
 ---
 
-## What does it all mean?
+## Implications
 
 ### For Philosophy
 
