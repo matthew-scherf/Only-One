@@ -1073,9 +1073,9 @@ This work has been deeply influenced by:
 - **Kurt Gödel** for demonstrating that ontology can be formalized
 - **The Isabelle/HOL community** for creating powerful verification tools
 - **Contemporary consciousness researchers** for bridging contemplative and scientific approaches
-- **My contemplative teachers** [to be added] for pointing to what cannot be formalized
+- **My contemplative teachers** Ramana Maharshi and Nisargadatta Maharaj for pointing to what cannot be formalized
 
-[Additional personal acknowledgments to be added]
+
 
 ---
 
