@@ -17,7 +17,7 @@ All theorems have been **machine-verified** using Isabelle/HOL 2025.
 - **Build Time:** ~1 second
 - **Build Status:**  SUCCESS
 
-**Anyone can reproduce these proofs.** See [Quick Start](#-quick-start) below.
+**Anyone can reproduce these proofs.** 
 
 ---
 
