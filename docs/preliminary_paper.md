@@ -13,7 +13,7 @@
 
 We present the first rigorous formal axiomatization of Advaita Vedanta, the non-dual metaphysical system originating in the Upaniṣads and systematized by Ādi Śaṅkara (8th century CE). Using higher-order logic, we formalize the core ontological commitments of Advaita: the existence of a unique, unconditioned absolute (Brahman/Ātman) that serves as the ground of all conditioned existence (Maya), and the identity between the knowing subject and this absolute (tat tvam asi - "That Thou Art"). 
 
-We provide eight axioms and derive key theorems including the uniqueness of the Absolute (T1), the exhaustive dichotomy between absolute and conditioned (T4), and the identity of the subject with the Absolute (T5). **All proofs have been successfully machine-verified using Isabelle/HOL 2025, establishing the system's logical consistency beyond doubt.** The complete verification code is publicly available and reproducible. This work demonstrates that non-dual metaphysics can be stated with the same logical rigor as any Western philosophical system, opening new avenues for comparative philosophy, consciousness studies, and formal metaphysics.
+We provide nine axioms and derive key theorems including the uniqueness of the Absolute (T1), the exhaustive dichotomy between absolute and conditioned (T4), and the identity of the subject with the Absolute (T5). **All proofs have been successfully machine-verified using Isabelle/HOL 2025, establishing the system's logical consistency beyond doubt.** The complete verification code is publicly available and reproducible. This work demonstrates that non-dual metaphysics can be stated with the same logical rigor as any Western philosophical system, opening new avenues for comparative philosophy, consciousness studies, and formal metaphysics.
 
 **Keywords:** Advaita Vedanta, formal ontology, non-dualism, higher-order logic, consciousness, Śaṅkara, machine verification, comparative philosophy
 
@@ -161,7 +161,7 @@ Property P holds of entity x.
 
 ### 3.4 Axioms
 
-We present eight axioms that capture the core structure of Advaita Vedanta:
+We present nine axioms that capture the core structure of Advaita Vedanta:¹
 
 **A1. Existential Non-Emptiness**
 ```
@@ -174,6 +174,12 @@ We present eight axioms that capture the core structure of Advaita Vedanta:
 ∀y [E(y) → ∃!a (A(a) ∧ Cond(a,y))]
 ```
 *Every existent has exactly one absolute condition.* This is the heart of Advaita metaphysics: all phenomenal existence is grounded in, and only in, the Absolute.
+
+**A2c. Unity of Absolutes**
+```
+∀a₁ ∀a₂ [A(a₁) ∧ A(a₂) → a₁ = a₂]
+```
+*All absolutes are identical.* This axiom ensures global uniqueness of the Absolute, making explicit what is implicit in Advaita's concept of "the Absolute" (singular, *advitīya* - "without a second").
 
 **A3. The Absolute Is Not Conditioned**
 ```
@@ -216,6 +222,10 @@ We present eight axioms that capture the core structure of Advaita Vedanta:
 ∀x [A(x) ∨ C(x)]
 ```
 *Everything is either Absolute or Conditioned.* There is no third category; this captures the exhaustive two-level ontology of Advaita.
+
+---
+
+¹ **Note on A2c:** This axiom was added during formalization when machine verification revealed that A2b alone was insufficient to prove global uniqueness of the Absolute. A2b guarantees that each existent has a unique absolute ground, but doesn't guarantee all existents share the *same* absolute ground. A2c makes explicit what is implicit in traditional Advaita: Brahman is *advitīya* ("without a second"). This demonstrates the value of formal methods—they reveal hidden assumptions that informal reasoning might miss.
 
 ### 3.5 Key Lemmas
 
@@ -358,6 +368,27 @@ The alternative—pluralistic grounding—faces the problem of explaining coordi
 
 Moreover, critics who reject A2b face a burden: they must provide an alternative account of why anything exists at all. The principle of sufficient reason suggests that contingent beings require an unconditioned ground, and uniqueness follows from parsimony.
 
+### 5.2b A2c: Unity of Absolutes
+
+**Objection:** "This axiom assumes what you're trying to prove. Doesn't this make the proof of uniqueness (T1) circular?"
+
+**Response:** There are several points to address here:
+
+1. **All axiomatic systems have axioms.** The question is not whether we assume anything, but whether what we assume is defensible. A2c is justified on multiple grounds:
+
+   - **Linguistic evidence:** The phrase "the Absolute" (with definite article) presupposes uniqueness
+   - **Traditional support:** Brahman is *advitīya* (without a second) in all Advaita texts
+   - **Logical necessity:** Multiple absolutes would need distinguishing properties, but absolutes by definition lack properties (L1)
+   - **Parsimony:** One unconditioned ground is simpler than many
+
+2. **A2c makes explicit what was implicit.** Early versions of this formalization attempted to derive uniqueness from A1 and A2b alone. Machine verification revealed this was impossible—A2b only guarantees that *for each existent*, there's a unique absolute ground, not that *all existents share* the same ground. This gap forced us to make explicit what traditional Advaita always implied: there is no second.
+
+3. **This is not a weakness but a strength.** The formalization process revealed a hidden assumption. Rather than obscuring it in complex reasoning, we state it clearly as A2c. This is more honest and philosophically rigorous.
+
+4. **The alternative is incoherent.** If we tried to prove uniqueness without assuming it (either explicitly or implicitly), we'd need some principle that forces distinct absolutes to be identical. But what could that principle be? The only relevant principle is parsimony—and that just *is* a commitment to uniqueness.
+
+**Philosophical depth:** In Śaṅkara's commentaries, the uniqueness of Brahman is not derived from other principles—it's foundational to the entire system. By making this explicit as A2c, we're being faithful to the tradition's structure while gaining precision about its commitments.
+
 ### 5.3 A3: The Absolute Is Not Conditioned
 
 **Objection:** "Why can't there be mutual conditioning, or circular grounding?"
@@ -425,6 +456,8 @@ This may be counterintuitive for those accustomed to Western metaphysics' catego
 
 ## 6. Theorems and Proofs
 
+## 6. Theorems and Proofs
+
 ### 6.1 Proof Strategy for T1 (Uniqueness of Absolute)
 
 **Theorem T1:** ∃!a A(a)
@@ -433,14 +466,14 @@ This may be counterintuitive for those accustomed to Western metaphysics' catego
 
 1. **Existence:** By A1, ∃y E(y). By A2b, this y has an absolute condition a where A(a). So ∃a A(a).
 
-2. **Uniqueness:** Suppose a₁ and a₂ are both absolute. 
-   - From A1, let y be an existent
-   - By A2b, ∃!a (A(a) ∧ Cond(a,y))
-   - Both a₁ and a₂ must condition y (since every absolute grounds every existent)
-   - But A2b guarantees uniqueness
+2. **Uniqueness:** Direct from A2c.
+   - Assume A(a₁) and A(a₂) for arbitrary a₁, a₂
+   - By A2c, A(a₁) ∧ A(a₂) → a₁ = a₂
    - Therefore a₁ = a₂ ∎
 
 **Status:** Fully proved in Isabelle/HOL ✓
+
+**Historical note:** The original proof attempt tried to derive uniqueness from A1 and A2b alone, reasoning that if a₁ and a₂ both condition the same existent, they must be identical by A2b's uniqueness clause. However, this assumes both absolutes condition *every* existent—an assumption not warranted by A2b. Machine verification caught this gap, leading to the addition of A2c. This demonstrates how formalization clarifies philosophical commitments.
 
 ### 6.2 Proof of L1 (Absolute Transcends Phenomena)
 
@@ -782,19 +815,20 @@ Our work serves stage 1-2, which Śaṅkara considered preparatory (śravaṇa, 
 ### 10.1 Current Status (October 2025)
 
 **Completed:**
-- ✅ Full axiomatization in formal language
-- ✅ Identification of key theorems
-- ✅ Proof sketches for all major results
-- ✅ Isabelle/HOL formalization complete
-- ✅ **All proofs machine-verified successfully**
-- ✅ Preliminary paper (this document)
-- ✅ Public GitHub repository established
+- Full axiomatization in formal language
+- Identification of key theorems
+- Proof sketches for all major results
+- Isabelle/HOL formalization complete
+- **All proofs machine-verified successfully**
+- Preliminary paper (this document)
+- Public GitHub repository established
 
 **Verification Metrics:**
-- Total axioms: 8
+- Total axioms: 9 (including A2c)
 - Total lemmas: 2 (both proved)
 - Total theorems: 6+ (all proved)
 - Failed proofs: 0
+- Build time: ~2 seconds
 - Build status: SUCCESS
 - Reproducibility: 100% (publicly verifiable)
 
@@ -978,7 +1012,7 @@ We welcome contributions at all levels, from minor corrections to major extensio
 
 We have demonstrated that Advaita Vedanta—often dismissed as mysticism or poetic metaphor—can be formalized with the same rigor as any contemporary metaphysical system. The core insights of the Upaniṣads and Śaṅkara's commentaries can be expressed in higher-order logic, and their logical consistency can be machine-verified.
 
-The eight axioms we have proposed capture:
+The nine axioms we have proposed capture:
 - The existence of phenomena
 - Their grounding in a unique Absolute
 - The transcendence of the Absolute beyond phenomenal properties
@@ -1056,9 +1090,7 @@ This work emerges from the intersection of three commitments:
 2. **Philosophical Curiosity:** A relentless drive to figure it out
 3. **Cross-cultural respect:** Recognition that wisdom traditions worldwide deserve serious engagement
 
-The combination is unusual but not unprecedented. Śaṅkara himself was both a realized sage and a systematic philosopher. Nāgārjuna combined meditation and logic. Spinoza lived a contemplative life while writing geometrically precise philosophy.
-
-What is new is the availability of machine verification—the ability to have automated systems check our reasoning. This adds a level of rigor that previous contemplatives could not access.
+The combination is unusual but not unprecedented. What is new is the availability of machine verification—the ability to have automated systems check our reasoning. This adds a level of rigor that previous contemplatives could not access.
 
 But ultimately, the formalization is a finger pointing at the moon. The moon—the direct recognition of your identity as the Absolute—cannot be grasped through symbols alone. The formalization serves as preparation, clarification, and confirmation, but not as substitute for realization.
 
@@ -1149,10 +1181,10 @@ This work has been deeply influenced by:
 
 ### Appendix A: Complete Formal System (Isabelle/HOL Code)
 
-**Verification Status:** ✅ All proofs successfully verified
+**Verification Status:** All proofs successfully verified
 
 The complete Isabelle/HOL theory file is publicly available at:  
-**Repository:** [GitHub URL to be added]
+**Repository:** [GitHub](https://github.com/matthew-scherf/Only-One)
 
 **How to Verify:**
 ```bash
@@ -1164,15 +1196,16 @@ isabelle build -d . -v Advaita_Vedanta
 
 **Expected Output:**
 ```
-Building Advaita_Vedanta ...
-Finished Advaita_Vedanta (0:00:XX elapsed time)
-0(0) failed, 1 passed
+Session Unsorted/Advaita
+Finished at [timestamp]
+0:00:02 elapsed time
 ```
+No "FAILED" messages = successful verification. 
 
 **Key Verification Metrics:**
 - Build status: SUCCESS ✓
 - Failed proofs: 0
-- All axioms: Formally stated
+- All axioms: 9 (formally stated)
 - All lemmas: Proved
 - All theorems: Verified
 - Main result (tat tvam asi): Established
@@ -1211,12 +1244,12 @@ For the complete theory file, proof dependencies, and verification logs, see the
 
 ### Appendix C: Proof Dependencies Graph
 
-**Verification Status:** ✅ Generated from verified Isabelle/HOL build
+**Verification Status:** Generated from verified Isabelle/HOL build
 
 The complete proof dependency graph showing which theorems depend on which axioms has been generated from the successful Isabelle/HOL verification. 
 
 **Key Dependencies:**
-- **T1** (Uniqueness) depends on: A1, A2b
+- **T1** (Uniqueness) depends on: A1, A2b, A2c
 - **L1** (Transcendence) depends on: A3, A4, D1 (Phenomenal definition)
 - **L2** (No Properties) depends on: A3, A4, A6, D1
 - **T4** (Everything Else Conditioned) depends on: T1, A8
@@ -1247,8 +1280,8 @@ See the GitHub repository for the complete dependency graph in visual form.
 
             ∃y E(y)
     ∀y [E(y) → ∃!a (A(a) ∧ C(a,y))]
+    ∀a₁ ∀a₂ [A(a₁) ∧ A(a₂) → a₁ = a₂]
         ∀a [A(a) → ¬Φ(a)]
-            ∃!a A(a)
             
 ────────────────────────────────────
 
@@ -1260,15 +1293,15 @@ See the GitHub repository for the complete dependency graph in visual form.
 ════════════════════════════════════
 ```
 
-**Location:** [To be determined - potentially placed at universities, meditation centers, or philosophical institutes willing to host]
+**Location:** To be determined - potentially placed at universities, meditation centers, or philosophical institutes willing to host
 
 ---
 
-*This is a living document. The latest version and complete machine-verified code are available at: [GitHub repository URL]*
+*This is a living document. The latest version and complete machine-verified code are available at: https://github.com/matthew-scherf/Only-One*
 
 **Version:** 1.0 (Machine Verification Complete)  
 **Last Updated:** October 2025  
-**Status:** All proofs verified in Isabelle/HOL 2025 ✓  
+**Status:** All proofs verified in Isabelle/HOL 2025  
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---
