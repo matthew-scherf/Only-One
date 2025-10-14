@@ -103,7 +103,7 @@ No prior work, to our knowledge, provides a complete axiomatic system with machi
 
 ### 2.4 Personal Motivation
 
-This work emerged from direct experience of non-dual awareness, followed by the philosophical question: "Can this be stated formally?" The combination of experiential insight and formal training suggested that the answer is yes—that the structure of non-dual realization can be captured in logic without reducing or distorting it.
+This work emerged from direct experience of non-dual awareness, followed by the philosophical question: "Can this be stated formally?" The experiential insight suggested that the answer is yes — that the structure of non-dual realization can be captured in logic without reducing or distorting it.
 
 This places us in the tradition of philosopher-contemplatives: Śaṅkara himself combined profound realization with systematic philosophical rigor. We aim to honor that dual commitment by bringing contemporary formal methods to an ancient wisdom tradition.
 
