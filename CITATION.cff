@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: Scherf
+    given-names: Matthew
+title: "Complete Formal Axiomatization of Advaita Vedanta"
+version: 2.0.0
+doi: https://doi.org/10.5281/zenodo.17333604
+date-released: 2025-10-15
+url: "https://github.com/matthew-scherf/Only-One"
+keywords:
+  - Advaita Vedanta
+  - formal verification
+  - non-duality
+  - consciousness
+  - Isabelle/HOL
+license: CC-BY-4.0
