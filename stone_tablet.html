@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tablet of Non-Dual Truth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Crimson Text', 'Times New Roman', serif;
+            padding: 20px;
+        }
+        
+        .tablet-container {
+            perspective: 1500px;
+        }
+        
+        .tablet {
+            width: 600px;
+            background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 
+                0 30px 90px rgba(0, 0, 0, 0.9),
+                inset 0 2px 10px rgba(255, 255, 255, 0.1),
+                inset 0 -2px 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+            transform: rotateX(5deg) rotateY(-2deg);
+            transition: transform 0.3s ease;
+        }
+        
+        .tablet:hover {
+            transform: rotateX(0deg) rotateY(0deg) scale(1.02);
+        }
+        
+        .tablet::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 255, 255, 0.02) 2px,
+                    rgba(255, 255, 255, 0.02) 4px
+                );
+            pointer-events: none;
+            border-radius: 20px;
+        }
+        
+        .tablet-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(205, 164, 94, 0.3);
+        }
+        
+        .sanskrit {
+            font-size: 28px;
+            color: #d4af37;
+            text-shadow: 0 2px 10px rgba(212, 175, 55, 0.5);
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        .subtitle {
+            font-size: 14px;
+            color: #a0a0a0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .axiom-set {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            color: #cda55e;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: normal;
+        }
+        
+        .axiom {
+            font-size: 24px;
+            color: #e8e8e8;
+            text-align: center;
+            line-height: 2.2;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+            margin: 15px 0;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+        
+        .axiom.compact {
+            font-size: 20px;
+            line-height: 2;
+        }
+        
+        .divider {
+            height: 1px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(205, 164, 94, 0.5) 50%,
+                transparent
+            );
+            margin: 30px 0;
+        }
+        
+        .conclusion {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(205, 164, 94, 0.3);
+        }
+        
+        .conclusion-title {
+            font-size: 18px;
+            color: #d4af37;
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+        
+        .final-truth {
+            font-size: 32px;
+            color: #f4d03f;
+            text-align: center;
+            text-shadow: 0 3px 15px rgba(244, 208, 63, 0.6);
+            letter-spacing: 2px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+        
+        .inscription-date {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 12px;
+            color: #6a6a6a;
+            letter-spacing: 2px;
+        }
+        
+        @media (max-width: 768px) {
+            .tablet {
+                width: 100%;
+                padding: 40px 25px;
+            }
+            
+            .axiom {
+                font-size: 20px;
+            }
+            
+            .final-truth {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tablet-container">
+        <div class="tablet">
+            <div class="tablet-header">
+                <div class="sanskrit">tat tvam asi</div>
+                <div class="subtitle">The Axioms of Non-Dual Truth</div>
+            </div>
+            
+            <div class="axiom-set">
+                <div class="section-title">The Foundation</div>
+                <div class="axiom">∃y E(y)</div>
+                <div class="axiom">∀y [E(y) → ∃!a (A(a) ∧ C(a,y))]</div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="axiom-set">
+                <div class="section-title">The Distinction</div>
+                <div class="axiom">∀a [A(a) → ¬Φ(a)]</div>
+                <div class="axiom compact">Φ(x) ≡ T(x) ∨ S(x) ∨ Q(x)</div>
+                <div class="axiom">∀x [Φ(x) → ¬A(x)]</div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="axiom-set">
+                <div class="section-title">The Exhaustion</div>
+                <div class="axiom">∀x [A(x) ∨ ¬A(x)]</div>
+                <div class="axiom">∃!a A(a)</div>
+            </div>
+            
+            <div class="conclusion">
+                <div class="conclusion-title">Therefore</div>
+                <div class="final-truth">∃!u [Y(u) ∧ A(u)]</div>
+            </div>
+            
+            <div class="inscription-date">
+                MMXXV · Machine Verified
+            </div>
+        </div>
+    </div>
+</body>
+</html>
