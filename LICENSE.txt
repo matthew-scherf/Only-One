@@ -1,0 +1,74 @@
+SPDX-License-Identifier: CC-BY-4.0 OR BSD-3-Clause
+
+Dual License: CC BY 4.0 + BSD-3-Clause
+======================================
+
+Copyright (c) 2025 Matthew Scherf
+
+You may use, copy, modify, and distribute this project’s contents under **either** of the following licenses, at your option:
+
+  Option A) Creative Commons Attribution 4.0 International (CC BY 4.0)
+  Option B) BSD 3-Clause License
+
+Attribution (applies to both options)
+-------------------------------------
+When you use or redistribute the materials, please attribute as follows (or an equivalent credit suitable to your medium):
+
+  "Only-One — © 2025 Matthew Scherf — Licensed under CC BY 4.0 or BSD-3-Clause"
+  Include a link to the source repository if reasonable.
+
+If you contribute to this project, you agree that your contributions are provided under the same dual-license terms.
+
+----------------------------------------------------------------------
+Option A) Creative Commons Attribution 4.0 International (CC BY 4.0)
+----------------------------------------------------------------------
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License.
+
+You are free to:
+  • Share — copy and redistribute the material in any medium or format
+  • Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+  • Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+  • No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+No warranties are given. The license may not give you all of the permissions necessary for your intended use.
+Other rights such as publicity, privacy, or moral rights may limit how you use the material.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution text (example):
+  "Portions © 2025 Matthew Scherf, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+   Changes were made."
+
+----------------------------------------------------------------------
+Option B) BSD 3-Clause License
+----------------------------------------------------------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
