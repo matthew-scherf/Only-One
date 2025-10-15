@@ -57,7 +57,7 @@ theorem Tat_Tvam_Asi_Ultimate:
 - Is not the ego or any bodily sheath
 - Is not distinct from anything perceived
 
-**Status: ✅ VERIFIED**
+**Status: VERIFIED**
 
 ## Verification
 

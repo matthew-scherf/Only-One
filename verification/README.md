@@ -4,11 +4,11 @@ This directory contains **proof** that all theorems have been machine-verified b
 
 ## Quick Answer
 
-**Did it verify?** Yes. ✅
+**Did it verify?** Yes.
 
 **When?** October 15, 2025
 
-**Build time?** ~35 seconds
+**Build time?** ~3 seconds
 
 **Failed proofs?** 0
 
@@ -137,7 +137,7 @@ isabelle jedit -d . -l HOL theory/Advaita_Vedanta.thy
 - All definitions: green background
 - All theorems: green background
 - No red or orange highlighting
-- Green = verified ✅
+- Green = verified 
 
 ### Troubleshooting
 

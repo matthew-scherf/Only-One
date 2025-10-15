@@ -77,15 +77,12 @@ This directory contains all human-readable documentation for the formalization.
 
 | Document | Status | Last Updated |
 |----------|--------|--------------|
-| master_paper.pdf | 📝 In Progress | - |
-| executive_summary.pdf | 📝 In Progress | - |
-| technical_reference.pdf | 📝 In Progress | - |
-| experiential_guide.pdf | 📝 In Progress | - |
-| verification_guide.pdf | 📝 In Progress | - |
+| master_paper.pdf |  In Progress | - |
+| executive_summary.pdf |  In Progress | - |
+| technical_reference.pdf |  In Progress | - |
+| experiential_guide.pdf |  In Progress | - |
+| verification_guide.pdf |  In Progress | - |
 
-✅ = Complete
-📝 = In Progress
-⏳ = Planned
 
 ## Building from Source
 

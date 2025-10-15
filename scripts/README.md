@@ -65,8 +65,8 @@ Verifies all required tools are installed and accessible.
 - Directory structure
 
 **Output:**
-- ✅ for each found dependency
-- ❌ for missing dependencies with installation instructions
+-  Tick for each found dependency
+-  Cross for missing dependencies with installation instructions
 
 ---
 
