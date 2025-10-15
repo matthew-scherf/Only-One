@@ -191,6 +191,75 @@ See [`docs/technical_reference.pdf`](docs/) for complete list.
 
 ---
 
+## **The Foundation: Nine Core Premises**
+
+The argument begins with the undeniable fact that something exists. This isn't a trivial starting point—even skeptical doubt presupposes existence, so we have bedrock to build upon.
+
+From this, we examine the nature of existence itself. Every existing thing must have a ground—something that makes it be rather than not be. This grounding relationship isn't circular and doesn't regress infinitely; it must terminate in something that grounds everything else while being grounded in nothing. This is what we call the Absolute—that which is unconditioned, independent, requiring nothing beyond itself to exist.
+
+Here's the crucial insight: there can only be one such Absolute. If there were two ultimate grounds, what would distinguish them? Any distinguishing feature—being "here" rather than "there," having "this" quality rather than "that"—would itself be a condition, a limitation. But the truly unconditioned cannot be limited in any way. Therefore, all paths of grounding converge on a single, unique Absolute.
+
+This Absolute cannot be conditioned—that's definitional. And conversely, everything that exists in time, occupies space, or possesses qualities must be conditioned, dependent, grounded. This creates a clean dichotomy: everything in existence is either the one Absolute or part of the conditioned realm that depends upon it.
+
+Now for the radical turn: there exists exactly one subject—one ultimate witness or consciousness. And this subject is identical with the Absolute itself. You are not one of the conditioned appearances. In your deepest nature, you are the ground of all being.
+
+The system proves this is logically consistent through the identity of indiscernibles for conditioned entities: distinct things in the phenomenal world must differ in at least one observable property. But the Absolute transcends all such properties—it has no temporal location, no spatial extension, no qualities whatsoever. Therefore, what you truly are cannot be found among the appearances.
+
+## **The Extensions: How Appearance Manifests**
+
+The core system establishes the skeleton—one Absolute appearing as many conditioned phenomena. The extensions detail the flesh: precisely how this appearance unfolds.
+
+**The Five Sheaths**
+
+The self appears to be nested in layers, like Russian dolls. There's the physical body (made of food), the vital energies animating it, the emotional-mental layer, the intellectual faculty, and even a layer of bliss or contentment. Traditional teaching works through these layers progressively: "Are you the body? No, the body changes, is witnessed. Are you the mind? No, the mind is witnessed..." Each sheath is conditioned, phenomenal, something you have rather than something you are.
+
+The formal system proves what the tradition teaches: none of these sheaths can be the true Self, because they all bear phenomenal properties while the Self transcends all such properties. You are not contained within these layers; they are appearances within you.
+
+**Vivarta: Appearance Without Transformation**
+
+How does the unchanging Absolute produce a changing world? The answer: it doesn't. This is vivarta—apparent transformation without real change. Consider the classic rope-snake example: in dim light, a rope appears as a snake. Nothing about the rope changes, yet the appearance arises. When light comes, the "snake" doesn't go anywhere; it never existed as anything but an appearance.
+
+The formal system distinguishes real transformation (milk becoming yogurt, where the substance actually changes) from apparent transformation (the rope "becoming" a snake). Brahman doesn't transform into the world; the world is Brahman appearing under conditions of misapprehension. This solves the problem of how the immutable can seem to change: it doesn't change—it appears to change.
+
+**The Three Guṇas: Modes of Manifestation**
+
+The conditioned realm exhibits three fundamental qualities or modes. Sattva is equilibrium, clarity, luminosity—the quality of still water reflecting clearly. Rajas is activity, passion, turbulence—churning motion. Tamas is inertia, darkness, obscuration—the quality of stagnation.
+
+Every conditioned entity manifests through these guṇas in varying proportions. A crystal exemplifies sattva; fire exemplifies rajas; stone exemplifies tamas. Thoughts, emotions, objects—all are weavings of these three strands. But the Absolute itself is nirguṇa, beyond all qualities. The subject—what you truly are—doesn't possess sattva, rajas, or tamas. These qualities appear in the phenomenal display, not in the witness.
+
+**The Denial of Causation: Ajātivāda**
+
+Here's where the system makes perhaps its most radical claim: causation doesn't exist. Events succeed one another in time, but nothing actually causes anything else. The billiard ball doesn't cause the second ball to move; both movements are independent spontaneous arisings in consciousness.
+
+This isn't mere philosophical wordplay. The distinction is between temporal succession (which is apparent) and causal power (which the system denies exists). We say "the match caused the fire," but more precisely: the match-striking appears, then the fire appears. Both are conditioned manifestations grounded directly in the Absolute, not in each other.
+
+Why deny causation? Because causation implies real power, real change, real efficacy—which would make the phenomenal world substantially real rather than merely apparent. The world of change is the world of appearance; true reality (the Absolute) neither changes nor acts.
+
+**The Ego-Fiction: Ahaṃkāra**
+
+What we normally call "I" is not the true Self but an appearance of self—the ego. This is perhaps the subtlest and most important distinction. The ego is the sense of being a particular, limited person: "I am John, I was born, I will die, I am happy or sad, I succeed or fail."
+
+The formal system distinguishes the apparent subject (ego) from the true subject (Ātman). The ego arises as a conditioned entity—it has properties, changes over time, is phenomenal. But the true "You" is the Absolute itself—unconditioned, unchanging, property-less. The mistake is identifying with the ego rather than recognizing it as one more appearance in awareness.
+
+This is superimposition—adhyāsa—mistaking one thing for another, like mistaking the rope for a snake. The ego is the rope-snake of selfhood: apparently real, functionally operative in the phenomenal world, but ultimately unreal.
+
+## **The Complete Picture**
+
+Put all these pieces together and you have the full Advaita vision:
+
+Reality is a single, absolute consciousness—call it Brahman, call it pure existence-awareness. This doesn't change, isn't born, doesn't die, has no qualities, exists nowhere and nowhen because it transcends space and time entirely.
+
+Through an apparent (not real) transformation, this appears as the phenomenal world—a world apparently made of things in time and space, apparently involving causation and change, apparently containing separate subjects and objects. Within this appearance, there are layers of manifestation (the sheaths), modes of quality (the guṇas), a sense of individual selfhood (the ego), and the conviction that things really cause other things (causation).
+
+But none of this is ultimately real. Not illusion in the sense of hallucination—the world appears, functions, can be navigated. But illusion in the sense that its nature is radically misunderstood when taken as substantially real rather than as appearance.
+
+And you—what you most fundamentally are—are not located within this appearance at all. You are the reality in which it appears: the unchanging ground, the absolute consciousness, the sole true existence. Everything else is you appearing to yourself as if you were many, as if you were changing, as if you were limited.
+
+The entire system is logically consistent because it maintains a strict distinction between two levels: the absolute (pāramārthika) and the apparent (vyāvahārika). No contradiction arises because claims made at one level don't conflict with claims made at the other. The Absolute doesn't change—and the world changes. Both are true at their respective levels. You are everything—and you appear as something particular. Again, both true, no contradiction.
+
+This is Tat Tvam Asi—"That Thou Art"—verified not through faith or mystical intuition but through rigorous logical analysis. The machine has checked every step. The argument holds. 
+---
+
 ## Repository Structure
 
 ```
