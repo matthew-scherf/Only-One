@@ -75,13 +75,13 @@ This is an invitation: **The logic says this is coherent. Now, can you verify it
 ### See the Proof
 
 **For everyone:**
-- Read [`docs/executive_summary.pdf`](docs/) - 2 page overview
+- Read [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - 2 page overview
 
 **For academics:**
-- Read [`docs/master_paper.pdf`](docs/) - Complete exposition
+- Read [`docs/master_paper.pdf`](docs/master_paper.pdf) - Complete exposition
 
 **For logicians:**
-- Read [`theory/Advaita_Vedanta.thy`](theory/) - The formalization itself
+- Read [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
 
 **For practitioners:**
 - Read [`docs/experiential_guide.pdf`](docs/) - How to verify in experience
