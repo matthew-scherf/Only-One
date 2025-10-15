@@ -75,7 +75,7 @@ This is an invitation: **The logic says this is coherent. Now, can you verify it
 ### See the Proof
 
 **For everyone:**
-- Read [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - 2 page overview
+- Read [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - Overview
 
 **For academics:**
 - Read [`docs/master_paper.pdf`](docs/master_paper.pdf) - Complete exposition
