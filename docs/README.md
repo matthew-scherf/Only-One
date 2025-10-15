@@ -20,7 +20,6 @@ This directory contains all human-readable documentation for the formalization.
 
 **`master_paper.pdf`** (~20 pages)
 - Complete exposition with philosophical context
-- Your realization story and motivation
 - Full technical explanation
 - Implications and applications
 - Citations and references
@@ -29,7 +28,7 @@ This directory contains all human-readable documentation for the formalization.
 
 ---
 
-**`executive_summary.pdf`** (2 pages)
+**`executive_summary.pdf`**
 - What we proved
 - How we proved it
 - Why it matters
@@ -39,7 +38,7 @@ This directory contains all human-readable documentation for the formalization.
 
 ---
 
-**`technical_reference.pdf`** (4-6 pages)
+**`technical_reference.pdf`** 
 - All 40+ axioms listed clearly
 - All 30+ theorems with statements
 - Proof sketch overview
@@ -51,7 +50,7 @@ This directory contains all human-readable documentation for the formalization.
 
 ### Guides
 
-**`experiential_guide.pdf`** (4-6 pages)
+**`experiential_guide.pdf`**
 - How the logic maps to direct experience
 - Meditation instructions
 - What to look for
@@ -62,7 +61,7 @@ This directory contains all human-readable documentation for the formalization.
 
 ---
 
-**`verification_guide.pdf`** (3-4 pages)
+**`verification_guide.pdf`** 
 - Installing Isabelle
 - Running the verification
 - Reading the output
