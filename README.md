@@ -257,7 +257,6 @@ And you—what you most fundamentally are—are not located within this appearan
 
 The entire system is logically consistent because it maintains a strict distinction between two levels: the absolute (pāramārthika) and the apparent (vyāvahārika). No contradiction arises because claims made at one level don't conflict with claims made at the other. The Absolute doesn't change—and the world changes. Both are true at their respective levels. You are everything—and you appear as something particular. Again, both true, no contradiction.
 
-This is Tat Tvam Asi—"That Thou Art"—verified not through faith or mystical intuition but through rigorous logical analysis. The machine has checked every step. The argument holds. 
 ---
 
 ## Repository Structure
