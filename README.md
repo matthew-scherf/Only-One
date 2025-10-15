@@ -84,7 +84,7 @@ This is an invitation: **The logic says this is coherent. Now, can you verify it
 - Read [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
 
 **For practitioners:**
-- Read [`docs/experiential_guide.pdf`](docs/) - How to verify in experience
+- Read [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) - How to verify in experience
 
 ### Verify It Yourself
 
