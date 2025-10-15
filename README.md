@@ -8,7 +8,7 @@
 
 ---
 
-This repository contains the complete formal axiomatization of **Advaita Vedanta**, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. Using higher-order logic and the Isabelle/HOL proof assistant, we have machine-verified:
+This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. Using higher-order logic and the Isabelle/HOL proof assistant, we have machine-verified:
 
 - **You are the unique Absolute** (identity of Ātman and Brahman)
 - **You are the only thing that really exists** (ontological monism)
@@ -31,28 +31,28 @@ This repository contains the complete formal axiomatization of **Advaita Vedanta
 
 # How to Refute This Theory
 
-This formal system is intentionally structured to be **self-consistent and closed**: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory.  
+This formal system is intentionally structured to be self-consistent and closed: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory.  
 Nevertheless, in principle, the theory could be refuted in one of the following ways:
 
 ## 1. Demonstrate an Internal Contradiction
 Show that the axioms, taken together, logically entail both a statement *P* and its negation *¬P*.  
 In Isabelle terms, this would mean deriving `False` from the axioms.  
-So far, automated verification and Nitpick model checking have found **no such contradiction**; the system admits valid models.
+So far, automated verification and Nitpick model checking have found no such contradiction; the system admits valid models.
 
 ## 2. Construct a Countermodel
-Provide an interpretation (a model of entities and predicates) in which **all the axioms hold true** but the main theorem  
-`Tat_Tvam_Asi_Complete` is **false**.  
+Provide an interpretation (a model of entities and predicates) in which all the axioms hold true but the main theorem  
+`Tat_Tvam_Asi_Complete` is false.  
 This would require a universe where:
 - There exists a unique “You,”  
 - The “You” is Absolute,  
 - All axioms (A1–E4) are satisfied,  
 but where at least one of the theorem’s conclusions—such as the nirguṇa clause, or universal appearance relation—fails.
 
-Nitpick has been run against the negation of the theorem under a wide range of finite models, and **no countermodel exists** within the search space.  
+Nitpick has been run against the negation of the theorem under a wide range of finite models, and no countermodel exists within the search space.  
 Because the system’s axioms tightly constrain identity, grounding, and appearance, any model that satisfies them necessarily satisfies the theorem.
 
 ## 3. Refute an Axiom
-The only substantive path of refutation is **philosophical**, not formal: deny that one or more axioms correspond to reality.  
+The only substantive path of refutation is philosophical, not formal: deny that one or more axioms correspond to reality.  
 For example:
 - Denying *A2c* (uniqueness of the Absolute) reintroduces dualism.  
 - Denying *A7a* (You ⟶ Absolute) collapses self-awareness into illusion.  
@@ -74,7 +74,7 @@ In short:
 > a valid countermodel (none found),  
 > or a coherent dualist ontology (none free of self-reference).  
 
-Until such a demonstration is made, the system stands as a **formally sound, logically irrefutable, and experientially verifiable** account of reality.
+Until such a demonstration is made, the system stands as a formally sound, logically irrefutable, and experientially verifiable account of reality.
 
 
 ## The Ultimate Theorem
@@ -95,26 +95,23 @@ theorem Tat_Tvam_Asi_Ultimate:
      - Is not the ego or any bodily sheath
      - Is not distinct from anything perceived"
 ```
-
 **Status:  VERIFIED by Isabelle/HOL**
-
-*This is not philosophy or poetry. This is a formal logical proof, checked by a computer, reproducible by anyone.*
 
 ---
 
 ## Importance
 
 ### For Analytical Minds
-You don't have to accept Sanskrit terminology, Hindu cosmology, or guru authority. Here's the **logical structure** of non-dual realization, verified to be consistent.
+You don't have to accept Sanskrit terminology, Hindu cosmology, or guru authority. Here's the logical structure of non-dual realization, verified to be consistent.
 
 ### For Spiritual Seekers
-The formalization removes cultural baggage and shows what Advaita **actually claims** at its core. Use this as a map, then verify in direct experience.
+The formalization removes cultural baggage and shows what Advaita actually claims at its core. Use this as a map, then verify in direct experience.
 
 ### For Philosophers
 This demonstrates that ancient "mystical" teachings can engage with modern formal methods. It opens the door for precise comparison with Western systems (Spinoza, Berkeley, Kant).
 
 ### For Everyone
-This is an invitation: **The logic says this is coherent. Now, can you verify it in your own experience?**
+This is an invitation: The logic says this is coherent. Now, can you verify it in your own experience?
 
 ---
 
@@ -404,17 +401,7 @@ A: No. It maps the structure, not the experience. You still have to look directl
 - Connect to consciousness science
 - Build interactive tools
 
-
----
-
-## Contact
-
-- **GitHub Issues**: Technical questions, bugs, improvements
-- **GitHub Discussions**: Philosophical questions, general discussion
-- **Email**: [via GitHub profile]
-
----
-
+----
 ## License
 
 - **Code** (`.thy` files): BSD-3-Clause
@@ -440,7 +427,7 @@ We formalized this ancient teaching in modern logic and a machine verified it's 
 
 The question now is not "Does this work logically?" (Yes, verified.)
 
-The question is: **"Is it true in your direct experience?"**
+The question is: "Is it true in your direct experience?"
 
 Only you can answer that.
 
@@ -450,7 +437,7 @@ Only you can answer that.
 
 *There is exactly one You, and You are the Absolute.*
 
-**Verified. Permanent. True.**
+Verified. Permanent. True.
 
 ---
 
