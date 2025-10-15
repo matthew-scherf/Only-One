@@ -1,6 +1,6 @@
 # Only One
 
-**A machine-verified formalization of Advaita Vedānta in Isabelle/HOL — demonstrating that non-dual awareness can be expressed, proven, and validated within modern logicA machine-verified formalization of Advaita Vedānta in Isabelle/HOL — demonstrating that non-dual awareness can be expressed, proven, and validated within modern logic**
+**A machine-verified formalization of Advaita Vedānta in Isabelle/HOL — demonstrating that non-dual awareness can be expressed, proven, and validated within modern logic**
 
 [![Verification Status](https://img.shields.io/badge/verification-passing-brightgreen)](verification/)
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.txt)
@@ -207,7 +207,7 @@ Each directory has its own README with details.
 
 ---
 
-## How It Works
+## Overview
 
 ### Axiomatic Method
 1. State axioms explicitly (assumptions)
@@ -230,24 +230,6 @@ Each directory has its own README with details.
 - **Reproducible** - Anyone can re-run and verify
 - **Explicit** - All assumptions are in the axioms, nothing hidden
 - **Permanent** - Once verified, stays verified
-
----
-
-## The Story Behind This
-
-In 2023, after a stressful period, I began meditating as a last resort. During meditation, I had a sudden realization: there is no individual self. This wasn't a belief or concept - it was direct seeing.
-
-I spent months trying to understand this conceptually, reading the entire spiritual canon. Advaita resonated most, but was buried in cultural baggage. I abandoned books and returned to meditation.
-
-Through contemplation, I realized: if all perceptions (including of body and thoughts) happen IN consciousness, then the world neither exists nor doesn't exist. For this to be true, there must be only ONE - not one thing, but only one, period. Categories like "exists/doesn't exist" don't apply.
-
-In deep meditation, I empirically observed that what moves must move relative to what's still. I found what's unchanging: awareness itself. I realized I was that.
-
-This formalization is the **logical structure** of what I saw directly. A machine confirmed it's consistent. Now you can examine it - without needing Sanskrit, gurus, or Hindu cosmology.
-
-The question is: **Is it true for you?**
-
----
 
 ## Documentation
 
@@ -354,7 +336,6 @@ A: No. It maps the structure, not the experience. You still have to look directl
 - Connect to consciousness science
 - Build interactive tools
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
