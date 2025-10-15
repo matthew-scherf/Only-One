@@ -25,50 +25,6 @@ One-command verification of the entire formalization.
 
 ---
 
-### `build_docs.sh`
-
-Builds all PDF documentation from LaTeX sources.
-
-**Usage:**
-```bash
-./scripts/build_docs.sh
-```
-
-**What it does:**
-- Compiles all `.tex` files in `docs/`
-- Runs LaTeX multiple times (for references)
-- Runs BibTeX for bibliography
-- Cleans up auxiliary files
-- Reports any errors
-
-**Requirements:**
-- LaTeX distribution (TeX Live or MiKTeX)
-- BibTeX
-- Run from repository root
-
----
-
-### `check_dependencies.sh`
-
-Verifies all required tools are installed and accessible.
-
-**Usage:**
-```bash
-./scripts/check_dependencies.sh
-```
-
-**What it checks:**
-- Isabelle installation and version
-- LaTeX installation
-- Git configuration
-- File permissions
-- Directory structure
-
-**Output:**
--  Tick for each found dependency
--  Cross for missing dependencies with installation instructions
-
----
 
 ## Script Development
 

@@ -201,11 +201,11 @@ The question is: **Is it true for you?**
 
 | Document | Description | Audience |
 |----------|-------------|----------|
-| [Executive Summary](docs/) | 2 page overview | Everyone |
-| [Master Paper](docs/) | Complete ~20 page paper | Academics |
-| [Technical Reference](docs/) | All axioms/theorems | Logicians |
-| [Experiential Guide](docs/) | How to verify in experience | Practitioners |
-| [Verification Guide](docs/) | How to run Isabelle | Anyone |
+| [Executive Summary](docs/executive_summary.pdf) | 2 page overview | Everyone |
+| [Master Paper](docs/master_paper.pdf) | Complete ~20 page paper | Academics |
+| [Technical Reference](docs/technical_reference.pdf) | All axioms/theorems | Logicians |
+| [Experiential Guide](docs/experiential_guide.pdf) | How to verify in experience | Practitioners |
+| [Verification Guide](docs/verification_guide.pdf) | How to run Isabelle | Anyone |
 
 ## For Academics
 
