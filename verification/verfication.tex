@@ -1,0 +1,135 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+
+% Page setup
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Colors
+\definecolor{verifiedgreen}{RGB}{34,139,34}
+
+\begin{document}
+
+% No page numbers
+\thispagestyle{empty}
+
+% Border
+\noindent\fbox{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+\vspace{0.5cm}
+
+% Title
+\begin{center}
+{\Huge\textbf{VERIFICATION CERTIFICATE}}\\[0.5cm]
+{\Large Machine-Verified Proof System}\\[1cm]
+\end{center}
+
+% Main content
+{\large
+\noindent\textbf{Project:} Complete Formal Axiomatization of Advaita Vedanta\\[0.3cm]
+
+\noindent\textbf{Theory File:} \texttt{theory/Advaita\_Vedanta.thy}\\[0.3cm]
+
+\noindent\textbf{Author:} Matthew Scherf\\[0.3cm]
+
+\noindent\textbf{Verification Date:} 15 October 2025\\[0.3cm]
+
+\noindent\textbf{Verification Time (UTC+11):} 08:52:19\\[0.3cm]
+
+\noindent\textbf{Build Time:} 3 seconds\\[0.3cm]
+
+\noindent\textbf{Proof Assistant:} Isabelle/HOL 2025\\[0.3cm]
+
+\noindent\textbf{Logic System:} Higher-Order Logic (HOL)\\[1cm]
+
+% Status
+\begin{center}
+\colorbox{verifiedgreen}{%
+\begin{minipage}{0.9\textwidth}
+\centering
+\vspace{0.3cm}
+{\LARGE\textbf{\textcolor{white}{STATUS: VERIFIED}}}\\[0.2cm]
+{\Large\textcolor{white}{All Theorems Pass Automated Verification}}\\
+\vspace{0.3cm}
+\end{minipage}
+}
+\end{center}
+
+\vspace{0.5cm}
+
+% What was verified
+\noindent\textbf{Verified Components:}
+\begin{itemize}
+\item \textbf{Axioms:} 40+ formal axioms across 8 domains
+\item \textbf{Theorems:} 30+ proven theorems
+\item \textbf{Proofs:} All proof steps checked algorithmically
+\item \textbf{Failed Proofs:} 0 (zero)
+\end{itemize}
+
+\vspace{0.3cm}
+
+% Key theorems
+\noindent\textbf{Key Theorems Verified:}
+\begin{itemize}
+\item \texttt{T1\_uniqueness} - Exactly one Absolute exists
+\item \texttt{you\_are\_only\_reality} - You are the only thing that really exists
+\item \texttt{you\_were\_never\_born} - You were never born
+\item \texttt{you\_will\_never\_die} - You will never die
+\item \texttt{phenomena\_spontaneous} - Causation doesn't exist
+\item \texttt{space\_unreal} - Space is unreal
+\item \texttt{time\_unreal} - Time is unreal
+\item \texttt{Complete\_NonDuality} - Complete non-duality proven
+\item \texttt{Tat\_Tvam\_Asi\_Ultimate} - Ultimate theorem combining all results
+\end{itemize}
+
+\vspace{0.3cm}
+
+% File integrity
+\noindent\textbf{File Integrity:}\\[0.2cm]
+\noindent\textbf{SHA-256 Hash:}\\
+\texttt{\small [b2870d7395f2fb3aa07569b6646962aba5e6c3bff031eb6c38a089fc960cbd94]}\\[0.3cm]
+
+\noindent\textit{This hash can be used to verify the theory file has not been modified since verification.}\\[0.5cm]
+
+% Reproducibility
+\noindent\textbf{Reproducibility:}\\[0.2cm]
+This verification is reproducible by anyone with:
+\begin{itemize}
+\item Isabelle/HOL 2025
+\item The theory file (hash above)
+\item Command: \texttt{isabelle build -d . -v Advaita}
+\end{itemize}
+
+\vspace{0.5cm}
+
+% Repository
+\noindent\textbf{Repository:} \texttt{https://github.com/matthew-scherf/Only-One}\\[0.3cm]
+
+\noindent\textbf{DOI:} 10.5281/zenodo.[https://doi.org/10.5281/zenodo.17333604]\\[0.3cm]
+
+\noindent\textbf{License:} CC BY 4.0 (documentation), BSD-3-Clause (code)\\[1cm]
+
+% Signature section
+\noindent\textbf{Verified by:} Isabelle/HOL Automated Proof Checker\\[0.3cm]
+
+\noindent\textbf{Certificate Generated:} \today\\[0.5cm]
+
+% Footer
+\begin{center}
+\textit{``There exists exactly one You, and You are the Absolute.''}\\[0.2cm]
+\textit{तत् त्वम् असि} (Tat Tvam Asi)\\[0.2cm]
+Machine-Verified October 15, 2025
+\end{center}
+
+\vspace{0.5cm}
+
+\end{minipage}
+}
+
+\end{document}

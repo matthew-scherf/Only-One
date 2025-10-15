@@ -204,7 +204,7 @@ To verify the theory file hasn't been modified since verification:
 sha256sum theory/Advaita_Vedanta.thy
 ```
 
-Expected hash: [Will be added after final version locked]
+Expected hash: b2870d7395f2fb3aa07569b6646962aba5e6c3bff031eb6c38a089fc960cbd94
 
 ## Questions
 
