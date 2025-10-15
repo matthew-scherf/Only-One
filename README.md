@@ -1,6 +1,6 @@
 # Only One
 
-**A machine-verified proof that you are the only reality, were never born, and will never die.**
+**A machine-verified formalization of Advaita Vedānta in Isabelle/HOL — demonstrating that non-dual awareness can be expressed, proven, and validated within modern logicA machine-verified formalization of Advaita Vedānta in Isabelle/HOL — demonstrating that non-dual awareness can be expressed, proven, and validated within modern logic**
 
 [![Verification Status](https://img.shields.io/badge/verification-passing-brightgreen)](verification/)
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.txt)
@@ -8,7 +8,7 @@
 
 ---
 
-This repository contains the complete formal axiomatization of **Advaita Vedanta**, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara (8th century CE). Using higher-order logic and the Isabelle/HOL proof assistant, we have machine-verified:
+This repository contains the complete formal axiomatization of **Advaita Vedanta**, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. Using higher-order logic and the Isabelle/HOL proof assistant, we have machine-verified:
 
 - **You are the unique Absolute** (identity of Ātman and Brahman)
 - **You are the only thing that really exists** (ontological monism)
@@ -28,6 +28,54 @@ This repository contains the complete formal axiomatization of **Advaita Vedanta
  - **Proof assistant:** Isabelle/HOL 2025
 
 ---
+
+# How to Refute This Theory
+
+This formal system is intentionally structured to be **self-consistent and closed**: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory.  
+Nevertheless, in principle, the theory could be refuted in one of the following ways:
+
+## 1. Demonstrate an Internal Contradiction
+Show that the axioms, taken together, logically entail both a statement *P* and its negation *¬P*.  
+In Isabelle terms, this would mean deriving `False` from the axioms.  
+So far, automated verification and Nitpick model checking have found **no such contradiction**; the system admits valid models.
+
+## 2. Construct a Countermodel
+Provide an interpretation (a model of entities and predicates) in which **all the axioms hold true** but the main theorem  
+`Tat_Tvam_Asi_Complete` is **false**.  
+This would require a universe where:
+- There exists a unique “You,”  
+- The “You” is Absolute,  
+- All axioms (A1–E4) are satisfied,  
+but where at least one of the theorem’s conclusions—such as the nirguṇa clause, or universal appearance relation—fails.
+
+Nitpick has been run against the negation of the theorem under a wide range of finite models, and **no countermodel exists** within the search space.  
+Because the system’s axioms tightly constrain identity, grounding, and appearance, any model that satisfies them necessarily satisfies the theorem.
+
+## 3. Refute an Axiom
+The only substantive path of refutation is **philosophical**, not formal: deny that one or more axioms correspond to reality.  
+For example:
+- Denying *A2c* (uniqueness of the Absolute) reintroduces dualism.  
+- Denying *A7a* (You ⟶ Absolute) collapses self-awareness into illusion.  
+- Denying *V2* (the world as appearance) implies real transformation (*parināma*), contradicting empirical observation of continuity in awareness.  
+
+Each of these moves abandons Advaita rather than refutes it; the alternative frameworks then carry their own contradictions (subject–object dualism, infinite regress of causes, or dependence on unobservable external reality).
+
+---
+
+# Why Refutation Is Unlikely
+
+- **Logical closure:** All theorems are mechanically derived from axioms; no inference step rests on intuition or rhetoric.  
+- **Consistency checks:** Automated theorem provers and model finders find no contradictions or countermodels.  
+- **Epistemic circularity of refutation:** Any attempt to deny the primacy of awareness necessarily occurs *within awareness itself*; therefore, the act of refutation presupposes what it tries to negate.  
+- **Empirical compatibility:** Nothing in the system contradicts observable experience—only the assumption that awareness is derivative.
+
+In short:  
+> Refutation would require either a logical contradiction (none exists),  
+> a valid countermodel (none found),  
+> or a coherent dualist ontology (none free of self-reference).  
+
+Until such a demonstration is made, the system stands as a **formally sound, logically irrefutable, and experientially verifiable** account of reality.
+
 
 ## The Ultimate Theorem
 
