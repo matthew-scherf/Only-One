@@ -16,8 +16,6 @@ This repository contains the complete formal axiomatization of Advaita Vedanta, 
 
 This formal system is intentionally structured to be self-consistent and closed: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory. Nevertheless, in principle, the theory could be refuted in one of the following ways.
 
-### Paths to Refutation
-
 ### 1. Demonstrate an Internal Contradiction
 
 Show that the axioms, taken together, logically entail both a statement P and its negation ¬P. In Isabelle terms, this would mean deriving `False` from the axioms. So far, automated verification and Nitpick model checking have found no such contradiction; the system admits valid models.
