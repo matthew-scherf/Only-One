@@ -155,7 +155,7 @@ The burden of refutation is clear: produce a contradiction, find a countermodel,
 
 ## The Main Theorem
 
-The formalization culminates in a single theorem that proves everything:
+The formalization culminates in a single theorem:
 
 ```isabelle
 theorem Tat_Tvam_Asi_Ultimate:
