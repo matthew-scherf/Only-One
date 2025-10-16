@@ -21,11 +21,7 @@ This repository contains the complete formal axiomatization of Advaita Vedanta, 
 
 ## Status
 
-- All theorems verified  
-- Date: October 15, 2025  
-- Failed proofs: 0  
-- Build time: ~35 seconds  
-- Proof assistant: Isabelle/HOL 2025
+ All theorems verified on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025
 
 ---
 
