@@ -45,8 +45,6 @@ The only substantive path of refutation is philosophical, not formal: deny that 
 
 Each of these moves abandons Advaita rather than refutes it, and the alternative frameworks then carry their own contradictions (subject–object dualism, infinite regress of causes, the hard problem of consciousness, or dependence on unobservable external reality), which means axiom denial is philosophically coherent but amounts to adopting a different metaphysical system, not refuting this one.
 
-## Secondary Challenges
-
 ### 4. Challenge the Formalization Itself
 
 Objection: The formal system fails to capture authentic Advaita, or formalization inherently distorts non-dual realization. This would be a meta-refutation, not claiming the system is internally inconsistent, but that it's the wrong kind of system to capture this subject matter.
