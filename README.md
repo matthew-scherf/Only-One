@@ -97,7 +97,7 @@ Response:
 
 2. Different Purpose: The incompleteness theorems concern what can be proved within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
 
-3. Consistency is External: The consistency of this system is verified by the *existence* of valid models (found by Nitpick), not by internal proof. Gödel's limitation doesn't apply.
+3. Consistency is External: The consistency of this system is verified by the existence of valid models, not by internal proof. Gödel's limitation doesn't apply.
 
 Status: Gödel's theorems are inapplicable to this type of formal system.
 
