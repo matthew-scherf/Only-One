@@ -52,7 +52,7 @@ The consistency of this system is verified by the existence of valid models, not
 
 Objection: Different axiom sets could yield different but equally valid metaphysical systems—so why privilege these axioms?
 
-The axioms aren't arbitrary given the goal of formalizing Advaita. But, more deeply, axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience, they're derived from the structure of experience itself. Can you doubt that experience exists? No, doubt is experience Can you step outside awareness to examine it as an object? No, any examination occurs within awarenes. Can you find yourself anywhere in the phenomenal realm? No, everything phenomenal is witnessed by you, not identical with you
+The axioms aren't arbitrary given the goal of formalizing Advaita. But, more deeply, axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience, they're derived from the structure of experience itself. Can you doubt that experience exists? No, doubt is experience Can you step outside awareness to examine it as an object? No, any examination occurs within awarenes. Can you find yourself anywhere in the phenomenal realm? No, everything phenomenal is witnessed by you, not identical with you.
 
 The axioms reflect these structural necessities rather than arbitrary assumptions. Alternative axiom systems that deny these features (like strict materialism asserting consciousness derives from matter) face infinite regress and the hard problem of consciousness that this system avoids by making awareness fundamental.
 
@@ -82,7 +82,7 @@ Any logical system requires some foundation to be taken as given. Isabelle's HOL
 
 Objection: Could direct experience contradict the system? For instance, if someone genuinely experiences themselves as not awareness, or experiences awareness as derivative from matter?
 
-This objection is conceptually confused. The system claims you *are* awareness (A7a: You → Absolute), not that you always *recognize* this. The ego system (E1-E4) explains precisely why one seems to be a limited person. Misidentification doesn't refute identity. The question "can you experience not being awareness?" is like asking "can you see your own blindness?" The very experiencing of anything—including the experience of seeming to be non-aware—occurs in awareness. One cannot step outside awareness to verify its absence, any more than one can shine light on darkness to prove darkness exists independently of light's absence. The attempt to falsify awareness experientially uses awareness, making the attempt self-defeating.
+This objection is conceptually confused. The system claims you *are* awareness (A7a: You → Absolute), not that you always *recognize* this. The ego system (E1-E4) explains precisely why one seems to be a limited person. Misidentification doesn't refute identity. The question "can you experience not being awareness?" is like asking "can you see your own blindness?" The very experiencing of anything, including the experience of seeming to be non-aware, occurs in awareness. One cannot step outside awareness to verify its absence, any more than one can shine light on darkness to prove darkness exists independently of light's absence. The attempt to falsify awareness experientially uses awareness, making the attempt self-defeating.
 
 Experiential falsification is logically impossible for claims about awareness being fundamental.
 
@@ -153,7 +153,6 @@ theorem Tat_Tvam_Asi_Ultimate:
      - Is not the ego or any bodily sheath
      - Is not distinct from anything perceived"
 ```
-**VERIFIED by Isabelle/HOL**
 
 ---
 
@@ -166,16 +165,16 @@ Those with analytical minds don't have to accept Sanskrit terminology, Hindu cos
 ## Suggested Reading
 
 **For everyone:**
-- Read [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - Overview
+- [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - Overview
 
 **For academics:**
-- Read [`docs/master_paper.pdf`](docs/master_paper.pdf) - Complete exposition
+- [`docs/master_paper.pdf`](docs/master_paper.pdf) - Complete exposition
 
 **For logicians:**
-- Read [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
+- [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
 
 **For practitioners:**
-- Read [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) - How to verify in experience
+- [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) - How to verify in experience
 
 ### Verification
 
