@@ -51,44 +51,27 @@ Status: No countermodel found; the axioms logically entail the conclusions.
 
 ### 3. Refute an Axiom
 
-The only substantive path of refutation is philosophical, not formal: deny that one or more axioms correspond to reality. For example:
+The only substantive path of refutation is philosophical, not formal: deny that one or more axioms correspond to reality. For example: denying A2c (uniqueness of the Absolute) reintroduces dualism or pluralism, denying A7a (You → Absolute) collapses self-awareness into illusion or emergent property, denying V2 (the world as appearance) implies real transformation (*parināma*), contradicting the empirical continuity of awareness, and denying K2 (causation denial) commits to causal power existing in the phenomenal realm, creating infinite regress problems.
 
-* Denying A2c (uniqueness of the Absolute) reintroduces dualism or pluralism
-* Denying A7a (You → Absolute) collapses self-awareness into illusion or emergent property
-* Denying V2 (the world as appearance) implies real transformation (*parināma*), contradicting the empirical continuity of awareness
-* Denying K2 (causation denial) commits to causal power existing in the phenomenal realm, creating infinite regress problems
-
-Each of these moves abandons Advaita rather than refutes it; the alternative frameworks then carry their own contradictions (subject–object dualism, infinite regress of causes, the hard problem of consciousness, or dependence on unobservable external reality).
-
-Status: Axiom denial is philosophically coherent but amounts to adopting a different metaphysical system, not refuting this one.
+Each of these moves abandons Advaita rather than refutes it, and the alternative frameworks then carry their own contradictions (subject–object dualism, infinite regress of causes, the hard problem of consciousness, or dependence on unobservable external reality), which means axiom denial is philosophically coherent but amounts to adopting a different metaphysical system, not refuting this one.
 
 ## Secondary Challenges
 
 ### 4. Challenge the Formalization Itself
 
-Objection: The formal system fails to capture authentic Advaita, or formalization inherently distorts non-dual realization. This would be a *meta-refutation*—not claiming the system is internally inconsistent, but that it's the wrong kind of system to capture this subject matter.
+Objection: The formal system fails to capture authentic Advaita, or formalization inherently distorts non-dual realization. This would be a meta-refutation, not claiming the system is internally inconsistent, but that it's the wrong kind of system to capture this subject matter.
 
-Response: This objection has philosophical force, but two points matter:
+This objection has philosophical force, but truth claims are public, so if Advaita makes truth claims about the nature of reality, those claims must be examinable by reason, or are, otherwise, not claims, but merely personal expressions. The system doesn't claim to produce realization, rather it demonstrates logical consistency and derives consequences. The map isn't the territory, but an accurate map proves the territory isn't logically impossible to navigate, and formalization shows that non-dual metaphysics is at minimum logically coherent, removing it from the category of "incoherent mysticism."
 
-1. Truth Claims Are Public: If Advaita makes truth claims about the nature of reality, those claims must be examinable by reason—otherwise they're not claims but merely personal expressions. The system doesn't claim to produce realization; it demonstrates logical consistency and derives consequences.
-
-2. Maps and Territories: The map isn't the territory, but an accurate map proves the territory isn't logically impossible. Formalization shows that non-dual metaphysics is at minimum logically coherent, removing it from the category of "incoherent mysticism."
-
-Status: Valid philosophical concern about scope, but doesn't undermine the system's claims within its domain.
+It's a valid philosophical concern about scope that doesn't undermine the system's claims within its domain.
 
 ### 5. Exploit Incompleteness or Undecidability
 
 Objection: Invoke Gödel: perhaps the system is consistent but incomplete, unable to prove its own consistency, or subject to statements that are true but unprovable within it.
 
-Response: 
+Gödel's theorems apply to sufficiently powerful arithmetic systems. This system operates in higher-order logic (Isabelle/HOL) which is semantically complete, every valid formula is provable. The incompleteness theorems concern what can be proved within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
 
-1. Wrong Domain: Gödel's theorems apply to sufficiently powerful arithmetic systems. This system operates in higher-order logic (Isabelle/HOL) which is semantically complete, every valid formula is provable.
-
-2. Different Purpose: The incompleteness theorems concern what can be proved within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
-
-3. Consistency is External: The consistency of this system is verified by the existence of valid models, not by internal proof. Gödel's limitation doesn't apply.
-
-Status: Gödel's theorems are inapplicable to this type of formal system.
+The consistency of this system is verified by the existence of valid models, not by internal proof, meaning Gödel's limitation doesn't apply and that Gödel's theorems are inapplicable to this type of formal system.
 
 ### 6. Argue for Axiom Arbitrariness
 
