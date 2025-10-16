@@ -33,21 +33,11 @@ This formal system is intentionally structured to be self-consistent and closed:
 
 Show that the axioms, taken together, logically entail both a statement P and its negation ¬P. In Isabelle terms, this would mean deriving `False` from the axioms. So far, automated verification and Nitpick model checking have found no such contradiction; the system admits valid models.
 
-Status: No contradiction found after extensive automated checking.
-
 ### 2. Construct a Countermodel
 
-Provide an interpretation (a model of entities and predicates) in which all the axioms hold true but the main theorem `Tat_Tvam_Asi_Complete` is false. This would require a universe where:
+Provide an interpretation (a model of entities and predicates) in which all the axioms hold true but the main theorem `Tat_Tvam_Asi_Complete` is false. This would require a universe where there exists a unique "You", the "You" is Absolute, all axioms (A1–A8, S1–S6, V1–V4, G1–G3, K1–K3, E1–E4) are satisfied, but at least one of the theorem's conclusions (such as the nirguṇa clause, universal appearance relation, or causation denial) fails.
 
-* There exists a unique "You"
-* The "You" is Absolute
-* All axioms (A1–A8, S1–S6, V1–V4, G1–G3, K1–K3, E1–E4) are satisfied
-* But at least one of the theorem's conclusions—such as the nirguṇa clause, universal appearance relation, or causation denial—fails
-
-Nitpick has been run against the negation of the theorem under a wide range of finite models, and no countermodel exists within the search space. Because the system's axioms tightly constrain identity, grounding, and appearance, any model that satisfies them necessarily satisfies the theorem.
-
-Status: No countermodel found; the axioms logically entail the conclusions.
-
+Nitpick has been run against the negation of the theorem under a wide range of finite models, and no countermodel exists within the search space. Because the system's axioms tightly constrain identity, grounding, and appearance, any model that satisfies them necessarily satisfies the theorem. No countermodel has been found and the axioms logically entail the conclusions.
 
 ### 3. Refute an Axiom
 
@@ -61,7 +51,7 @@ Each of these moves abandons Advaita rather than refutes it, and the alternative
 
 Objection: The formal system fails to capture authentic Advaita, or formalization inherently distorts non-dual realization. This would be a meta-refutation, not claiming the system is internally inconsistent, but that it's the wrong kind of system to capture this subject matter.
 
-This objection has philosophical force, but truth claims are public, so if Advaita makes truth claims about the nature of reality, those claims must be examinable by reason, or are, otherwise, not claims, but merely personal expressions. The system doesn't claim to produce realization, rather it demonstrates logical consistency and derives consequences. The map isn't the territory, but an accurate map proves the territory isn't logically impossible to navigate, and formalization shows that non-dual metaphysics is at minimum logically coherent, removing it from the category of "incoherent mysticism."
+Truth claims are public, so if Advaita makes truth claims about the nature of reality, those claims must be examinable by reason, or are, otherwise, not claims, but merely personal expressions. The system doesn't claim to produce realization, rather it demonstrates logical consistency and derives consequences. The map isn't the territory, but an accurate map proves the territory isn't logically impossible to navigate, and formalization shows that non-dual metaphysics is at minimum logically coherent, removing it from the category of "incoherent mysticism."
 
 It's a valid philosophical concern about scope that doesn't undermine the system's claims within its domain.
 
@@ -77,7 +67,7 @@ The consistency of this system is verified by the existence of valid models, not
 
 Objection: Different axiom sets could yield different but equally valid metaphysical systems—so why privilege these axioms?
 
-Response: The axioms aren't arbitrary given the goal of formalizing Advaita. But more deeply: axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience—they're derived from the structure of experience itself.
+The axioms aren't arbitrary given the goal of formalizing Advaita. But, more deeply, axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience, they're derived from the structure of experience itself.
 
 Consider:
 * Can you doubt that experience exists? No, doubt is experience
@@ -86,39 +76,26 @@ Consider:
 
 The axioms reflect these structural necessities rather than arbitrary assumptions. Alternative axiom systems that deny these features (like strict materialism asserting consciousness derives from matter) face infinite regress and the hard problem of consciousness that this system avoids by making awareness fundamental.
 
-Status: Axioms are constrained by experiential structure and the goal of consistency, not arbitrarily chosen.
+The axioms are constrained by experiential structure and the goal of consistency, not arbitrarily chosen.
 
 ### 7. The Pragmatic Objection
 
 Objection: Even if formally consistent, the system has no practical consequences or fails to constrain experience—"so what?"
 
-Response: This misunderstands what the formalization achieves:
+This misunderstands what the formalization achieves, which is establishing coherence. It demonstrates that non-dual metaphysics is logically coherent, which matters because it removes non-duality from the category of "incoherent mysticism" and places it alongside other rigorous metaphysical systems that must be taken seriously.
 
-1. Establishing Coherence: It demonstrates that non-dual metaphysics is logically coherent, which matters because it removes non-duality from the category of "incoherent mysticism" and places it alongside other rigorous metaphysical systems that must be taken seriously.
+Also, the theorems do have implications. Causation denial (K3, ajātivāda) reframes responsibility, blame, and the nature of agency.Ego-fiction (E4) radically alters ethics and the problem of suffering. Universal identity (T5) provides a framework for understanding mystical experience and ethics
 
-2. Practical Implications: The theorems do have implications:
-   - Causation denial (K3, ajātivāda): If nothing really causes anything, this reframes responsibility, blame, and the nature of agency
-   - Ego-fiction (E4): If the personal self is an appearance, this radically alters ethics and the problem of suffering
-   - Universal identity (T5): If you are the Absolute, this provides a framework for understanding mystical experience and ethics
-
-3. Explanatory Power: The system explains features of experience that dualist systems struggle with (see "Empirical Compatibility" below).
-
-Status: The system has significant philosophical and practical implications, not mere abstract consistency.
+The system explains features of experience that dualist systems struggle with and has significant philosophical and practical implications, not mere abstract consistency.
 
 
 ### 8. The Verification Paradox
 
 Objection: How do we verify that Isabelle itself is correct? Doesn't this push the problem back one level?
 
-Response: This is a fair concern about all formal verification, but:
+This is a fair concern about all formal verification, but Isabelle's core logic and proof kernel have been extensively verified, peer-reviewed, and used in critical systems (including verified operating systems like seL4 and cryptographic protocols). The trust is based on decades of mathematical scrutiny and practical deployment of higher-order logic (HOL). If we can't trust HOL, we can't trust mathematical proof in general, which becomes a skepticism about reason itself, not about this particular system.
 
-1. Extensive Vetting: Isabelle's core logic and proof kernel have been extensively verified, peer-reviewed, and used in critical systems (including verified operating systems like seL4 and cryptographic protocols).
-
-2. Mathematical Foundation: The trust isn't blind—it's based on decades of mathematical scrutiny and practical deployment of higher-order logic (HOL). If we can't trust HOL, we can't trust mathematical proof in general, which becomes a skepticism about reason itself, not about this particular system.
-
-3. Relative Certainty: Any logical system requires some foundation to be taken as given. Isabelle's HOL is among the most rigorously analyzed foundations available. The question "but how do we know logic is true?" applies to all reasoning, not uniquely to this system.
-
-Status: Standard concern about foundations; this system is no worse off than any other formal verification, and substantially better than informal philosophical arguments.
+Any logical system requires some foundation to be taken as given. Isabelle's HOL is among the most rigorously analyzed foundations available. The question "but how do we know logic is true?" applies to all reasoning, not uniquely to this system. This system is no worse off than any other formal verification, and substantially better than informal philosophical arguments.
 
 
 ### 9. Experiential Falsification
