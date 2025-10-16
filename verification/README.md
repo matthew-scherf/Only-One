@@ -97,8 +97,6 @@ isabelle build -d . -v Advaita
 isabelle jedit -d . -l HOL theory/Advaita_Vedanta.thy
 ```
 
-### What to Look For
-
 **Command Line:**
 - Should say "Finished" with timestamp
 - Should NOT say "FAILED" anywhere
@@ -129,8 +127,6 @@ isabelle jedit -d . -l HOL theory/Advaita_Vedanta.thy
 - File may have been corrupted
 - Re-clone from GitHub
 - Check you're using Isabelle 2025 (not older version)
-
-## Verification Details
 
 ### Proof Assistant Used
 **Isabelle/HOL 2025**
