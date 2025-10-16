@@ -24,7 +24,7 @@ Show that the axioms, taken together, logically entail both a statement P and it
 
 Provide an interpretation (a model of entities and predicates) in which all the axioms hold true but the main theorem `Tat_Tvam_Asi_Complete` is false. This would require a universe where there exists a unique "You", the "You" is Absolute, all axioms (A1–A8, S1–S6, V1–V4, G1–G3, K1–K3, E1–E4) are satisfied, but at least one of the theorem's conclusions (such as the nirguṇa clause, universal appearance relation, or causation denial) fails.
 
-Nitpick has been run against the negation of the theorem under a wide range of finite models, and no countermodel exists within the search space. Because the system's axioms tightly constrain identity, grounding, and appearance, any model that satisfies them necessarily satisfies the theorem. No countermodel has been found and the axioms logically entail the conclusions.
+Because the system's axioms tightly constrain identity, grounding, and appearance, any model that satisfies them necessarily satisfies the theorem. No countermodel has been found and the axioms logically entail the conclusions.
 
 ### 3. Refute an Axiom
 
