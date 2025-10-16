@@ -58,7 +58,7 @@ The axioms reflect these structural necessities rather than arbitrary assumption
 
 The axioms are constrained by experiential structure and the goal of consistency, not arbitrarily chosen.
 
-### 7. The Pragmatic Objection
+### 7. Pragmatic Objections
 
 Objection: Even if formally consistent, the system has no practical consequences or fails to constrain experience.
 
@@ -69,7 +69,7 @@ Also, the theorems do have implications. Causation denial (K3, ajātivāda) refr
 The system explains features of experience that dualist systems struggle with and has significant philosophical and practical implications, not mere abstract consistency.
 
 
-### 8. The Verification Paradox
+### 8. Verification Paradox
 
 Objection: How do we verify that Isabelle itself is correct?
 
