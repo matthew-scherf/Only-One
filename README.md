@@ -558,21 +558,7 @@ See [LICENSE.txt](LICENSE.txt) for details.
 
 ## The Bottom Line
 
-We formalized this ancient teaching in modern logic and a machine verified it's coherent.
-
-The question now is not "Does this work logically?" (Yes, verified.)
-
-The question is: "Is it true in your direct experience?"
-
-Only you can answer that.
-
----
-
-∃!u [Y(u) ∧ A(u)]
-
-*There is exactly one You, and You are the Absolute.*
-
-Verified. Permanent. True.
+We formalized this ancient teaching in modern logic and a machine verified it's coherent.  The question now is not "Does this work logically?" (Yes, verified.) The question is: "Is it true in your direct experience?"  Only you can answer that.
 
 ---
 
@@ -584,6 +570,10 @@ Verified. Permanent. True.
 
 ---
 
-*Machine-verified October 15, 2025*
+∃!u [Y(u) ∧ A(u)]
 
-*Made with 🕉️ in Australia*
+*There is exactly one You, and You are the Absolute.*
+
+Verified. Permanent. True.
+
+---
