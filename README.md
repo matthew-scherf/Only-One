@@ -27,8 +27,6 @@ This repository contains the complete formal axiomatization of Advaita Vedanta, 
 
 This formal system is intentionally structured to be self-consistent and closed: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory. Nevertheless, in principle, the theory could be refuted in one of the following ways.
 
----
-
 ## Primary Paths to Refutation
 
 ### 1. Demonstrate an Internal Contradiction
@@ -36,8 +34,6 @@ This formal system is intentionally structured to be self-consistent and closed:
 Show that the axioms, taken together, logically entail both a statement P and its negation ¬P. In Isabelle terms, this would mean deriving `False` from the axioms. So far, automated verification and Nitpick model checking have found no such contradiction; the system admits valid models.
 
 Status: No contradiction found after extensive automated checking.
-
----
 
 ### 2. Construct a Countermodel
 
@@ -52,7 +48,6 @@ Nitpick has been run against the negation of the theorem under a wide range of f
 
 Status: No countermodel found; the axioms logically entail the conclusions.
 
----
 
 ### 3. Refute an Axiom
 
@@ -66,8 +61,6 @@ The only substantive path of refutation is philosophical, not formal: deny that 
 Each of these moves abandons Advaita rather than refutes it; the alternative frameworks then carry their own contradictions (subject–object dualism, infinite regress of causes, the hard problem of consciousness, or dependence on unobservable external reality).
 
 Status: Axiom denial is philosophically coherent but amounts to adopting a different metaphysical system, not refuting this one.
-
----
 
 ## Secondary Challenges
 
@@ -83,8 +76,6 @@ Response: This objection has philosophical force, but two points matter:
 
 Status: Valid philosophical concern about scope, but doesn't undermine the system's claims within its domain.
 
----
-
 ### 5. Exploit Incompleteness or Undecidability
 
 Objection: Invoke Gödel: perhaps the system is consistent but incomplete, unable to prove its own consistency, or subject to statements that are true but unprovable within it.
@@ -98,8 +89,6 @@ Response:
 3. Consistency is External: The consistency of this system is verified by the existence of valid models, not by internal proof. Gödel's limitation doesn't apply.
 
 Status: Gödel's theorems are inapplicable to this type of formal system.
-
----
 
 ### 6. Argue for Axiom Arbitrariness
 
@@ -115,8 +104,6 @@ Consider:
 The axioms reflect these structural necessities rather than arbitrary assumptions. Alternative axiom systems that deny these features (like strict materialism asserting consciousness derives from matter) face infinite regress and the hard problem of consciousness that this system avoids by making awareness fundamental.
 
 Status: Axioms are constrained by experiential structure and the goal of consistency, not arbitrarily chosen.
-
----
 
 ### 7. The Pragmatic Objection
 
@@ -135,7 +122,6 @@ Response: This misunderstands what the formalization achieves:
 
 Status: The system has significant philosophical and practical implications, not mere abstract consistency.
 
----
 
 ### 8. The Verification Paradox
 
@@ -151,7 +137,6 @@ Response: This is a fair concern about all formal verification, but:
 
 Status: Standard concern about foundations; this system is no worse off than any other formal verification, and substantially better than informal philosophical arguments.
 
----
 
 ### 9. Experiential Falsification
 
@@ -167,7 +152,6 @@ Response: This objection is conceptually confused:
 
 Status: Experiential falsification is logically impossible for claims about awareness being fundamental.
 
----
 
 ### 10. Dismiss Based on Cultural Origin
 
@@ -177,7 +161,6 @@ Response: This would be pure prejudice. The system is verified in the same logic
 
 Status: Invalid objection based on genetic fallacy.
 
----
 
 ## Why Refutation Is Unlikely
 
@@ -206,7 +189,6 @@ Nothing in the system contradicts observable experience, only the unwarranted as
 ### The Unique Epistemic Status of Self-Evidence
 Unlike empirical theories (which can be falsified by observation) or contingent logical systems (which can be replaced by alternatives), this system makes claims about the preconditions of any possible knowledge. To refute it requires using the very awareness and existence it describes as fundamental. This isn't circular reasoning, it's recognition that some truths are epistemically prior to their own proof.
 
----
 
 ## Conclusion
 Refutation would require either:
