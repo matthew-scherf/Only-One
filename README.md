@@ -164,23 +164,11 @@ theorem Tat_Tvam_Asi_Ultimate:
 
 ## Importance
 
-### For Analytical Minds
-You don't have to accept Sanskrit terminology, Hindu cosmology, or guru authority. Here's the logical structure of non-dual realization, verified to be consistent.
-
-### For Spiritual Seekers
-The formalization removes cultural baggage and shows what Advaita actually claims at its core. Use this as a map, then verify in direct experience.
-
-### For Philosophers
-This demonstrates that ancient "mystical" teachings can engage with modern formal methods. It opens the door for precise comparison with Western systems (Spinoza, Berkeley, Kant).
-
-### For Everyone
-This is an invitation: The logic says this is coherent. Now, can you verify it in your own experience?
+Those with analytical minds don't have to accept Sanskrit terminology, Hindu cosmology, or guru authority. Here's the logical structure of non-dual realization, verified to be consistent. The formalization removes cultural baggage for Spiritual Seekersand shows what Advaita actually claims at its core.  Seekers can use this as a map, then verify in direct experience. For Philosophers, this demonstrates that ancient "mystical" teachings can engage with modern formal methods. It opens the door for precise comparison with Western systems (Spinoza, Berkeley, Kant).
 
 ---
 
 ## Suggested Reading
-
-### See the Proof
 
 **For everyone:**
 - Read [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - Overview
