@@ -78,23 +78,10 @@ Visual confirmation that key theorems passed verification (green checkmarks in I
 
 All screenshots show **green highlighting** = verified by Isabelle.
 
-## What Does Verification Mean?
-
 ### What We Verified
 - **Logical consistency**: The axioms don't contradict each other
 - **Theorem validity**: Each theorem necessarily follows from the axioms
 - **Proof correctness**: Each proof step is valid in higher-order logic
-
-### What We Didn't Verify
-- **Truth of axioms**: Whether the axioms correspond to reality
-- **Empirical claims**: We didn't test these ideas scientifically
-- **Metaphysical truth**: Logic can't prove what exists, only what's consistent
-
-### Why It Matters
-- **Eliminates human error**: Humans miss logical gaps; machines don't
-- **Reproducible**: Anyone can re-run and get same results
-- **Precise**: Every assumption is explicit in the axioms
-- **Permanent**: Once verified, stays verified
 
 ## Reproducing the Verification
 
@@ -206,24 +193,6 @@ sha256sum theory/Advaita_Vedanta.thy
 
 Expected hash: b2870d7395f2fb3aa07569b6646962aba5e6c3bff031eb6c38a089fc960cbd94
 
-## Questions
-
-**Q: Could there be a bug in Isabelle?**
-A: Possible but extremely unlikely. Isabelle has been audited and used for critical systems for 30+ years. The proofs are checked algorithmically, not heuristically.
-
-**Q: What if I don't trust automated verification?**
-A: You can read the proofs manually. Every proof is explicit in the .thy file. The automation just saves time - humans could verify each step.
-
-**Q: Can this verification be faked?**
-A: No. Anyone can re-run it. The proof checking is deterministic. If it verifies on one machine with Isabelle 2025, it verifies on all machines.
-
-**Q: Why does this matter for philosophy?**
-A: It removes doubt about logical coherence. The question shifts from "Does this work logically?" (answered: yes) to "Do the axioms match reality?" (requires experience to check).
-
-**Q: Does this prove Advaita is true?**
-A: No. It proves Advaita is *logically consistent*. Whether it's *true* requires verification in direct experience, which formal logic cannot do.
-
-## Contact
 
 Found an issue with verification? 
 - Open a GitHub issue
@@ -237,7 +206,3 @@ Found an issue with verification?
 **Status: All theorems pass automated verification**
 
 **Reproducible: Yes**
-
-*"Check for yourself." - Traditional instruction*
-
-*Machine-verified October 15, 2025.*

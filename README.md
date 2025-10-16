@@ -173,7 +173,6 @@ Those with analytical minds don't have to accept Sanskrit terminology, Hindu cos
 
 **For logicians:**
 - Read [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
-- Read [`docs/logic_and_methodology.pdf`](docs/logic_and_methodology.pdf) -  - Logic and Methodology 
 
 **For practitioners:**
 - Read [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) - How to verify in experience

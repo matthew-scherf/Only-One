@@ -72,78 +72,6 @@ This directory contains all human-readable documentation for the formalization.
 
 ---
 
-## Status
-
-| Document | Status | Last Updated |
-|----------|--------|--------------|
-| master_paper.pdf |  In Progress | - |
-| executive_summary.pdf |  In Progress | - |
-| technical_reference.pdf |  In Progress | - |
-| experiential_guide.pdf |  In Progress | - |
-| verification_guide.pdf |  In Progress | - |
-
-
-## Building from Source
-
-LaTeX sources are included for all documents:
-
-```bash
-cd docs
-
-# Build specific document
-pdflatex master_paper.tex
-bibtex master_paper
-pdflatex master_paper.tex
-pdflatex master_paper.tex
-
-# Or use the build script
-../scripts/build_docs.sh
-```
-
-## Document Design Philosophy
-
-### Accessibility Without Dumbing Down
-- Use clear language
-- Explain technical terms
-- Provide examples
-- But maintain rigor - no hand-waving
-
-### Multiple Entry Points
-- Not everyone needs the same depth
-- Provide clear signposting
-- Link between documents
-
-### Transmission Over Achievement
-- Focus: helping people realize truth
-- Not: showing off complexity
-- Goal: reader understands and can verify
-
-### Honesty About Limits
-- We formalized the structure
-- We didn't prove it's "true" of reality
-- We showed it's logically consistent
-- Verification requires direct experience
-
-## Planned Additions (Future)
-
-- **FAQ.pdf** - Common questions answered
-- **Comparison with Buddhism.pdf** - Formal comparison with Madhyamaka
-- **Comparison with Western Philosophy.pdf** - Berkeley, Spinoza, etc.
-- **Applications to Consciousness Science.pdf** - IIT, GWT, etc.
-
-## Contributing
-
-If you find errors, unclear explanations, or have suggestions:
-1. Open an issue on GitHub
-2. Describe the problem
-3. Suggest improvement
-
-We especially welcome:
-- Clarity improvements
-- Better explanations
-- Additional examples
-- Translations to other languages
-
 ## Citation
 
 When citing this work, refer to the master paper:
@@ -155,17 +83,3 @@ Machine-Verified Non-Dual Metaphysics. [Master paper with full details]
 
 Or cite the specific document if relevant.
 
-## Languages
-
-Currently available in:
-- English
-
-Translations welcome! Contact via GitHub if interested in translating.
-
----
-
-*Documentation is a pointer, not the destination.*
-
-*The formalization shows the structure.*
-
-*Direct experience shows the truth.*

@@ -6,7 +6,6 @@ This directory contains the complete, machine-verified formalization of Advaita 
 
 **`Advaita_Vedanta.thy`** - The master formalization (Isabelle/HOL)
 
-## What's Inside
 
 ### Structure
 - **Lines 1-100**: Type declarations, predicates, definitions
@@ -14,7 +13,6 @@ This directory contains the complete, machine-verified formalization of Advaita 
 - **Lines 251-500**: Proven theorems (30+ theorems)
 - **Lines 501-600**: Ultimate theorem with complete proof
 
-### Content Summary
 
 **Core Metaphysics** (9 axioms)
 - Unique Absolute exists
@@ -30,7 +28,7 @@ This directory contains the complete, machine-verified formalization of Advaita 
 6. Consciousness & Witnessing (4 axioms) - awareness as fundamental
 7. Ontological Monism (7 axioms) - only one reality exists
 
-## The Ultimate Result
+## Result
 
 ```isabelle
 theorem Tat_Tvam_Asi_Ultimate:
@@ -86,16 +84,16 @@ If you see "Finished" with no "FAILED", all 30+ theorems are verified.
 
 ## Reading Guide
 
-### For Philosophers
+### Philosophers
 Start at line 1, read linearly. The axioms build the metaphysical structure, theorems prove the consequences.
 
-### For Logicians  
+### Logicians  
 Jump to axioms (lines 101-250), then to proof tactics (lines 251+). All proofs use standard HOL tactics (`blast`, `metis`, `simp`).
 
-### For Skeptics
+### Skeptics
 Go to `/verification/` - see the build log and screenshots proving every theorem passes automated verification.
 
-### For Practitioners
+### Practitioners
 Read the axioms, then see `/docs/experiential_guide.pdf` for how this maps to direct experience.
 
 ## Key Theorems
@@ -139,18 +137,5 @@ See repository root `CITATION.cff` or cite:
 ```
 Scherf, M. (2025). Complete Formal Axiomatization of Advaita Vedanta:
 Machine-Verified Non-Dual Metaphysics. Isabelle/HOL formalization.
-DOI: [Zenodo DOI]
+DOI: [![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
 ```
-
-## Questions?
-
-- **Is this really verified?** Yes. See `/verification/`
-- **Can I trust Isabelle?** It's used for verified OS kernels, cryptography, hardware. Isabelle doesn't "believe" proofs - it checks them algorithmically.
-- **What if there's a bug?** The axioms are explicit. You can examine them and decide if they capture Advaita correctly. The theorems follow necessarily from the axioms.
-- **Why formalize spirituality?** To remove cultural baggage and show the logical structure clearly. This makes it accessible to analytical minds and preserves the teaching precisely.
-
----
-
-*"You are That." - Chāndogya Upaniṣad 6.8.7*
-
-*Machine-verified October 15, 2025.*
