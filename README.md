@@ -171,7 +171,7 @@ theorem Tat_Tvam_Asi_Ultimate:
      - Is not the ego or any bodily sheath
      - Is not distinct from anything perceived"
 ```
-**Status:  VERIFIED by Isabelle/HOL**
+**VERIFIED by Isabelle/HOL**
 
 ---
 
@@ -316,7 +316,7 @@ The formal system distinguishes the apparent subject (ego) from the true subject
 
 This is superimposition (adhyāsa—mistaking one thing for another), like mistaking the rope for a snake. The ego is the rope-snake of selfhood, apparently real, functionally operative in the phenomenal world, but ultimately unreal.
 
-## **The Complete Picture**
+## **Advaita**
 
 Put all these pieces together and you have the full Advaita vision. Reality is a single, absolute consciousness, call it Brahman, call it pure existence/awareness. This doesn't change, isn't born, doesn't die, has no qualities, exists nowhere and nowhen because it transcends space and time entirely.
 
@@ -354,17 +354,17 @@ Each directory has its own README with details.
 3. Machine checks every proof step
 4. No hand-waving or intuition - pure deduction
 
-### What's Verified
+### Verified
 - Logical consistency (axioms don't contradict)
 - Theorem validity - (theorems follow necessarily from axioms)
 - Proof correctness - (every step is valid in higher-order logic)
 
-### What's Not Verified
+### Not Verified
 - Truth of axioms (whether they match reality)
 - Empirical claims (we didn't do experiments)
 - Metaphysical truth (logic can't prove what exists, only what's consistent)
 
-### Why Trust It?
+### Trust
 - Isabelle/HOL is used for verified operating systems, compilers, cryptography
 - Reproducible (anyone can re-run and verify)
 - Explicit (all assumptions are in the axioms, nothing hidden)
@@ -471,7 +471,7 @@ See [LICENSE.txt](LICENSE.txt) for details.
 
 ## The Bottom Line
 
-We formalized this ancient teaching in modern logic and a machine verified it's coherent.  The question now is not "Does this work logically?" (Yes, verified.) The question is: "Is it true in your direct experience?"  Only you can answer that.
+We formalized this ancient teaching in modern logic and a machine verified it's coherent.  The question now is not "Does this work logically?" (yes, verified), the question is "Is it true in your direct experience?", and only you can answer that.
 
 ---
 
