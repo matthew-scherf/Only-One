@@ -173,12 +173,6 @@ sha256sum theory/Advaita_Vedanta.thy
 
 Expected hash: b2870d7395f2fb3aa07569b6646962aba5e6c3bff031eb6c38a089fc960cbd94
 
-
-Found an issue with verification? 
-- Open a GitHub issue
-- Include your OS, Isabelle version, and error message
-- We'll investigate
-
 ---
 
 **Verified: October 15, 2025**
