@@ -271,7 +271,7 @@ This is an invitation: The logic says this is coherent. Now, can you verify it i
 
 ---
 
-## Quick Start
+## Suggested Reading
 
 ### See the Proof
 
@@ -291,7 +291,7 @@ This is an invitation: The logic says this is coherent. Now, can you verify it i
 **For practitioners:**
 - Read [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) - How to verify in experience
 
-### Verify It Yourself
+### Verification
 
 ```bash
 # 1. Install Isabelle 2025
@@ -311,7 +311,7 @@ See [`verification/`](verification/) for proof that all theorems verify.
 
 ---
 
-## What's Formalized
+## Contents
 
 ### Core Metaphysics (9 axioms)
 The foundation: Unique Absolute exists, everything else is conditioned, subject = Absolute
@@ -515,29 +515,8 @@ See `CITATION.cff` or cite as:
 - Demonstrates value of non-Western intellectual traditions
 - Creates common ground for cross-cultural dialogue
 - Shows tradition and modernity can integrate
-
 ---
-
-## For Skeptics
-
-**Q: Does this prove Advaita is true?**  
-A: No. It proves Advaita is *logically consistent*. Whether it's true requires checking in experience.
-
-**Q: Isn't this just playing with symbols?**  
-A: The axioms make precise claims. You can examine them and decide if they match your experience.
-
-**Q: Why formalize spirituality?**  
-A: To remove cultural baggage and show the structure clearly. Makes it accessible to people who need logic before they'll look experientially.
-
-**Q: What if there's a bug in Isabelle?**  
-A: Possible but unlikely. Isabelle is used for mission-critical systems. The proofs are algorithmic, not heuristic. And you can check the proofs manually.
-
-**Q: Doesn't formalization kill the mystery?**  
-A: No. It maps the structure, not the experience. You still have to look directly. But now you know what you're looking for.
-
----
-
-## Get Involved
+## Involvement
 
 ### Use It
 - Read the papers
