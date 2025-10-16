@@ -19,8 +19,6 @@ This repository contains the complete formal axiomatization of Advaita Vedanta, 
 - Space and time are unreal (they are conditioned appearances)
 - Subject and object are non-different (non-duality of perception)
 
-## Status
-
  All theorems verified on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025
 
 ---
