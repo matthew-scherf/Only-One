@@ -12,11 +12,11 @@ This repository contains the complete formal axiomatization of Advaita Vedanta, 
 
 ---
 
-# Refutation
+## Refutation
 
 This formal system is intentionally structured to be self-consistent and closed: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory. Nevertheless, in principle, the theory could be refuted in one of the following ways.
 
-## Primary Paths to Refutation
+### Paths to Refutation
 
 ### 1. Demonstrate an Internal Contradiction
 
