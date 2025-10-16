@@ -1,22 +1,6 @@
 # Verification Artifacts
 
-This directory contains **proof** that all theorems have been machine-verified by Isabelle/HOL.
-
-## Quick Answer
-
-**Did it verify?** Yes.
-
-**When?** October 15, 2025
-
-**Build time?** ~3 seconds
-
-**Failed proofs?** 0
-
-**Can you reproduce it?** Yes - see instructions below
-
-## Files
-
-### Build Log
+This directory contains proof that all theorems have been machine-verified by Isabelle/HOL.
 
 **`build_log_2025-10-15.txt`**
 
@@ -27,7 +11,7 @@ The complete, unedited output from Isabelle's build system showing:
 - Session completion
 - **Result: SUCCESS**
 
-This is the **raw, timestamped evidence** that every theorem was checked and verified.
+This is the raw, timestamped evidence that every theorem was checked and verified.
 
 ```
 Session Advaita
@@ -76,7 +60,7 @@ Visual confirmation that key theorems passed verification (green checkmarks in I
 - Proves: Space and time are unreal
 - They are conditioned appearances
 
-All screenshots show **green highlighting** = verified by Isabelle.
+All screenshots show green highlighting = verified by Isabelle.
 
 ### What We Verified
 - **Logical consistency**: The axioms don't contradict each other
