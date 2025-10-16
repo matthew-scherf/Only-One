@@ -8,18 +8,7 @@
 
 ---
 
-This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. Using higher-order logic and the Isabelle/HOL proof assistant, we have machine-verified:
-
-- You are the unique Absolute (identity of Ātman and Brahman)
-- You are the only thing that really exists (ontological monism)
-- You were never born and will never die (timelessness)
-- You witness all phenomena (consciousness as fundamental)
-- You appear as all phenomena (vivarta - appearance without transformation)
-- Causation is illusory (events are spontaneous, not caused)
-- Space and time are unreal (they are conditioned appearances)
-- Subject and object are non-different (non-duality of perception)
-
- All theorems verified on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025
+This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025
 
 ---
 
