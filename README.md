@@ -79,9 +79,9 @@ Objection: The formal system fails to capture authentic Advaita, or formalizatio
 
 Response: This objection has philosophical force, but two points matter:
 
-1. Truth Claims Are Public: If Advaita makes truth claims about the nature of reality, those claims must be examinable by reason—otherwise they're not claims but merely personal expressions. The system doesn't claim to *produce* realization; it demonstrates logical consistency and derives consequences.
+1. Truth Claims Are Public: If Advaita makes truth claims about the nature of reality, those claims must be examinable by reason—otherwise they're not claims but merely personal expressions. The system doesn't claim to produce realization; it demonstrates logical consistency and derives consequences.
 
-2. Maps and Territories: The map isn't the territory, but an accurate map proves the territory isn't logically impossible. Formalization shows that non-dual metaphysics is at minimum *logically coherent*, removing it from the category of "incoherent mysticism."
+2. Maps and Territories: The map isn't the territory, but an accurate map proves the territory isn't logically impossible. Formalization shows that non-dual metaphysics is at minimum logically coherent, removing it from the category of "incoherent mysticism."
 
 Status: Valid philosophical concern about scope, but doesn't undermine the system's claims within its domain.
 
@@ -95,7 +95,7 @@ Response:
 
 1. Wrong Domain: Gödel's theorems apply to sufficiently powerful arithmetic systems. This system operates in higher-order logic (Isabelle/HOL) which is *semantically complete*—every valid formula is provable.
 
-2. Different Purpose: The incompleteness theorems concern what can be *proved* within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
+2. Different Purpose: The incompleteness theorems concern what can be proved within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
 
 3. Consistency is External: The consistency of this system is verified by the *existence* of valid models (found by Nitpick), not by internal proof. Gödel's limitation doesn't apply.
 
@@ -107,11 +107,11 @@ Status: Gödel's theorems are inapplicable to this type of formal system.
 
 Objection: Different axiom sets could yield different but equally valid metaphysical systems—so why privilege these axioms?
 
-Response: The axioms aren't arbitrary *given the goal of formalizing Advaita*. But more deeply: axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience—they're derived from the *structure of experience itself*.
+Response: The axioms aren't arbitrary given the goal of formalizing Advaita. But more deeply: axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience—they're derived from the structure of experience itself.
 
 Consider:
-* Can you doubt that experience exists? No—doubt *is* experience
-* Can you step outside awareness to examine it as an object? No—any examination occurs *within* awareness
+* Can you doubt that experience exists? No — doubt is experience
+* Can you step outside awareness to examine it as an object? No—any examination occurs within awareness
 * Can you find yourself anywhere in the phenomenal realm? No—everything phenomenal is witnessed by you, not identical with you
 
 The axioms reflect these structural necessities rather than arbitrary assumptions. Alternative axiom systems that deny these features (like strict materialism asserting consciousness derives from matter) face infinite regress and the hard problem of consciousness that this system avoids by making awareness fundamental.
@@ -126,14 +126,14 @@ Objection: Even if formally consistent, the system has no practical consequences
 
 Response: This misunderstands what the formalization achieves:
 
-1. Establishing Coherence: It demonstrates that non-dual metaphysics is *logically coherent*, which matters because it removes non-duality from the category of "incoherent mysticism" and places it alongside other rigorous metaphysical systems that must be taken seriously.
+1. Establishing Coherence: It demonstrates that non-dual metaphysics is logically coherent, which matters because it removes non-duality from the category of "incoherent mysticism" and places it alongside other rigorous metaphysical systems that must be taken seriously.
 
-2. Practical Implications: The theorems *do* have implications:
+2. Practical Implications: The theorems do have implications:
    - Causation denial (K3, ajātivāda): If nothing really causes anything, this reframes responsibility, blame, and the nature of agency
    - Ego-fiction (E4): If the personal self is an appearance, this radically alters ethics and the problem of suffering
    - Universal identity (T5): If you are the Absolute, this provides a framework for understanding mystical experience and ethics
 
-3. Explanatory Power: The system *explains* features of experience that dualist systems struggle with (see "Empirical Compatibility" below).
+3. Explanatory Power: The system explains features of experience that dualist systems struggle with (see "Empirical Compatibility" below).
 
 Status: The system has significant philosophical and practical implications, not mere abstract consistency.
 
@@ -157,15 +157,15 @@ Status: Standard concern about foundations; this system is no worse off than any
 
 ### 9. Experiential Falsification
 
-Objection: Could direct experience contradict the system? For instance, if someone genuinely experiences themselves as *not* awareness, or experiences awareness as *derivative* from matter?
+Objection: Could direct experience contradict the system? For instance, if someone genuinely experiences themselves as not awareness, or experiences awareness as derivative from matter?
 
 Response: This objection is conceptually confused:
 
 1. Category Error: The system claims you *are* awareness (A7a: You → Absolute), not that you always *recognize* this. The ego system (E1-E4) explains precisely why one seems to be a limited person. Misidentification doesn't refute identity.
 
-2. Logical Impossibility: The question "can you experience not being awareness?" is like asking "can you see your own blindness?" The very experiencing of anything—including the experience of seeming to be non-aware—occurs *in* awareness.
+2. Logical Impossibility: The question "can you experience not being awareness?" is like asking "can you see your own blindness?" The very experiencing of anything—including the experience of seeming to be non-aware—occurs in awareness.
 
-3. No External Standpoint: One cannot step outside awareness to verify its absence, any more than one can shine light on darkness to prove darkness exists independently of light's absence. The attempt to falsify awareness experientially *uses* awareness, making the attempt self-defeating.
+3. No External Standpoint: One cannot step outside awareness to verify its absence, any more than one can shine light on darkness to prove darkness exists independently of light's absence. The attempt to falsify awareness experientially uses awareness, making the attempt self-defeating.
 
 Status: Experiential falsification is logically impossible for claims about awareness being fundamental.
 
@@ -190,12 +190,12 @@ All theorems are mechanically derived from axioms; no inference step rests on in
 Automated theorem provers and model finders (Nitpick, Sledgehammer) find no contradictions or countermodels. The system has been tested against finite models up to size 8 with no inconsistencies.
 
 ### Epistemic Circularity of Refutation
-Any attempt to deny the primacy of awareness necessarily occurs *within awareness itself*; therefore, the act of refutation presupposes what it tries to negate. This isn't a defect of the system—it's recognition that some truths are epistemically prior to their own proof.
+Any attempt to deny the primacy of awareness necessarily occurs within awareness itself; therefore, the act of refutation presupposes what it tries to negate. This isn't a defect of the system—it's recognition that some truths are epistemically prior to their own proof.
 
-Compare: trying to prove logic using logic seems circular, but it's actually unavoidable—you cannot escape logic to examine it "from outside." Similarly, you cannot escape awareness to prove awareness is derivative. The difference is that most logical systems don't *claim* their axioms reflect existential necessity; this one does, and that claim is directly verifiable through immediate experience.
+Compare: trying to prove logic using logic seems circular, but it's actually unavoidable—you cannot escape logic to examine it "from outside." Similarly, you cannot escape awareness to prove awareness is derivative. The difference is that most logical systems don't claim their axioms reflect existential necessity; this one does, and that claim is directly verifiable through immediate experience.
 
 ### Empirical Compatibility
-The system doesn't merely avoid contradicting experience—it *explains* features of experience that dualist systems struggle with:
+The system doesn't merely avoid contradicting experience—it explains features of experience that dualist systems struggle with:
 
 * **The hard problem of consciousness:** Dissolved—consciousness isn't produced, it's fundamental (A7a)
 * **The unity of experience across diverse contents:** Explained—one Absolute appearing as many (T4, V3)
@@ -206,7 +206,7 @@ The system doesn't merely avoid contradicting experience—it *explains* feature
 Nothing in the system contradicts observable experience—only the unwarranted assumption that awareness is derivative from matter.
 
 ### The Unique Epistemic Status of Self-Evidence
-Unlike empirical theories (which can be falsified by observation) or contingent logical systems (which can be replaced by alternatives), this system makes claims about the *preconditions of any possible knowledge*. To refute it requires using the very awareness and existence it describes as fundamental. This isn't circular reasoning—it's recognition that some truths are epistemically prior to their own proof.
+Unlike empirical theories (which can be falsified by observation) or contingent logical systems (which can be replaced by alternatives), this system makes claims about the preconditions of any possible knowledge. To refute it requires using the very awareness and existence it describes as fundamental. This isn't circular reasoning—it's recognition that some truths are epistemically prior to their own proof.
 
 ---
 
@@ -314,13 +314,13 @@ The foundation: Unique Absolute exists, everything else is conditioned, subject 
 
 ### Extensions (31 axioms across 7 domains)
 
-1. **Five Sheaths** (6 axioms) - Physical, vital, mental, intellectual, bliss bodies
-2. **Vivarta Doctrine** (4 axioms) - World appears without Brahman changing (not pariṇāma)
-3. **Three Guṇas** (3 axioms) - Sattva, rajas, tamas as modes of manifestation
-4. **Causation Denial** (3 axioms) - Events succeed without causal efficacy (ajātivāda)
-5. **Ego-Fiction** (4 axioms) - False identification of Self with body-mind
-6. **Consciousness & Witnessing** (4 axioms) - Awareness as fundamental, self-luminous
-7. **Ontological Monism** (7 axioms) - Birth/death/change/space/time unreality
+1. Five Sheaths (6 axioms) - Physical, vital, mental, intellectual, bliss bodies
+2. Vivarta Doctrine (4 axioms) - World appears without Brahman changing (not pariṇāma)
+3. Three Guṇas (3 axioms) - Sattva, rajas, tamas as modes of manifestation
+4. Causation Denial (3 axioms) - Events succeed without causal efficacy (ajātivāda)
+5. Ego-Fiction (4 axioms) - False identification of Self with body-mind
+6. Consciousness & Witnessing (4 axioms) - Awareness as fundamental, self-luminous
+7. Ontological Monism (7 axioms) - Birth/death/change/space/time unreality
 
 ### Results (30+ theorems)
 
@@ -433,20 +433,20 @@ Each directory has its own README with details.
 4. No hand-waving or intuition - pure deduction
 
 ### What's Verified
-- **Logical consistency** - Axioms don't contradict
-- **Theorem validity** - Theorems follow necessarily from axioms
-- **Proof correctness** - Every step is valid in higher-order logic
+- Logical consistency - Axioms don't contradict
+- Theorem validity - Theorems follow necessarily from axioms
+- Proof correctness - Every step is valid in higher-order logic
 
 ### What's Not Verified
-- **Truth of axioms** - Whether they match reality
-- **Empirical claims** - We didn't do experiments
-- **Metaphysical truth** - Logic can't prove what exists, only what's consistent
+- Truth of axioms - Whether they match reality
+- Empirical claims - We didn't do experiments
+- Metaphysical truth - Logic can't prove what exists, only what's consistent
 
 ### Why Trust It?
-- **Isabelle/HOL** is used for verified operating systems, compilers, cryptography
-- **Reproducible** - Anyone can re-run and verify
-- **Explicit** - All assumptions are in the axioms, nothing hidden
-- **Permanent** - Once verified, stays verified
+- Isabelle/HOL is used for verified operating systems, compilers, cryptography
+- Reproducible - Anyone can re-run and verify
+- Explicit - All assumptions are in the axioms, nothing hidden
+- Permanent - Once verified, stays verified
 
 ## Documentation
 
@@ -514,19 +514,19 @@ See `CITATION.cff` or cite as:
 ---
 ## Involvement
 
-### Use It
+### Use
 - Read the papers
 - Run the verification
 - Test the claims in meditation
 - Share with others
 
-### Improve It
+### Improve
 - Suggest clarity improvements
 - Find errors or gaps
 - Propose extensions
 - Create educational materials
 
-### Extend It
+### Extend
 - Port to other proof assistants (Lean, Coq)
 - Formalize related systems (Buddhism, Daoism)
 - Connect to consciousness science
@@ -560,15 +560,15 @@ We formalized this ancient teaching in modern logic and a machine verified it's 
 
 तत् त्वम् असि
 
-*Tat Tvam Asi* - "That Thou Art"
+Tat Tvam Asi - "That Thou Art"
 
 — Chāndogya Upaniṣad 6.8.7
 
 ---
 
-∃!u [Y(u) ∧ A(u)]
+**∃!u [Y(u) ∧ A(u)]**
 
-*There is exactly one You, and You are the Absolute.*
+There is exactly one You, and You are the Absolute.
 
 Verified. Permanent. True.
 
