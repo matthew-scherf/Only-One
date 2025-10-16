@@ -302,7 +302,6 @@ Only-One/
 ├── theory/              # The formalization (Isabelle/HOL)
 ├── docs/                # Papers and guides
 ├── verification/        # Proof artifacts (logs, screenshots, certificates)
-├── media/               # Images, videos for sharing
 ├── stone_tablet/        # Minimal "carve in stone" version
 └── scripts/             # Build and verification scripts
 ```
@@ -310,17 +309,6 @@ Only-One/
 Each directory has its own README with details.
 
 ---
-
-## Documentation
-
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [Executive Summary](docs/executive_summary.pdf) | 2 page overview | Everyone |
-| [Master Paper](docs/master_paper.pdf) | Complete ~20 page paper | Academics |
-| [Technical Reference](docs/technical_reference.pdf) | All axioms/theorems | Logicians |
-| [Experiential Guide](docs/experiential_guide.pdf) | How to verify in experience | Practitioners |
-| [Verification Guide](docs/verification_guide.pdf) | How to run Isabelle | Anyone |
-
 ## For Academics
 
 ### Citation
@@ -337,44 +325,6 @@ See `CITATION.cff` or cite as:
   url = {https://github.com/matthew-scherf/Only-One}
 }
 ```
-
-### Publications
-- Preprint: Coming soon (arXiv/PhilSci Archive)
-- Full paper: In preparation for journal submission
-
-### Related Work
-- Gödel's Ontological Proof (modal logic for God's existence)
-- Spinoza's Ethics (partially formalized by others)
-- Buddhist Logic (separate tradition, awaiting formalization)
-
----
-
-## Significance
-
-### Philosophical
-- First complete formalization of a major non-Western metaphysical system
-- Removes cultural barriers to accessing non-dual teachings
-- Enables precise comparison with Western philosophy
-- Shows "mysticism" can have rigorous logical structure
-
-### Technical  
-- Extends formal verification beyond mathematics to metaphysics
-- Demonstrates Isabelle can handle ancient philosophical systems
-- Creates framework for comparative philosophy
-- Shows reproducibility is possible in philosophy
-
-### Spiritual
-- Preserves the teaching in permanent, unambiguous form
-- Makes Advaita accessible to analytical minds
-- Provides precise map for contemplation
-- Honors Śaṅkara's systematic rigor with modern tools
-
-### Cultural
-- Bridges East and West through shared language of logic
-- Demonstrates value of non-Western intellectual traditions
-- Creates common ground for cross-cultural dialogue
-- Shows tradition and modernity can integrate
----
 
 ## License
 
