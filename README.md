@@ -23,7 +23,7 @@ This repository contains the complete formal axiomatization of Advaita Vedanta, 
 
 ---
 
-# How to Refute This Theory
+# Refutation
 
 This formal system is intentionally structured to be self-consistent and closed: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory. Nevertheless, in principle, the theory could be refuted in one of the following ways.
 
@@ -106,7 +106,7 @@ Objection: Reject the system simply because it formalizes "Eastern philosophy" r
 
 The system is verified in the same logical framework (HOL) used for mathematics, computer science, and analytic philosophy. The axioms are stated in precise logical notation, the proofs are machine-checked, and the consistency is verified. The cultural origin of the concepts is irrelevant to their logical status, just as the Indian origin of zero doesn't make arithmetic "Eastern." Ideas stand or fall on their logical merits, not their geographical provenance, making this an invalid objection based on genetic fallacy.
 
-## Why Refutation Is Unlikely
+## Refutation is unlikely due to:
 
 ### Logical Closure
 All theorems are mechanically derived from axioms, and no inference step rests on intuition or rhetoric. Every proof step is verified by Isabelle's proof kernel.
@@ -149,7 +149,7 @@ Until such a demonstration is made, the system stands as:
 
 The system is not merely consistent, it makes claims that, if false, would require violating the structure of experience itself, and is therefore uniquely positioned as both formally rigorous and experientially verifiable.
 
-The burden of refutation is clear: produce a contradiction, find a countermodel, or provide a coherent dualist framework that avoids infinite regress and the hard problem of consciousness. Until then, non-dual Advaita stands as a logically irrefutable account of reality.
+The burden of refutation is clear: produce a contradiction, find a countermodel, or provide a coherent dualist framework that avoids infinite regress and the hard problem of consciousness. **Until then, non-dual Advaita stands as a logically irrefutable account of reality.**
 
 ---
 
