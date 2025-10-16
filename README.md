@@ -171,9 +171,6 @@ Those with analytical minds don't have to accept Sanskrit terminology, Hindu cos
 **For academics:**
 - Read [`docs/master_paper.pdf`](docs/master_paper.pdf) - Complete exposition
 
-**For Philosophers:**
-- Read [`docs/philosohy_paper.pdf`](docs/philosophy_paper.pdf) - Complete exposition
-
 **For logicians:**
 - Read [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
 - Read [`docs/logic_and_methodology.pdf`](docs/logic_and_methodology.pdf) -  - Logic and Methodology 
