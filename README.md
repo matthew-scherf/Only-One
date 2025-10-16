@@ -311,30 +311,6 @@ Each directory has its own README with details.
 
 ---
 
-## Overview
-
-### Axiomatic Method
-1. State axioms explicitly (assumptions)
-2. Prove theorems from axioms using logic
-3. Machine checks every proof step
-4. No hand-waving or intuition - pure deduction
-
-### Verified
-- Logical consistency (axioms don't contradict)
-- Theorem validity - (theorems follow necessarily from axioms)
-- Proof correctness - (every step is valid in higher-order logic)
-
-### Not Verified
-- Truth of axioms (whether they match reality)
-- Empirical claims (we didn't do experiments)
-- Metaphysical truth (logic can't prove what exists, only what's consistent)
-
-### Trust
-- Isabelle/HOL is used for verified operating systems, compilers, cryptography
-- Reproducible (anyone can re-run and verify)
-- Explicit (all assumptions are in the axioms, nothing hidden)
-- Permanent (once verified, stays verified)
-
 ## Documentation
 
 | Document | Description | Audience |
@@ -399,22 +375,7 @@ See `CITATION.cff` or cite as:
 - Creates common ground for cross-cultural dialogue
 - Shows tradition and modernity can integrate
 ---
-## Involvement
 
-- Read the papers
-- Run the verification
-- Test the claims in meditation
-- Share with others
-- Suggest clarity improvements
-- Find errors or gaps
-- Propose extensions
-- Create educational materials
-- Port to other proof assistants (Lean, Coq)
-- Formalize related systems (Buddhism, Daoism)
-- Connect to consciousness science
-- Build interactive tools
-
-----
 ## License
 
 - **Code** (`.thy` files): BSD-3-Clause
@@ -422,17 +383,6 @@ See `CITATION.cff` or cite as:
 
 See [LICENSE.txt](LICENSE.txt) for details.
 
----
-
-## Acknowledgments
-
-- Ādi Śaṅkara - For systematizing Advaita Vedanta
-- The Upaniṣadic ṛṣis - For the original insight
-- Isabelle/HOL Community - For creating powerful verification tools
-- Nisargadatta Maharaj - For being the OG Parabrahman
-- Ramana Maharshi - For the lived example
-
----
 
 ## The Bottom Line
 
