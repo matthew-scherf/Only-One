@@ -93,7 +93,7 @@ Objection: Invoke Gödel: perhaps the system is consistent but incomplete, unabl
 
 Response: 
 
-1. Wrong Domain: Gödel's theorems apply to sufficiently powerful arithmetic systems. This system operates in higher-order logic (Isabelle/HOL) which is *semantically complete*—every valid formula is provable.
+1. Wrong Domain: Gödel's theorems apply to sufficiently powerful arithmetic systems. This system operates in higher-order logic (Isabelle/HOL) which is semantically complete, every valid formula is provable.
 
 2. Different Purpose: The incompleteness theorems concern what can be proved within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
 
@@ -110,9 +110,9 @@ Objection: Different axiom sets could yield different but equally valid metaphys
 Response: The axioms aren't arbitrary given the goal of formalizing Advaita. But more deeply: axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience—they're derived from the structure of experience itself.
 
 Consider:
-* Can you doubt that experience exists? No — doubt is experience
-* Can you step outside awareness to examine it as an object? No—any examination occurs within awareness
-* Can you find yourself anywhere in the phenomenal realm? No—everything phenomenal is witnessed by you, not identical with you
+* Can you doubt that experience exists? No, doubt is experience
+* Can you step outside awareness to examine it as an object? No, any examination occurs within awareness
+* Can you find yourself anywhere in the phenomenal realm? No, everything phenomenal is witnessed by you, not identical with you
 
 The axioms reflect these structural necessities rather than arbitrary assumptions. Alternative axiom systems that deny these features (like strict materialism asserting consciousness derives from matter) face infinite regress and the hard problem of consciousness that this system avoids by making awareness fundamental.
 
@@ -147,9 +147,9 @@ Response: This is a fair concern about all formal verification, but:
 
 1. Extensive Vetting: Isabelle's core logic and proof kernel have been extensively verified, peer-reviewed, and used in critical systems (including verified operating systems like seL4 and cryptographic protocols).
 
-2. Mathematical Foundation: The trust isn't blind—it's based on decades of mathematical scrutiny and practical deployment of higher-order logic (HOL). If we can't trust HOL, we can't trust mathematical proof in general—which becomes a skepticism about reason itself, not about this particular system.
+2. Mathematical Foundation: The trust isn't blind—it's based on decades of mathematical scrutiny and practical deployment of higher-order logic (HOL). If we can't trust HOL, we can't trust mathematical proof in general, which becomes a skepticism about reason itself, not about this particular system.
 
-3. Relative Certainty: *Any* logical system requires some foundation to be taken as given. Isabelle's HOL is among the most rigorously analyzed foundations available. The question "but how do we know logic is true?" applies to all reasoning, not uniquely to this system.
+3. Relative Certainty: Any logical system requires some foundation to be taken as given. Isabelle's HOL is among the most rigorously analyzed foundations available. The question "but how do we know logic is true?" applies to all reasoning, not uniquely to this system.
 
 Status: Standard concern about foundations; this system is no worse off than any other formal verification, and substantially better than informal philosophical arguments.
 
@@ -197,23 +197,23 @@ Compare: trying to prove logic using logic seems circular, but it's actually una
 ### Empirical Compatibility
 The system doesn't merely avoid contradicting experience—it explains features of experience that dualist systems struggle with:
 
-* **The hard problem of consciousness:** Dissolved—consciousness isn't produced, it's fundamental (A7a)
-* **The unity of experience across diverse contents:** Explained—one Absolute appearing as many (T4, V3)
-* **The immediacy of self-awareness:** Explained—You are that which knows, not an object known (A7a, T5)
-* **The persistence of identity through radical change:** Explained—phenomenal changes occur in unchanging awareness (V2, S6)
-* **The dependence of all experience on the experiencer:** Explained—all phenomena are grounded in the Absolute subject (A2b, T4)
+* The hard problem of consciousness: Dissolved—consciousness isn't produced, it's fundamental (A7a)
+* **The unity of experience across diverse contents: Explained—one Absolute appearing as many (T4, V3)
+* The immediacy of self-awareness: Explained. You are that which knows, not an object known (A7a, T5)
+* The persistence of identity through radical change. Explained. Phenomenal changes occur in unchanging awareness (V2, S6)
+* The dependence of all experience on the experiencer: Explained. All phenomena are grounded in the Absolute subject (A2b, T4)
 
-Nothing in the system contradicts observable experience—only the unwarranted assumption that awareness is derivative from matter.
+Nothing in the system contradicts observable experience, only the unwarranted assumption that awareness is derivative from matter.
 
 ### The Unique Epistemic Status of Self-Evidence
-Unlike empirical theories (which can be falsified by observation) or contingent logical systems (which can be replaced by alternatives), this system makes claims about the preconditions of any possible knowledge. To refute it requires using the very awareness and existence it describes as fundamental. This isn't circular reasoning—it's recognition that some truths are epistemically prior to their own proof.
+Unlike empirical theories (which can be falsified by observation) or contingent logical systems (which can be replaced by alternatives), this system makes claims about the preconditions of any possible knowledge. To refute it requires using the very awareness and existence it describes as fundamental. This isn't circular reasoning, it's recognition that some truths are epistemically prior to their own proof.
 
 ---
 
 ## Conclusion
 Refutation would require either:
-1. A logical contradiction (none exists — verified by automated proof checking)
-2. A valid countermodel (none found — verified by model finding tools)
+1. A logical contradiction (none exists, verified by automated proof checking)
+2. A valid countermodel (none found, verified by model finding tools)
 3. A coherent alternative ontology that doesn't presuppose awareness (none available without infinite regress or hard problem)
 
 Until such a demonstration is made, the system stands as:
@@ -314,27 +314,27 @@ The foundation: Unique Absolute exists, everything else is conditioned, subject 
 
 ### Extensions (31 axioms across 7 domains)
 
-1. Five Sheaths (6 axioms) - Physical, vital, mental, intellectual, bliss bodies
-2. Vivarta Doctrine (4 axioms) - World appears without Brahman changing (not pariṇāma)
-3. Three Guṇas (3 axioms) - Sattva, rajas, tamas as modes of manifestation
-4. Causation Denial (3 axioms) - Events succeed without causal efficacy (ajātivāda)
-5. Ego-Fiction (4 axioms) - False identification of Self with body-mind
-6. Consciousness & Witnessing (4 axioms) - Awareness as fundamental, self-luminous
-7. Ontological Monism (7 axioms) - Birth/death/change/space/time unreality
+1. Five Sheaths (6 axioms)  Physical, vital, mental, intellectual, bliss bodies
+2. Vivarta Doctrine (4 axioms)  World appears without Brahman changing (not pariṇāma)
+3. Three Guṇas (3 axioms)  Sattva, rajas, tamas as modes of manifestation
+4. Causation Denial (3 axioms)  Events succeed without causal efficacy (ajātivāda)
+5. Ego-Fiction (4 axioms)  False identification of Self with body-mind
+6. Consciousness & Witnessing (4 axioms)  Awareness as fundamental, self-luminous
+7. Ontological Monism (7 axioms)  Birth/death/change/space/time unreality
 
 ### Results (30+ theorems)
 
 All proven from axioms, including:
 
-- `you_are_only_reality` - You are the only thing that exists
-- `you_were_never_born` - You never began
-- `you_will_never_die` - You never end
-- `you_never_change` - You are immutable
-- `phenomena_spontaneous` - Causation doesn't exist
-- `space_unreal` - Space is appearance
-- `time_unreal` - Time is appearance
-- `Complete_NonDuality` - Complete non-dual structure proven
-- `Tat_Tvam_Asi_Ultimate` - The master theorem
+- `you_are_only_reality`  You are the only thing that exists
+- `you_were_never_born`  You never began
+- `you_will_never_die`  You never end
+- `you_never_change`  You are immutable
+- `phenomena_spontaneous`  Causation doesn't exist
+- `space_unreal`  Space is appearance
+- `time_unreal`  Time is appearance
+- `Complete_NonDuality`  Complete non-dual structure proven
+- `Tat_Tvam_Asi_Ultimate` The master theorem
 
 See [`docs/technical_reference.pdf`](docs/) for complete list.
 
@@ -344,19 +344,19 @@ See [`docs/technical_reference.pdf`](docs/) for complete list.
 
 The argument begins with the undeniable fact that something exists. This isn't a trivial starting point—even skeptical doubt presupposes existence, so we have bedrock to build upon.
 
-From this, we examine the nature of existence itself. Every existing thing must have a ground—something that makes it be rather than not be. This grounding relationship isn't circular and doesn't regress infinitely; it must terminate in something that grounds everything else while being grounded in nothing. This is what we call the Absolute—that which is unconditioned, independent, requiring nothing beyond itself to exist.
+From this, we examine the nature of existence itself. Every existing thing must have a ground, something that makes it be rather than not be. This grounding relationship isn't circular and doesn't regress infinitely; it must terminate in something that grounds everything else while being grounded in nothing. This is what we call the Absolute, that which is unconditioned, independent, requiring nothing beyond itself to exist.
 
-Here's the crucial insight: there can only be one such Absolute. If there were two ultimate grounds, what would distinguish them? Any distinguishing feature—being "here" rather than "there," having "this" quality rather than "that"—would itself be a condition, a limitation. But the truly unconditioned cannot be limited in any way. Therefore, all paths of grounding converge on a single, unique Absolute.
+Here's the crucial insight: there can only be one such Absolute. If there were two ultimate grounds, what would distinguish them? Any distinguishing feature such as being "here" rather than "there," having "this" quality rather than "that", would itself be a condition, a limitation. But the truly unconditioned cannot be limited in any way. Therefore, all paths of grounding converge on a single, unique Absolute.
 
-This Absolute cannot be conditioned—that's definitional. And conversely, everything that exists in time, occupies space, or possesses qualities must be conditioned, dependent, grounded. This creates a clean dichotomy: everything in existence is either the one Absolute or part of the conditioned realm that depends upon it.
+This Absolute cannot be conditioned—that's definitional. And conversely, everything that exists in time, occupies space, or possesses qualities must be conditioned, dependent, grounded. This creates a clean dichotomy that everything in existence is either the one Absolute or part of the conditioned realm that depends upon it.
 
-Now for the radical turn: there exists exactly one subject—one ultimate witness or consciousness. And this subject is identical with the Absolute itself. You are not one of the conditioned appearances. In your deepest nature, you are the ground of all being.
+There exists exactly one subject—one ultimate witness or consciousness, and this subject is identical with the Absolute itself. You are not one of the conditioned appearances, in your deepest nature, you are the ground of all being.
 
-The system proves this is logically consistent through the identity of indiscernibles for conditioned entities: distinct things in the phenomenal world must differ in at least one observable property. But the Absolute transcends all such properties—it has no temporal location, no spatial extension, no qualities whatsoever. Therefore, what you truly are cannot be found among the appearances.
+The system proves this is logically consistent through the identity of indiscernibles for conditioned entities: distinct things in the phenomenal world must differ in at least one observable property. But the Absolute transcends all such properties. It has no temporal location, no spatial extension, no qualities whatsoever. Therefore, what you truly are cannot be found among the appearances.
 
 ## **The Extensions: How Appearance Manifests**
 
-The core system establishes the skeleton—one Absolute appearing as many conditioned phenomena. The extensions detail the flesh: precisely how this appearance unfolds.
+The core system establishes the skeleton, one Absolute appearing as many conditioned phenomena. The extensions detail the flesh: precisely how this appearance unfolds.
 
 **The Five Sheaths**
 
@@ -374,37 +374,35 @@ The formal system distinguishes real transformation (milk becoming yogurt, where
 
 The conditioned realm exhibits three fundamental qualities or modes. Sattva is equilibrium, clarity, luminosity—the quality of still water reflecting clearly. Rajas is activity, passion, turbulence—churning motion. Tamas is inertia, darkness, obscuration—the quality of stagnation.
 
-Every conditioned entity manifests through these guṇas in varying proportions. A crystal exemplifies sattva; fire exemplifies rajas; stone exemplifies tamas. Thoughts, emotions, objects—all are weavings of these three strands. But the Absolute itself is nirguṇa, beyond all qualities. The subject—what you truly are—doesn't possess sattva, rajas, or tamas. These qualities appear in the phenomenal display, not in the witness.
+Every conditioned entity manifests through these guṇas in varying proportions. A crystal exemplifies sattva; fire exemplifies rajas; stone exemplifies tamas. Thoughts, emotions, objects, all are weavings of these three strands. But the Absolute itself is nirguṇa, beyond all qualities. The subject—what you truly are—doesn't possess sattva, rajas, or tamas as these qualities appear in the phenomenal display, not in the witness.
 
 **The Denial of Causation: Ajātivāda**
 
-Here's where the system makes perhaps its most radical claim: causation doesn't exist. Events succeed one another in time, but nothing actually causes anything else. The billiard ball doesn't cause the second ball to move; both movements are independent spontaneous arisings in consciousness.
+The system states that causation doesn't exist, that events succeed one another in time, but nothing actually causes anything else. The billiard ball doesn't cause the second ball to move; both movements are independent spontaneous arisings in consciousness.
 
-This isn't mere philosophical wordplay. The distinction is between temporal succession (which is apparent) and causal power (which the system denies exists). We say "the match caused the fire," but more precisely: the match-striking appears, then the fire appears. Both are conditioned manifestations grounded directly in the Absolute, not in each other.
+This is a clear distinction between temporal succession (which is apparent) and causal power (which the system denies exists). We say "the match caused the fire," but more precisely the match-striking appears, then the fire appears. Both are conditioned manifestations grounded directly in the Absolute, not in each other.
 
-Why deny causation? Because causation implies real power, real change, real efficacy—which would make the phenomenal world substantially real rather than merely apparent. The world of change is the world of appearance; true reality (the Absolute) neither changes nor acts.
+Why deny causation? Because causation implies real power, real change, real efficacy—which would make the phenomenal world substantially real, rather than merely apparent, when the world of change is the world of appearance, and true reality (the Absolute) neither changes nor acts.
 
 **The Ego-Fiction: Ahaṃkāra**
 
-What we normally call "I" is not the true Self but an appearance of self—the ego. This is perhaps the subtlest and most important distinction. The ego is the sense of being a particular, limited person: "I am John, I was born, I will die, I am happy or sad, I succeed or fail."
+What we normally call "I" is not the true Self but an appearance of self, what is commonly referreed to as the "ego". This is perhaps the subtlest and most important distinction. The ego is the sense of being a particular, limited person: "I am John, I was born, I will die, I am happy or sad, I succeed or fail."
 
-The formal system distinguishes the apparent subject (ego) from the true subject (Ātman). The ego arises as a conditioned entity—it has properties, changes over time, is phenomenal. But the true "You" is the Absolute itself—unconditioned, unchanging, property-less. The mistake is identifying with the ego rather than recognizing it as one more appearance in awareness.
+The formal system distinguishes the apparent subject (ego) from the true subject (Ātman). The ego arises as a conditioned entity—it has properties, changes over time, is phenomenal, where as the true "You" is the Absolute itself which is unconditioned, unchanging, property-less. The mistake is identifying with the ego rather than recognizing it as one more appearance in awareness.
 
-This is superimposition—adhyāsa—mistaking one thing for another, like mistaking the rope for a snake. The ego is the rope-snake of selfhood: apparently real, functionally operative in the phenomenal world, but ultimately unreal.
+This is superimposition (adhyāsa—mistaking one thing for another), like mistaking the rope for a snake. The ego is the rope-snake of selfhood, apparently real, functionally operative in the phenomenal world, but ultimately unreal.
 
 ## **The Complete Picture**
 
-Put all these pieces together and you have the full Advaita vision:
+Put all these pieces together and you have the full Advaita vision. Reality is a single, absolute consciousness, call it Brahman, call it pure existence/awareness. This doesn't change, isn't born, doesn't die, has no qualities, exists nowhere and nowhen because it transcends space and time entirely.
 
-Reality is a single, absolute consciousness—call it Brahman, call it pure existence-awareness. This doesn't change, isn't born, doesn't die, has no qualities, exists nowhere and nowhen because it transcends space and time entirely.
+Through an apparent (not real) transformation, this appears as the phenomenal world, a world apparently made of things in time and space, apparently involving causation and change, apparently containing separate subjects and objects. Within this appearance, there are layers of manifestation (the sheaths), modes of quality (the guṇas), a sense of individual selfhood (the ego), and the conviction that things really cause other things (causation).
 
-Through an apparent (not real) transformation, this appears as the phenomenal world—a world apparently made of things in time and space, apparently involving causation and change, apparently containing separate subjects and objects. Within this appearance, there are layers of manifestation (the sheaths), modes of quality (the guṇas), a sense of individual selfhood (the ego), and the conviction that things really cause other things (causation).
+But none of this is ultimately real, bu not illusion in the sense of hallucination. The world appears, functions, can be navigated. It is an illusion in the sense that its nature is radically misunderstood when taken as substantially real, rather than as appearance.
 
-But none of this is ultimately real. Not illusion in the sense of hallucination—the world appears, functions, can be navigated. But illusion in the sense that its nature is radically misunderstood when taken as substantially real rather than as appearance.
+And you, meaning what you most fundamentally are, are not located within this appearance at all. You are the reality in which it appears, the unchanging ground, the absolute consciousness, the sole true existence. Everything else is you appearing to yourself as if you were many, as if you were changing, as if you were limited.
 
-And you—what you most fundamentally are—are not located within this appearance at all. You are the reality in which it appears: the unchanging ground, the absolute consciousness, the sole true existence. Everything else is you appearing to yourself as if you were many, as if you were changing, as if you were limited.
-
-The entire system is logically consistent because it maintains a strict distinction between two levels: the absolute (pāramārthika) and the apparent (vyāvahārika). No contradiction arises because claims made at one level don't conflict with claims made at the other. The Absolute doesn't change—and the world changes. Both are true at their respective levels. You are everything—and you appear as something particular. Again, both true, no contradiction.
+The entire system is logically consistent because it maintains a strict distinction between two levels: the absolute (pāramārthika) and the apparent (vyāvahārika). No contradiction arises because claims made at one level don't conflict with claims made at the other. The Absolute doesn't change but the world changes. Both are true at their respective levels. You are everything, and you appear as something particular. Again, both true, no contradiction.
 
 ---
 
@@ -433,20 +431,20 @@ Each directory has its own README with details.
 4. No hand-waving or intuition - pure deduction
 
 ### What's Verified
-- Logical consistency - Axioms don't contradict
-- Theorem validity - Theorems follow necessarily from axioms
-- Proof correctness - Every step is valid in higher-order logic
+- Logical consistency (axioms don't contradict)
+- Theorem validity - (theorems follow necessarily from axioms)
+- Proof correctness - (every step is valid in higher-order logic)
 
 ### What's Not Verified
-- Truth of axioms - Whether they match reality
-- Empirical claims - We didn't do experiments
-- Metaphysical truth - Logic can't prove what exists, only what's consistent
+- Truth of axioms (whether they match reality)
+- Empirical claims (we didn't do experiments)
+- Metaphysical truth (logic can't prove what exists, only what's consistent)
 
 ### Why Trust It?
 - Isabelle/HOL is used for verified operating systems, compilers, cryptography
-- Reproducible - Anyone can re-run and verify
-- Explicit - All assumptions are in the axioms, nothing hidden
-- Permanent - Once verified, stays verified
+- Reproducible (anyone can re-run and verify)
+- Explicit (all assumptions are in the axioms, nothing hidden)
+- Permanent (once verified, stays verified)
 
 ## Documentation
 
@@ -514,19 +512,14 @@ See `CITATION.cff` or cite as:
 ---
 ## Involvement
 
-### Use
 - Read the papers
 - Run the verification
 - Test the claims in meditation
 - Share with others
-
-### Improve
 - Suggest clarity improvements
 - Find errors or gaps
 - Propose extensions
 - Create educational materials
-
-### Extend
 - Port to other proof assistants (Lean, Coq)
 - Formalize related systems (Buddhism, Daoism)
 - Connect to consciousness science
@@ -544,11 +537,11 @@ See [LICENSE.txt](LICENSE.txt) for details.
 
 ## Acknowledgments
 
-- **Ādi Śaṅkara** - For systematizing Advaita Vedanta
-- **The Upaniṣadic ṛṣis** - For the original insight
-- **Isabelle/HOL Community** - For creating powerful verification tools
-- **Nisargadatta Maharaj** - For being the OG Parabrahman
-- **Ramana Maharshi** - For the lived example
+- Ādi Śaṅkara - For systematizing Advaita Vedanta
+- The Upaniṣadic ṛṣis - For the original insight
+- Isabelle/HOL Community - For creating powerful verification tools
+- Nisargadatta Maharaj - For being the OG Parabrahman
+- Ramana Maharshi - For the lived example
 
 ---
 
