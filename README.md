@@ -233,12 +233,7 @@ The burden of refutation is clear: produce a contradiction, find a countermodel,
 
 ---
 
-*Last Updated: October 2025*  
-*System Version: Complete Extended (9 core axioms + 21 extension axioms)*  
-*Verification Status: ✅ All theorems verified in Isabelle/HOL*
-
-
-## The Ultimate Theorem
+## The Main Theorem
 
 The formalization culminates in a single theorem that proves everything:
 
