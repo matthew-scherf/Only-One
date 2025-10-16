@@ -127,16 +127,11 @@ Refutation would require either:
 2. A valid countermodel (none found, verified by model finding tools)
 3. A coherent alternative ontology that doesn't presuppose awareness (none available without infinite regress or hard problem)
 
-Until such a demonstration is made, the system stands as:
-* Formally sound (no internal contradictions)
-* Logically complete within its domain (all theorems derive from axioms)
-* Empirically adequate (explains experience without contradiction)
-* Epistemically privileged (self-evidence of awareness makes external refutation impossible)
-* Philosophically robust (addresses and resolves classical problems in metaphysics)
+Until such a demonstration is made, the system stands as formally sound (no internal contradictions), logically complete within its domain (all theorems derive from axioms), empirically adequate (explains experience without contradiction), epistemically privileged (self-evidence of awareness makes external refutation impossible) and philosophically robust (addresses and resolves classical problems in metaphysics)
 
-The system is not merely consistent, it makes claims that, if false, would require violating the structure of experience itself, and is therefore uniquely positioned as both formally rigorous and experientially verifiable.
+The system is not merely consistent, it makes claims that, if false, would require violating the structure of experience itself, and is therefore uniquely positioned as both formally rigorous and experientially verifiable. The burden of refutation is clear: produce a contradiction, find a countermodel, or provide a coherent dualist framework that avoids infinite regress and the hard problem of consciousness. 
 
-The burden of refutation is clear: produce a contradiction, find a countermodel, or provide a coherent dualist framework that avoids infinite regress and the hard problem of consciousness. **Until then, non-dual Advaita stands as a logically irrefutable account of reality.**
+**Until then, non-dual Advaita stands as a logically irrefutable account of reality.**
 
 ---
 
