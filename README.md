@@ -164,17 +164,17 @@ Those with analytical minds don't have to accept Sanskrit terminology, Hindu cos
 
 ## Suggested Reading
 
-**For everyone:**
-- [`docs/executive_summary.pdf`](docs/executive_summary.pdf) - Overview
+**everyone:**
+- [`docs/executive_summary.pdf`](docs/executive_summary.pdf)
 
-**For academics:**
-- [`docs/master_paper.pdf`](docs/master_paper.pdf) - Complete exposition
+**academics:**
+- [`docs/master_paper.pdf`](docs/master_paper.pdf) 
 
-**For logicians:**
-- [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) - The formalization itself
+**logicians:**
+- [`theory/Advaita_Vedanta.thy`](theory/Advaita_Vedanta.thy) 
 
-**For practitioners:**
-- [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) - How to verify in experience
+**practitioners:**
+- [`docs/experiential_guide.pdf`](docs/experiential_guide.pdf) 
 
 ### Verification
 
