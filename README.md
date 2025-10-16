@@ -55,7 +55,7 @@ It's a valid philosophical concern about scope that doesn't undermine the system
 
 ### 5. Exploit Incompleteness or Undecidability
 
-Objection: Invoke Gödel: perhaps the system is consistent but incomplete, unable to prove its own consistency, or subject to statements that are true but unprovable within it.
+Objection: Invoke Gödel, saying perhaps the system is consistent but incomplete, unable to prove its own consistency, or subject to statements that are true but unprovable within it.
 
 Gödel's theorems apply to sufficiently powerful arithmetic systems. This system operates in higher-order logic (Isabelle/HOL) which is semantically complete, every valid formula is provable. The incompleteness theorems concern what can be proved within a system about arithmetic truths, not what is logically consistent or what admits valid models. The system makes no claims about proving all mathematical truths; it makes specific metaphysical claims that follow from its axioms.
 
