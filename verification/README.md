@@ -32,37 +32,9 @@ A formal statement certifying:
 - Who verified it (automated proof checker)
 - Hash of the theory file
 
-### Screenshots
 
-Visual confirmation that key theorems passed verification (green checkmarks in Isabelle/jEdit):
 
-**`tat_tvam_asi_ultimate.png`**
-- The master theorem combining all results
-- Proves: You are the only reality, unborn, undying, witnessing all
-
-**`complete_nonduality.png`**
-- Proves complete non-duality theorem
-- Establishes consciousness as fundamental
-
-**`you_are_only_reality.png`**
-- Proves: You are the only thing that really exists
-- Everything else is appearance
-
-**`you_were_never_born.png`**
-- Proves: You were never born and will never die
-- Timelessness established
-
-**`causation_denial.png`**
-- Proves: Causation doesn't exist
-- All events are spontaneous
-
-**`space_time_unreal.png`**
-- Proves: Space and time are unreal
-- They are conditioned appearances
-
-All screenshots show green highlighting = verified by Isabelle.
-
-### What We Verified
+### We Have Verified
 - **Logical consistency**: The axioms don't contradict each other
 - **Theorem validity**: Each theorem necessarily follows from the axioms
 - **Proof correctness**: Each proof step is valid in higher-order logic
@@ -152,7 +124,7 @@ The proofs use standard automated tactics:
 - `simp` - simplification
 - `auto` - automatic classical reasoning
 
-These are **not custom code** - they're Isabelle's built-in proof automation.
+These are not custom code - they're Isabelle's built-in proof automation.
 
 ### External Provers
 Isabelle can call external automated provers via Sledgehammer:

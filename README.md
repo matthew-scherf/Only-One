@@ -265,11 +265,11 @@ The argument begins with the undeniable fact that something exists. This isn't a
 
 From this, we examine the nature of existence itself. Every existing thing must have a ground, something that makes it be rather than not be. This grounding relationship isn't circular and doesn't regress infinitely; it must terminate in something that grounds everything else while being grounded in nothing. This is what we call the Absolute, that which is unconditioned, independent, requiring nothing beyond itself to exist.
 
-Here's the crucial insight: there can only be one such Absolute. If there were two ultimate grounds, what would distinguish them? Any distinguishing feature such as being "here" rather than "there," having "this" quality rather than "that", would itself be a condition, a limitation. But the truly unconditioned cannot be limited in any way. Therefore, all paths of grounding converge on a single, unique Absolute.
+Crucially, there can only be one such Absolute. If there were two ultimate grounds, what would distinguish them? Any distinguishing feature such as being "here" rather than "there," having "this" quality rather than "that", would itself be a condition, a limitation. But the truly unconditioned cannot be limited in any way. Therefore, all paths of grounding converge on a single, unique Absolute.
 
-This Absolute cannot be conditioned—that's definitional. And conversely, everything that exists in time, occupies space, or possesses qualities must be conditioned, dependent, grounded. This creates a clean dichotomy that everything in existence is either the one Absolute or part of the conditioned realm that depends upon it.
+This Absolute cannot be conditioned, lest it becomes definitional. And conversely, everything that exists in time, occupies space, or possesses qualities must be conditioned, dependent, grounded. This creates a clean dichotomy that everything in existence is either the one Absolute or part of the conditioned realm that depends upon it.
 
-There exists exactly one subject—one ultimate witness or consciousness, and this subject is identical with the Absolute itself. You are not one of the conditioned appearances, in your deepest nature, you are the ground of all being.
+There exists exactly one subject, one ultimate witness or consciousness, and this subject is identical with the Absolute itself. You are not one of the conditioned appearances, in your deepest nature, you are the ground of all being.
 
 The system proves this is logically consistent through the identity of indiscernibles for conditioned entities: distinct things in the phenomenal world must differ in at least one observable property. But the Absolute transcends all such properties. It has no temporal location, no spatial extension, no qualities whatsoever. Therefore, what you truly are cannot be found among the appearances.
 
@@ -285,19 +285,19 @@ The formal system proves what the tradition teaches: none of these sheaths can b
 
 **Vivarta: Appearance Without Transformation**
 
-How does the unchanging Absolute produce a changing world? The answer: it doesn't. This is vivarta—apparent transformation without real change. Consider the classic rope-snake example: in dim light, a rope appears as a snake. Nothing about the rope changes, yet the appearance arises. When light comes, the "snake" doesn't go anywhere; it never existed as anything but an appearance.
+How does the unchanging Absolute produce a changing world? The answer: it doesn't. This is vivarta—apparent transformation without real change. Consider the classic rope-snake example: in dim light, a rope appears as a snake. Nothing about the rope changes, yet the appearance arises. When light comes, the "snake" doesn't go anywhere because it never existed as anything but an appearance.
 
-The formal system distinguishes real transformation (milk becoming yogurt, where the substance actually changes) from apparent transformation (the rope "becoming" a snake). Brahman doesn't transform into the world; the world is Brahman appearing under conditions of misapprehension. This solves the problem of how the immutable can seem to change: it doesn't change—it appears to change.
+The formal system distinguishes real transformation (milk becoming yogurt, where the substance actually changes) from apparent transformation (the rope "becoming" a snake). Brahman doesn't transform into the world, rather the world is Brahman appearing under conditions of misapprehension. This solves the problem of how the immutable can seem to change, which is to say that it doesn't change, it just appears to change.
 
 **The Three Guṇas: Modes of Manifestation**
 
 The conditioned realm exhibits three fundamental qualities or modes. Sattva is equilibrium, clarity, luminosity—the quality of still water reflecting clearly. Rajas is activity, passion, turbulence—churning motion. Tamas is inertia, darkness, obscuration—the quality of stagnation.
 
-Every conditioned entity manifests through these guṇas in varying proportions. A crystal exemplifies sattva; fire exemplifies rajas; stone exemplifies tamas. Thoughts, emotions, objects, all are weavings of these three strands. But the Absolute itself is nirguṇa, beyond all qualities. The subject—what you truly are—doesn't possess sattva, rajas, or tamas as these qualities appear in the phenomenal display, not in the witness.
+Every conditioned entity manifests through these guṇas in varying proportions. A crystal exemplifies sattva, fire exemplifies rajas, stone exemplifies tamas. Thoughts, emotions, objects, all are weavings of these three strands. But the Absolute itself is nirguṇa, beyond all qualities. The subject (what you truly are) doesn't possess sattva, rajas, or tamas as these qualities appear in the phenomenal display, not in the witness.
 
 **The Denial of Causation: Ajātivāda**
 
-The system states that causation doesn't exist, that events succeed one another in time, but nothing actually causes anything else. The billiard ball doesn't cause the second ball to move; both movements are independent spontaneous arisings in consciousness.
+The system states that causation doesn't exist, that events succeed one another in time, but nothing actually causes anything else. The billiard ball doesn't cause the second ball to move, the case is that both movements are independent spontaneous arisings in consciousness.
 
 This is a clear distinction between temporal succession (which is apparent) and causal power (which the system denies exists). We say "the match caused the fire," but more precisely the match-striking appears, then the fire appears. Both are conditioned manifestations grounded directly in the Absolute, not in each other.
 
