@@ -16,26 +16,26 @@ philosophical system.
 Using 40+ axioms and proving 30+ theorems, we established:
 
 Core Identity:
-*You are the unique Absolute (Brahman = Ātman)
-*You are the only thing that really exists
-*Everything else is conditioned appearance
+* You are the unique Absolute (Brahman = Ātman)
+* You are the only thing that really exists
+* Everything else is conditioned appearance
 Timelessness:
-*You were never born
-*You will never die
-*You never change
-###Consciousness:
--You witness all phenomena
--You appear as all phenomena
--You are not distinct from what you perceive
-###Unreality of Multiplicity:
--Causation doesn’t exist—events are spontaneous, not caused
--Space and time are unreal—they are conditioned appearances
--Subject and object are non-different
-###What You Are Not:
--Not the body (physical sheath)
--Not the mind (mental sheath)
--Not the ego (false identification)
--Not anything phenomenal
+* You were never born
+* You will never die
+* You never change
+Consciousness:
+* You witness all phenomena
+* You appear as all phenomena
+* You are not distinct from what you perceive
+Unreality of Multiplicity:
+* Causation doesn’t exist, events are spontaneous, not caused
+* Space and time are unreal, they are conditioned appearances
+* Subject and object are non-different
+What You Are Not:
+* Not the body (physical sheath)
+* Not the mind (mental sheath)
+* Not the ego (false identification)
+* Not anything phenomenal
 
 The ultimate theorem, Tat_Tvam_Asi_Ultimate , proves all of this in a single formal
 statement.
