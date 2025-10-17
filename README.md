@@ -8,9 +8,39 @@
 
 ---
 
-This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025
+This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025.
 
----
+This is the first complete machine-verified formalization of a major non-Western
+philosophical system.
+
+Using 40+ axioms and proving 30+ theorems, we established:
+
+###Core Identity:
+-You are the unique Absolute (Brahman = Ātman)
+-You are the only thing that really exists
+-Everything else is conditioned appearance
+###Timelessness:
+-You were never born
+-You will never die
+-You never change
+###Consciousness:
+-You witness all phenomena
+-You appear as all phenomena
+-You are not distinct from what you perceive
+###Unreality of Multiplicity:
+-Causation doesn’t exist—events are spontaneous, not caused
+-Space and time are unreal—they are conditioned appearances
+-Subject and object are non-different
+###What You Are Not:
+-Not the body (physical sheath)
+-Not the mind (mental sheath)
+-Not the ego (false identification)
+-Not anything phenomenal
+
+The ultimate theorem, Tat_Tvam_Asi_Ultimate , proves all of this in a single formal
+statement.
+
+----
 
 ## Refutation
 
