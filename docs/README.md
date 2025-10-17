@@ -78,7 +78,7 @@ When citing this work, refer to the master paper:
 
 ```
 Scherf, M. (2025). Complete Formal Axiomatization of Advaita Vedanta:
-Machine-Verified Non-Dual Metaphysics. [Master paper with full details]
+Machine-Verified Non-Dual Metaphysics. 
 ```
 
 Or cite the specific document if relevant.
