@@ -15,14 +15,14 @@ philosophical system.
 
 Using 40+ axioms and proving 30+ theorems, we established:
 
-###Core Identity:
--You are the unique Absolute (Brahman = Ātman)
--You are the only thing that really exists
--Everything else is conditioned appearance
-###Timelessness:
--You were never born
--You will never die
--You never change
+Core Identity:
+*You are the unique Absolute (Brahman = Ātman)
+*You are the only thing that really exists
+*Everything else is conditioned appearance
+Timelessness:
+*You were never born
+*You will never die
+*You never change
 ###Consciousness:
 -You witness all phenomena
 -You appear as all phenomena
