@@ -211,6 +211,18 @@ Providing humanity with a verified map to its own essence is a rare achievement.
 
 ---
 
+## The Hard Problem  
+
+The so-called *hard problem of consciousness* arises when we begin with the assumption that physical matter is fundamental and then attempt to explain how subjective experience could possibly emerge from it. This framing, popularized by philosopher David Chalmers in his seminal 1995 paper [*Facing Up to the Problem of Consciousness*](https://consc.net/papers/facing.html), highlights the explanatory gap between third-person descriptions of brain processes and first-person experience.  
+
+The formalization presented in this repository approaches the issue from the opposite direction. Instead of asking how consciousness emerges from matter, it begins with the one datum that is absolutely certain: awareness itself. You cannot deny awareness without using it; therefore, awareness is epistemically prior to proof, experiment, or inference. It is the condition for knowing anything at all.  From this starting point, the so-called “hard problem” dissolves rather than being solved. Consciousness does not need to be explained as a byproduct of physical processes because it is the very medium in which the notion of physical processes appears. The question “How does matter give rise to mind?” is replaced with the more coherent question “How does awareness appear as matter and mind?”  
+
+Compared with materialism, this view is more empirically grounded. Matter is inferred; awareness is directly experienced. Any theory that treats awareness as secondary must rely on something less immediate to explain something more immediate, which is epistemically inverted.  Compared with spiritualism, this framework is more rigorous and less speculative. It does not invoke supernatural forces or a dualistic soul distinct from the world. It simply begins with what cannot be denied—awareness—and builds outward through formal logic. The result is a metaphysics that is both empirically verifiable in experience and formally consistent in logic.  
+
+In this light, the Isabelle formalization of Advaita Vedanta offers a new stance: the unity of consciousness is not an article of belief but a logically coherent and experientially verifiable fact. The “hard problem” arises only under mistaken premises, and once awareness is recognized as primary it is seen that everything, including the idea of matter, appears within it.  
+
+---
+
 ## Importance
 We have created something unprecedented. A formal system where theorems about the fundamental nature of reality can be proven with the same rigor as mathematical truths. When the verification software confirms that all phenomena share identical ontological status, when it proves that separation itself is a conventional rather than ultimate truth, we are not dealing with mystical speculation or religious belief. We are working with logical necessity that has been machine-checked for consistency.
 
