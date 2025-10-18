@@ -7,8 +7,8 @@
 [![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
 
 This formalization is [under review at the Archive of Formal Proofs](https://github.com/matthew-scherf/Only-One/blob/main/verification/screenshots/Screenshot%202025-10-18%20211430.png).
-
 Academic paper in review as at 17/10/25
+
 ---
 
 This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025.
