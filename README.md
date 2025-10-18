@@ -10,7 +10,7 @@ This formalization is under review at the [Archive of Formal Proofs](https://git
 
 ---
 
-This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025.
+This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, using the proof assistant Isabelle/HOL 2025.
 
 We formalized the axioms and definitions in Isabelle/HOL and mechanically proved the main result Tat_Tvam_Asi_Complete. Using Nitpick with user_axioms = true over domain cardinalities 1–5, we found no counterexamples to any proved goal. Thus, within these finite scopes, no Nitpick countermodel exists.
 
@@ -52,11 +52,11 @@ statement.
 
 ## Refutation
 
-This formal system is intentionally structured to be self-consistent and closed: every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory. Nevertheless, in principle, the theory could be refuted in one of the following ways.
+This formal system is intentionally structured to be self-consistent and closed, every theorem is a logical consequence of clearly stated axioms, and those axioms are minimal and non-contradictory. Nevertheless, in principle, the theory could be refuted in one of the following ways:
 
 ### 1. Demonstrate an Internal Contradiction
 
-Show that the axioms, taken together, logically entail both a statement P and its negation ¬P. In Isabelle terms, this would mean deriving `False` from the axioms. So far, automated verification and Nitpick model checking have found no such contradiction; the system admits valid models.
+Show that the axioms, taken together, logically entail both a statement P and its negation ¬P. In Isabelle terms, this would mean deriving `False` from the axioms. The automated verification and Nitpick model checking have found no such contradiction; the system admits valid models.
 
 ### 2. Construct a Countermodel
 
@@ -90,7 +90,7 @@ The consistency of this system is verified by the existence of valid models, not
 
 Objection: Different axiom sets could yield different but equally valid metaphysical systems—so why privilege these axioms?
 
-The axioms aren't arbitrary given the goal of formalizing Advaita. But, more deeply, axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience, they're derived from the structure of experience itself. Can you doubt that experience exists? No, doubt is experience Can you step outside awareness to examine it as an object? No, any examination occurs within awarenes. Can you find yourself anywhere in the phenomenal realm? No, everything phenomenal is witnessed by you, not identical with you.
+The axioms aren't arbitrary given the goal of formalizing Advaita. But, more deeply, axioms like A1 (something exists) and A7a (You are Absolute) aren't chosen for convenience, they're derived from the structure of experience itself. Can you doubt that experience exists? No, doubt is experience. Can you step outside awareness to examine it as an object? No, any examination occurs within awarenes. Can you find yourself anywhere in the phenomenal realm? No, everything phenomenal is witnessed by you, not identical with you.
 
 The axioms reflect these structural necessities rather than arbitrary assumptions. Alternative axiom systems that deny these features (like strict materialism asserting consciousness derives from matter) face infinite regress and the hard problem of consciousness that this system avoids by making awareness fundamental.
 
