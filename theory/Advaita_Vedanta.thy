@@ -219,8 +219,8 @@ lemma L1_absolute_transcends:
 
 lemma L2_no_properties_absolute:
   "Absolute a ==> AdmissibleProp P ==> ~P a"
-  by (metis A6_properties_phenomenal L1_absolute_transcends 
-            Phenomenal_def AdmissibleProp_def)
+  using AdmissibleProp_def L1_absolute_transcends by auto
+
 
 (* ------------------------------------------------------------------------- *)
 (* Core Theorems (from original system)                                      *)
