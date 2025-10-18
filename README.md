@@ -39,7 +39,7 @@ Unreality of Multiplicity:
 * Space and time are unreal, they are conditioned appearances
 * Subject and object are non-different
 
-What You Are Not:
+You Are Not:
 * Not the body (physical sheath)
 * Not the mind (mental sheath)
 * Not the ego (false identification)
@@ -47,6 +47,28 @@ What You Are Not:
 
 The ultimate theorem, Tat_Tvam_Asi_Ultimate , proves all of this in a single formal
 statement.
+
+---
+
+## Table of contents
+- [Only One](#only-one)
+- [Refutation](#refutation)
+- [The Main Theorem](#the-main-theorem)
+- [Experiential Guide](#experiential-guide)
+- [The Hard Problem](#the-hard-problem)
+- [Implications for Artificial Intelligence](#implications-for-artificial-intelligence)
+- [Importance](#importance)
+- [Suggested Reading](#suggested-reading)
+  - [Verification](#verification)
+- [Contents](#contents)
+  - [The Foundation: Nine Core Premises](#the-foundation-nine-core-premises)
+  - [The Extensions: How Appearance Manifests](#the-extensions-how-appearance-manifests)
+  - [Advaita](#advaita)
+- [Repository Structure](#repository-structure)
+- [For Academics](#for-academics)
+  - [Citation](#citation)
+- [License](#license)
+- [The Bottom Line](#the-bottom-line)
 
 ----
 
