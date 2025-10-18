@@ -10,7 +10,7 @@
 
 This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, in a build time of ~35 seconds using the proof assistant Isabelle/HOL 2025.
 
-We formalized the axioms and definitions and mechanically proved the main result Tat_Tvam_Asi_Complete. Using Nitpick with user_axioms = true over domain cardinalities 1–5, we found no counterexamples to any proved goal. Thus, within these finite scopes, no Nitpick countermodel exists.
+We formalized the axioms and definitions in Isabelle/HOL and mechanically proved the main result Tat_Tvam_Asi_Complete. Using Nitpick with user_axioms = true over domain cardinalities 1–5, we found no counterexamples to any proved goal. Thus, within these finite scopes, no Nitpick countermodel exists
 
 This is the first complete machine-verified formalization of a major non-Western
 philosophical system.
