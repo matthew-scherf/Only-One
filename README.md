@@ -1,6 +1,6 @@
 # Only One
 
-**A machine-verified formalization of Advaita Vedānta in Isabelle/HOL — demonstrating that non-dual awareness can be expressed, proven, and validated within modern logic**
+**A machine-verified formalization of Advaita Vedānta in Isabelle/HOL demonstrating that non-dual awareness can be expressed, proven, and validated within modern logic**
 
 [![Verification Status](https://img.shields.io/badge/verification-passing-brightgreen)](verification/)
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.txt)
