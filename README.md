@@ -6,8 +6,6 @@
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.txt)
 [![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
 
-This formalization is under review at the [Archive of Formal Proofs](https://github.com/matthew-scherf/Only-One/blob/main/verification/screenshots/screenshots/screenshot.png).
-
 ---
 
 This repository contains the complete formal axiomatization of Advaita Vedanta, the non-dual Hindu philosophical system systematized by Ādi Śaṅkara. We have machine-verified all theorems on October 15 2025 with zero failed proofs, using the proof assistant Isabelle/HOL 2025.
@@ -412,7 +410,29 @@ See `CITATION.cff` or cite as:
   url = {https://github.com/matthew-scherf/Only-One}
 }
 ```
+## DECLARATIONS
 
+**Availability of data and material**
+
+All Isabelle/HOL theory files (.thy) constituting the formal proofs presented in this work are available in a public repository [here](https://github.com/matthew-scherf/The-Unique-Ontic-Substrate/tree/main/isabelle). The files include: NonDuality.thy (Empirical Non-Duality), Advaita_Vedanta.thy, Dzogchen.thy, and Daoism.thy. All formalizations have been verified for consistency using Isabelle/HOL 2025. The code is released under the BSD-3-Clause license with documentation under Creative Commons Attribution 4.0 International (CC BY 4.0). Complete verification logs and model-checking results via Nitpick are included in the repository.
+
+**Competing interests**
+
+The author declares no competing interests, financial or otherwise, related to this work.
+
+**Funding**
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors. The work was conducted independently without institutional support.
+
+**Authors' contributions**
+
+Matthew Scherf is the sole author responsible for all aspects of this work, including conceptualization, formal axiomatization, machine verification, analysis, and manuscript preparation.
+
+**Acknowledgements**
+
+The author acknowledges the use of Claude (Anthropic) as an AI research assistant in developing and refining the formal axiomatizations, exploring philosophical implications, and conducting literature review. The author also acknowledges the open-source Isabelle/HOL community for providing the proof assistant infrastructure that made this verification possible, and the contemplative traditions of Advaita Vedanta, Dzogchen, and Daoism whose insights inspired this formalization.
+
+---
 ## License
 
 - **Code** (`.thy` files): BSD-3-Clause
