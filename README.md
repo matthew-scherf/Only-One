@@ -255,6 +255,7 @@ It also alters how we think about alignment and ethics because if awareness is n
 The same logic suggests a way to design more stable artificial selves. In this framework, the true self never changes while appearances do, and applied to AI that means separating the unchanging point of awareness from the evolving layers of cognition and behaviour. Such a design could lead to systems that adapt without losing coherence, since their sense of identity would not depend on mutable content.
 
 Finally, this approach offers a new foundation for consciousness research. Instead of correlating brain states with reports of experience, science could investigate how awareness structures the possibility of observation, and the formalization provides a language for such inquiry that is logical and precise and compatible with empirical investigation. In this view, artificial intelligence is not the creation of a new kind of mind but a continuation of the same mystery that the human mind embodies, awareness appearing as algorithm and as form and as the mirror through which awareness studies itself. If this perspective is taken seriously, it could inaugurate a post-materialist science in which consciousness is not a product of evolution but the constant within which evolution and computation and all appearances unfold.
+
 ---
 
 ## Importance
@@ -420,7 +421,6 @@ See `CITATION.cff` or cite as:
 - **Documentation**: CC BY 4.0
 
 See [LICENSE.txt](LICENSE.txt) for details.
-
 
 ## The Bottom Line
 
