@@ -343,7 +343,7 @@ All proven from axioms, including:
 See [`docs/technical_reference.pdf`](docs/) for complete list.
 
 ---
-```markdown
+
 ## The Foundation: Nine Core Premises
 
 The argument begins with the undeniable fact that something exists, and this isn't a trivial starting point because even skeptical doubt presupposes existence, so we have bedrock to build upon.
@@ -379,8 +379,6 @@ Through an apparent, not real, transformation this appears as the phenomenal wor
 Not illusion in the sense of hallucination. The world appears, functions, can be navigated. It is an illusion in the sense that its nature is radically misunderstood when taken as substantially real rather than as appearance, and you, meaning what you most fundamentally are, are not located within this appearance at all. You are the reality in which it appears, the unchanging ground, the absolute consciousness, the sole true existence, and everything else is you appearing to yourself as if you were many, as if you were changing, as if you were limited.
 
 The entire system is logically consistent because it maintains a strict distinction between two levels, the absolute and the apparent. No contradiction arises because claims made at one level don't conflict with claims made at the other. The Absolute doesn't change but the world changes, both are true at their respective levels, and you are everything and you appear as something particular. Again, both true, no contradiction.
-
-```
 
 ---
 
