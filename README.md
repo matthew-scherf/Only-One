@@ -15,6 +15,13 @@ We formalized the axioms and definitions in Isabelle/HOL and mechanically proved
 This is the first complete machine-verified formalization of a major non-Western
 philosophical system.
 
+---
+Other work:
+- [Daoism](https://github.com/matthew-scherf/Uncarved-Block/) - Machine-verified Daosim
+- [Dzogchen](https://github.com/matthew-scherf/Great-Perfection/) - Machine-verified Dzogchen
+- [Empirical Non-Duality](https://github.com/matthew-scherf/The-Unique-Onic-Substrate/) - Machine-verified Unique Ontic Substrate
+
+---------
 Using 40+ axioms and proving 30+ theorems, we established:
 
 Core Identity:
