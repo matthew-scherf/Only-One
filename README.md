@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE.txt)
 [![DOI](https://zenodo.org/badge/1074721040.svg)](https://doi.org/10.5281/zenodo.17333604)
 
-This formalization is under review at the [Archive of Formal Proofs](https://github.com/matthew-scherf/Only-One/blob/main/verification/screenshots/Screenshot%202025-10-18%20211430.png).
+This formalization is under review at the [Archive of Formal Proofs](https://github.com/matthew-scherf/Only-One/blob/main/verification/screenshots/Screenshot 2025-10-19 184403.png.)
 
 ---
 
