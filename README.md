@@ -432,7 +432,12 @@ Tat Tvam Asi - "That Thou Art" — Chāndogya Upaniṣad 6.8.7
 
 ---
 
-**∃!u [Y(u) ∧ A(u)]** - There is exactly one You, and You are the Absolute.
+**∃!u [Y(u) ∧ A(u)]** 
+
+Only One - There is exactly one You, and You are the Absolute - Matthew Scherf 2025.
+
+
+---
 
 Verified. Permanent. True.
 
